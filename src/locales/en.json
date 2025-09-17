@@ -1,0 +1,2772 @@
+{
+  "nav": {
+    "home": "Home",
+    "home1": "Home 1",
+    "home2": "Home 2",
+    "about": "About Us",
+    "services": "Services",
+    "allServices": "All Services",
+    "websiteDevelopment": "Website Development",
+    "ecommerceSolutions": "E-Commerce Solutions",
+    "brandingDesign": "Branding & Design",
+    "contentCopywriting": "Content & Copywriting",
+    "digitalMarketing": "Digital Marketing",
+    "ongoingSupport": "Ongoing Support",
+    "blog": "Blog",
+    "contact": "Contact Us",
+    "logout": "Log Out"
+  },
+  "common": {
+    "language": "Language",
+    "english": "English",
+    "arabic": "Arabic",
+    "hebrew": "Hebrew",
+    "videoNotSupported": "Your browser does not support the video tag.",
+    "viewDetails": "View Details"
+  },
+  "footer": {
+    "companyDescription": "Connecting businesses with top talent worldwide to get projects done efficiently and effectively.",
+    "quickLinks": "Quick Links",
+    "ourServices": "Our Services",
+    "contactUs": "Contact Us",
+    "home1": "Home1",
+    "home2": "Home2",
+    "about": "About",
+    "services": "Services",
+    "blog": "Blog",
+    "contact": "Contact",
+    "fineDiningExperience": "Fine Dining Experience",
+    "takeawayDelivery": "Takeaway & Delivery",
+    "chefsTableExperience": "Chef's Table Experience",
+    "privateEventsCatering": "Private Events & Catering",
+    "wineBeveragePairing": "Wine & Beverage Pairing",
+    "onlineReservations": "Online Reservations",
+    "phone": "+192 123 4567",
+    "email": "info@enkonix.in",
+    "address": "123 Enkonix Street, City, Country",
+    "copyright": "© 2025 FreelancerHub. All rights reserved."
+  },
+  "login": {
+    "welcomeBack": "Welcome back",
+    "loginToContinue": "Login to continue",
+    "email": "Email",
+    "password": "Password",
+    "emailPlaceholder": "you@example.com",
+    "passwordPlaceholder": "Enter your password",
+    "signIn": "Sign in",
+    "forgotPassword": "Forgot your password?",
+    "noAccount": "Don't have an account?",
+    "register": "Register",
+    "errorEmailPassword": "Please enter email and password"
+  },
+  "forgotPassword": {
+    "resetPassword": "Reset Password",
+    "setNewPassword": "Set New Password",
+    "enterEmailToContinue": "Enter your email to continue",
+    "createNewPassword": "Create a new password",
+    "email": "Email",
+    "emailPlaceholder": "you@example.com",
+    "newPassword": "New Password",
+    "confirmPassword": "Confirm Password",
+    "newPasswordPlaceholder": "Enter new password",
+    "confirmPasswordPlaceholder": "Confirm new password",
+    "continue": "Continue",
+    "back": "Back",
+    "resetPasswordButton": "Reset Password",
+    "rememberPassword": "Remember your password?",
+    "signIn": "Sign in",
+    "errorEmailRequired": "Please enter your email address",
+    "errorEmailNotFound": "Email address not found",
+    "errorPasswordLength": "Password must be at least 6 characters",
+    "errorPasswordsMismatch": "Passwords do not match",
+    "successEmailVerified": "Email verified! Please enter your new password.",
+    "successPasswordReset": "Password reset successfully! Redirecting to login..."
+  },
+  "home": {
+    "showcase": {
+      "title": "Find the Right Freelancer",
+      "subtitle": "Connect with top talent, get work done faster, and grow your business seamlessly.",
+      "exploreButton": "Explore",
+      "reachOutButton": "Reach out"
+    },
+    "hero": {
+      "tagline": "FREELANCING MADE SIMPLE",
+      "title": "Connect with Clients & Grow",
+      "description": "A platform built for freelancers to showcase skills, land high-paying projects, and collaborate with clients worldwide.",
+      "exploreBlogsButton": "Explore Blogs",
+      "getStartedButton": "Get Started"
+    },
+    "about": {
+      "title": "About Us",
+      "subtitle": "Empowering Your Digital Success",
+      "description": "We are a global freelancing platform built to connect businesses with skilled professionals across every industry. Our mission is to simplify collaboration by offering secure payments, milestone protection, and real-time communication. With experts in design, development, writing, marketing, and more, we make it easy to find the right talent for every project. By combining transparency, accessibility, and innovation, we ensure that both clients and freelancers can thrive. Together, we are shaping the future of work through trust, opportunity, and growth.",
+      "stats": {
+        "projectsCompleted": "Projects Completed",
+        "happyClients": "Happy Clients"
+      },
+      "features": {
+        "fastDelivery": {
+          "title": "Fast Delivery",
+          "description": "Quick turnaround times without compromising quality"
+        },
+        "qualityAssurance": {
+          "title": "Quality Assurance",
+          "description": "Rigorous testing and quality control processes"
+        },
+        "support24": {
+          "title": "24/7 Support",
+          "description": "Round-the-clock assistance for all your needs"
+        }
+      },
+      "ctaButton": "Learn More About Us"
+    },
+    "services": {
+      "title": "Our Services",
+      "subtitle": "Discover what freelancers can do for you",
+      "webDevelopment": "Web Development",
+      "webDevelopmentDesc": "Custom websites, apps, and responsive solutions.",
+      "graphicUIDesign": "Graphic & UI Design",
+      "graphicUIDesignDesc": "Logos, branding, and modern user experiences.",
+      "contentWriting": "Content Writing",
+      "contentWritingDesc": "Blogs, articles, SEO-friendly copy, and more.",
+      "digitalMarketing": "Digital Marketing",
+      "digitalMarketingDesc": "SEO, social media, and performance campaigns.",
+      "videoAnimation": "Video & Animation",
+      "videoAnimationDesc": "Explainers, motion graphics, and product videos.",
+      "businessSupport": "Business Support",
+      "businessSupportDesc": "Virtual assistants, project management, and admin help."
+    },
+    "blog": {
+      "title": "Latest Blog",
+      "subtitle": "Insights, tips, and freelancing stories",
+      "showLess": "Show Less",
+      "seeAllPosts": "See All Posts",
+      "posts": {
+        "gettingStarted": {
+          "title": "Getting Started as a Freelancer",
+          "excerpt": "A step-by-step guide to landing your first project online."
+        },
+        "highPayingClients": {
+          "title": "Attract High-Paying Clients",
+          "excerpt": "Proven strategies to build trust and grow your income."
+        },
+        "multipleProjects": {
+          "title": "Balancing Multiple Projects",
+          "excerpt": "Time management hacks every freelancer should know."
+        },
+        "topSkills": {
+          "title": "Top Skills in Demand 2025",
+          "excerpt": "Discover what clients are hiring for the most this year."
+        },
+        "successStories": {
+          "title": "Freelancer Success Stories",
+          "excerpt": "Inspiring journeys of freelancers who scaled their careers."
+        },
+        "clientExpectations": {
+          "title": "Managing Client Expectations",
+          "excerpt": "Tips to communicate clearly and deliver exceptional results."
+        }
+      }
+    },
+    "categories": {
+      "title": "Categories",
+      "subtitle": "Explore the areas freelancers specialize in",
+      "developmentIT": "Development & IT",
+      "designCreative": "Design & Creative",
+      "writingTranslation": "Writing & Translation",
+      "marketingSales": "Marketing & Sales",
+      "videoAnimation": "Video & Animation",
+      "adminSupport": "Admin & Support"
+    },
+    "contact": {
+      "title": "Let's Build Something Great",
+      "description": "Whether it's a new product idea or scaling your business, we're here to help you turn vision into reality with smart, scalable solutions.",
+      "features": {
+        "webMobile": "Tailored web & mobile solutions",
+        "futureReady": "Future-ready & scalable technology",
+        "transparent": "Transparent process & timely delivery",
+        "support": "Dedicated long-term support"
+      },
+      "startProjectButton": "Start Your Project"
+    }
+  },
+  "home2": {
+    "hero": {
+      "title": "Artisanal Cuisine",
+      "subtitle": "Experience flavors that tell a story, crafted with passion and served with elegance.",
+      "reservationButton": "Make Reservation"
+    },
+    "menu": {
+      "title": "Our Menu",
+      "subtitle": "Discover our carefully crafted dishes",
+      "description": "Fresh ingredients, authentic recipes, and a touch of creativity in every bite.",
+      "categories": {
+        "all": "All",
+        "appetizers": "Appetizers",
+        "mainCourse": "Main Course",
+        "desserts": "Desserts",
+        "beverages": "Beverages"
+      },
+      "featured": "Featured",
+      "uniqueDining": "Unique Dining Experience",
+      "affordableLuxury": "Affordable Luxury",
+      "uniqueDiningDesc": "From classic favorites to chef-inspired creations, our diverse menu offers something for everyone. Each dish is prepared with care to satisfy both comfort cravings and adventurous palates.",
+      "affordableLuxuryDesc": "Great food doesn't have to come with a high price tag. At Yummy, we believe in offering top-notch meals at prices that make dining out a pleasure, not a splurge.",
+      "cards": {
+        "featured": "Featured",
+        "addToOrder": "Add to Order",
+        "dishes": {
+          "tandooriDelights": {
+            "title": "Tandoori Delights",
+            "description": "Traditional clay oven specialties with aromatic spices",
+            "category": "Appetizers"
+          },
+          "royalThali": {
+            "title": "Royal Thali",
+            "description": "Complete meal experience with multiple regional dishes",
+            "category": "Main Course"
+          },
+          "mangoKulfi": {
+            "title": "Mango Kulfi",
+            "description": "Traditional Indian ice cream with fresh mango",
+            "category": "Desserts"
+          },
+          "masalaChai": {
+            "title": "Masala Chai",
+            "description": "Authentic spiced tea brewed to perfection",
+            "category": "Beverages"
+          },
+          "chefsSpecial": {
+            "title": "Chef's Special",
+            "description": "Today's unique creation by our master chef",
+            "category": "Main Course"
+          },
+          "familyFeast": {
+            "title": "Family Feast",
+            "description": "Perfect for sharing with loved ones",
+            "category": "Main Course"
+          },
+          "signatureGrilledSalmon": {
+            "title": "Signature Grilled Salmon",
+            "description": "Fresh Atlantic salmon with herbs and lemon",
+            "category": "Main Course"
+          },
+          "primeBeefTenderloin": {
+            "title": "Prime Beef Tenderloin",
+            "description": "Premium cut with red wine reduction",
+            "category": "Main Course"
+          },
+          "chocolateLavaCake": {
+            "title": "Chocolate Lava Cake",
+            "description": "Warm chocolate cake with molten center",
+            "category": "Desserts"
+          },
+          "mediterraneanSeafoodPasta": {
+            "title": "Mediterranean Seafood Pasta",
+            "description": "Fresh seafood with linguine and herbs",
+            "category": "Main Course"
+          },
+          "gardenFreshBowl": {
+            "title": "Garden Fresh Bowl",
+            "description": "Seasonal vegetables with quinoa and tahini",
+            "category": "Appetizers"
+          },
+          "greekRecipeSpecial": {
+            "title": "Greek Recipe Special",
+            "description": "Authentic Greek flavors with fresh ingredients",
+            "category": "Appetizers"
+          },
+          "lobsterRisotto": {
+            "title": "Lobster Risotto",
+            "description": "Creamy risotto with fresh lobster and herbs",
+            "category": "Main Course"
+          }
+        }
+      }
+    },
+    "whyChoose": {
+      "title": "Why Choose Yummy",
+      "description": "We believe food is more than just a meal — it's an experience. Our chefs use the freshest local ingredients, handpicked daily, to craft dishes that are as flavorful as they are memorable.",
+      "learnMore": "Learn More",
+      "qualityYouCanTaste": "Quality You Can Taste",
+      "qualityDescription": "We take pride in serving food made from scratch, using only farm-fresh produce, premium meats, and artisan spices. Every bite reflects our commitment to quality."
+    },
+    "testimonials": {
+      "title": "What Our Guests Say",
+      "subtitle": "Hear from our valued customers",
+      "description": "Don't just take our word for it. Here's what our valued customers have to say about their dining experience.",
+      "testimonial1": {
+        "content": "Absolutely incredible dining experience! The flavors were authentic and the service was outstanding. Chef Rajesh's creations are truly masterpieces.",
+        "name": "Sarah Mitchell",
+        "role": "Food Critic"
+      },
+      "testimonial2": {
+        "content": "The best Indian restaurant in town! Every dish tells a story and the ambiance is perfect for both family dinners and romantic dates.",
+        "name": "David Johnson",
+        "role": "Regular Customer"
+      },
+      "testimonial3": {
+        "content": "Exceptional quality and authentic flavors! The staff made us feel like family. This is our go-to place for special celebrations.",
+        "name": "Emily Williams",
+        "role": "Local Business Owner"
+      }
+    },
+    "contact": {
+      "title": "Reserve Your Table",
+      "subtitle": "Book your table for an unforgettable dining experience",
+      "description": "Secure your spot for an unforgettable dining experience. Our reservation system makes it easy to plan your perfect evening.",
+      "openingTime": "Opening Time",
+      "closingTime": "Closing Time",
+      "phoneNumber": "Phone Number",
+      "openWeekly": "Open Weekly",
+      "bookOnline": "Book Online",
+      "callNow": "Call Now"
+    },
+    "cta": {
+      "viewMenu": "View Complete Menu",
+      "meetChef": "Meet the Chef"
+    },
+    "chef": {
+      "title": "Meet Our Chef",
+      "subtitle": "Culinary Mastermind",
+      "description": "Behind every exceptional dish is a passionate chef dedicated to culinary excellence.",
+      "masterChef": "Master Chef",
+      "headChef": "Head Chef",
+      "yearsExperience": "Years Experience",
+      "culinaryExcellence": "Culinary Excellence",
+      "signatureDishes": "Signature Dishes",
+      "uniqueCreations": "Unique Creations",
+      "awardsWon": "Awards Won",
+      "recognition": "Recognition",
+      "chefBio": "With over 15 years of culinary expertise, Chef Rajesh brings authentic Indian flavors to life. Trained in traditional techniques and modern presentation, he creates dishes that tell stories.",
+      "chefName": "Rajesh Kumar",
+      "specialties": {
+        "indianCuisine": "Indian Cuisine Specialist",
+        "awardWinner": "Award Winner",
+        "fiveStarRating": "5★ Rating"
+      }
+    }
+  },
+  "about": {
+    "showcase": {
+      "title": "Modern web experiences",
+      "subtitle": "Creative projects that blend technology and strategy for meaningful results",
+      "connectButton": "connect"
+    },
+    "mission": {
+      "title": "Mission & Values",
+      "subtitle": "What drives our freelancing community",
+      "trust": {
+        "title": "Trust",
+        "description": "Building reliable connections between clients and freelancers with secure payments and verified profiles."
+      },
+      "quality": {
+        "title": "Quality",
+        "description": "Delivering top-notch work through skilled professionals who take pride in their craft."
+      },
+      "collaboration": {
+        "title": "Collaboration",
+        "description": "Encouraging open communication, feedback, and teamwork to achieve the best results."
+      }
+    },
+    "aboutSection": {
+      "title": "About Us",
+      "description1": "We are a freelancing platform that connects talented professionals with businesses and entrepreneurs worldwide. From design to development, writing to marketing — our mission is to make hiring and working with freelancers simple, transparent, and effective.",
+      "description2": "Whether you're a client searching for the right expertise or a freelancer looking for your next opportunity, we provide the tools, trust, and flexibility to help you succeed.",
+      "highlights": {
+        "verifiedFreelancers": "Verified Freelancers",
+        "securePayments": "Secure Payments",
+        "globalTalentPool": "Global Talent Pool",
+        "support": "24/7 Support"
+      }
+    },
+    "journey": {
+      "title": "Our Journey",
+      "subtitle": "From a small idea to a thriving freelancing community",
+      "timeline": {
+        "2018": {
+          "year": "2018",
+          "title": "The Idea",
+          "description": "Started as a simple vision to connect freelancers with local clients."
+        },
+        "2020": {
+          "year": "2020",
+          "title": "Expanding Globally",
+          "description": "Opened doors for international talent and businesses to collaborate."
+        },
+        "2022": {
+          "year": "2022",
+          "title": "Building Trust",
+          "description": "Launched secure payments, verification, and reviews for reliability."
+        },
+        "2024": {
+          "year": "2024",
+          "title": "Scaling the Platform",
+          "description": "Empowering thousands of freelancers and companies to work together seamlessly."
+        }
+      },
+      "exploreButton": "Explore",
+      "whatMeansTitle": "What This Means for You",
+      "benefits": [
+        "Access to a global pool of trusted freelancers",
+        "Hassle-free and secure payments",
+        "Verified talent with proven skills",
+        "Collaboration tools for async-friendly workflows",
+        "Scalable support for both small tasks and large projects",
+        "Dedicated 24/7 platform support",
+        "Long-term partnerships for sustainable growth"
+      ],
+      "getInTouchButton": "Get in touch"
+    },
+    "engagement": {
+      "title": "Ways You Can Hire Me",
+      "subtitle": "Choose a freelancing model that fits your needs",
+      "remoteBadge": "100% Remote & Flexible",
+      "models": {
+        "projectBased": {
+          "badge": "Best for Startups",
+          "title": "Project-Based",
+          "description": "Hire me for complete end-to-end projects with a clear timeline.",
+          "features": [
+            "One-time projects",
+            "Transparent pricing"
+          ],
+          "button": "Start Project"
+        },
+        "hourlyWork": {
+          "badge": "Quick & Flexible",
+          "title": "Hourly Work",
+          "description": "Pay only for the hours you need—perfect for bug fixes, audits, or small tasks.",
+          "features": [
+            "No long-term contracts",
+            "On-demand expertise"
+          ],
+          "button": "Hire by Hour"
+        },
+        "monthlyRetainer": {
+          "badge": "Most Popular",
+          "title": "Monthly Retainer",
+          "description": "Get a set number of hours every month for ongoing work and priority support.",
+          "features": [
+            "Guaranteed availability",
+            "Lower hourly rates"
+          ],
+          "button": "Book Retainer"
+        },
+        "weeklySprints": {
+          "badge": "Fast Delivery",
+          "title": "Weekly Sprints",
+          "description": "Work in 1–2 week cycles to rapidly test ideas and deliver results quickly.",
+          "features": [
+            "Fast iterations",
+            "Demo-based progress"
+          ],
+          "button": "Try a Sprint"
+        }
+      }
+    },
+    "faq": {
+      "title": "FAQ",
+      "subtitle": "Answers to questions clients often ask",
+      "cta": {
+        "text": "Still have questions? We're here to help!",
+        "button": "Get in Touch"
+      },
+      "questions": [
+        {
+          "question": "What types of projects do you take on?",
+          "answer": "I specialize in freelance front-end development, UI/UX design, and responsive websites for startups, entrepreneurs, and small businesses."
+        },
+        {
+          "question": "How does the payment process work?",
+          "answer": "Payments are milestone-based. You only release funds after each phase is delivered and approved, ensuring full transparency."
+        },
+        {
+          "question": "Can you handle urgent projects?",
+          "answer": "Yes, I can take on fast-track projects depending on availability. Timelines are always discussed upfront to avoid surprises."
+        },
+        {
+          "question": "How do we communicate?",
+          "answer": "I'm flexible with tools—Zoom, Google Meet, Slack, or email. I provide regular async updates and weekly check-ins."
+        },
+        {
+          "question": "Do you provide revisions?",
+          "answer": "Absolutely. Each project includes a set number of revisions to make sure you're 100% satisfied with the final result."
+        },
+        {
+          "question": "What if I need ongoing support?",
+          "answer": "I offer retainer packages and long-term collaboration for updates, maintenance, and scaling as your business grows."
+        }
+      ]
+    }
+  },
+  "services": {
+    "showcase": {
+      "tagline": "Our Services",
+      "title": "Empowering Businesses with Freelance Expertise",
+      "subtitle": "Showcasing projects that blend creativity, technology, and strategy to deliver meaningful results.",
+      "exploreButton": "Explore",
+      "reachOutButton": "Reach out"
+    },
+    "video": {
+      "notSupported": "Your browser does not support the video tag."
+    },
+    "offerings": {
+      "title": "What I Offer",
+      "subtitle": "Freelance services designed to help your business grow",
+      "startProjectButton": "Start a project",
+      "cards": {
+        "websiteDevelopment": {
+          "title": "Website Development",
+          "description": "Custom business websites and landing pages that convert visitors into clients."
+        },
+        "ecommerceSolutions": {
+          "title": "E-Commerce Solutions",
+          "description": "Online stores with secure checkout,<br/>product management, and seamless."
+        },
+        "brandingDesign": {
+          "title": "Branding & Design",
+          "description": "Logos, color palettes, and visual systems that make your brand unforgettable."
+        },
+        "contentCopywriting": {
+          "title": "Content & Copywriting",
+          "description": "Engaging blog posts and SEO content that drive traffic."
+        },
+        "digitalMarketing": {
+          "title": "Digital Marketing",
+          "description": "Social media campaigns, ads, and email funnels that grow your audience."
+        },
+        "ongoingSupport": {
+          "title": "Ongoing Support",
+          "description": "Website maintenance, updates, and long-term collaboration to keep you ahead."
+        },
+        "backDescription": "Deliverables tailored to your goals with clear milestones and transparent pricing.",
+        "learnMoreButton": "Learn more"
+      }
+    },
+    "capabilities": {
+      "title": "Our Capabilities",
+      "subtitle": "Explore what we excel at",
+      "uiux": {
+        "title": "UI/UX Design",
+        "points": [
+          "Flows, wireframes, and high-fidelity prototypes",
+          "Design systems with accessibility baked in",
+          "Motion and micro-interactions with purpose"
+        ]
+      },
+      "frontend": {
+        "title": "Frontend Engineering",
+        "points": [
+          "Typed, composable components",
+          "State, routing, and data-fetching patterns",
+          "Clean architecture and DX"
+        ]
+      },
+      "integration": {
+        "title": "Backend Integration",
+        "points": [
+          "Auth flows, error boundaries, retries",
+          "REST/GraphQL data wiring and caching",
+          "Robust forms and validations"
+        ]
+      },
+      "performance": {
+        "title": "Performance",
+        "points": [
+          "Core Web Vitals and Lighthouse improvements",
+          "Code splitting, image strategy, caching",
+          "Perf budgets and monitoring"
+        ]
+      },
+      "testing": {
+        "title": "Testing & QA",
+        "points": [
+          "Unit, integration, and E2E coverage",
+          "A11y checks and visual testing",
+          "CI-friendly suites and reports"
+        ]
+      },
+      "dx": {
+        "title": "Developer Experience",
+        "points": [
+          "Tooling, linting, and code quality gates",
+          "Docs and handoff practices",
+          "Onboarding with confidence"
+        ]
+      }
+    },
+    "packages": {
+      "title": "Freelance Packages",
+      "subtitle": "Flexible plans for projects big or small",
+      "choosePlanButton": "Choose plan",
+      "basic": {
+        "title": "Basic Gig",
+        "description": "Quick turnaround for small tasks and fixes.",
+        "badge": "Best for one-time jobs",
+        "features": {
+          "bugFixing": "Bug fixing",
+          "uiChanges": "Small UI changes",
+          "landingPage": "Simple landing page"
+        }
+      },
+      "pro": {
+        "title": "Pro Project",
+        "description": "Full project support with regular updates.",
+        "badge": "Best for startups",
+        "features": {
+          "development": "End-to-end development",
+          "design": "Responsive design",
+          "progressCalls": "Weekly progress calls"
+        }
+      },
+      "dedicated": {
+        "title": "Dedicated Freelancer",
+        "description": "Your on-demand developer/designer for longer collaboration.",
+        "badge": "Best for ongoing work",
+        "features": {
+          "prioritySupport": "Priority support",
+          "retainer": "Monthly retainer model",
+          "flexibleScope": "Flexible scope & revisions"
+        }
+      }
+    },
+    "caseStudies": {
+      "title": "Freelance Projects",
+      "subtitle": "Showcasing client work across industries",
+      "workWithMeButton": "Work with me",
+      "projects": {
+        "mobileApp": "Mobile App Development",
+        "contentWriting": "Content Writing Project",
+        "digitalMarketing": "Digital Marketing Campaign",
+        "uiuxDesign": "UI/UX Design for Startup",
+        "seo": "SEO & Growth Strategy",
+        "branding": "Branding & Visual Identity"
+      }
+    },
+    "cta": {
+      "title": "Hire Top Freelancers Today",
+      "description": "Whether you need a developer, designer, writer, or marketer — get your project done by trusted freelancers worldwide.",
+      "postProjectButton": "Post Your Project",
+      "benefits": {
+        "verifiedProfessionals": "Verified professionals",
+        "onTimeDelivery": "On-time project delivery",
+        "affordablePricing": "Affordable pricing",
+        "flexibleCollaboration": "Flexible collaboration"
+      }
+    }
+  },
+  "contact": {
+    "showcase": {
+      "title": "Get In Touch",
+      "subtitle": "Ready to start your next project? Let's discuss how we can help bring your vision to life.",
+      "contactButton": "Contact"
+    },
+    "reserveTable": {
+      "title": "Reserve Your Table",
+      "description": "Experience fine dining at Bella Vista Restaurant. Book your table for an unforgettable culinary journey.",
+      "button": "Make a Reservation"
+    },
+    "reservationForm": {
+      "title": "Table Reservation",
+      "subtitle": "Book your table at Bella Vista Restaurant. We'll confirm your reservation within 2 hours.",
+      "successMessage": "Reservation submitted successfully! We'll contact you soon to confirm.",
+      "fullName": "Full Name *",
+      "fullNamePlaceholder": "Enter your full name",
+      "emailAddress": "Email Address *",
+      "emailPlaceholder": "Enter your email",
+      "phoneNumber": "Phone Number *",
+      "phonePlaceholder": "Enter your phone number",
+      "partySize": "Party Size *",
+      "selectPartySize": "Select party size",
+      "onePerson": "1 Person",
+      "twoPeople": "2 People",
+      "threePeople": "3 People",
+      "fourPeople": "4 People",
+      "fivePeople": "5 People",
+      "sixPeople": "6 People",
+      "sevenPeople": "7 People",
+      "eightPeople": "8 People",
+      "ninePlusPeople": "9+ People",
+      "preferredDate": "Preferred Date *",
+      "preferredTime": "Preferred Time *",
+      "selectTime": "Select time",
+      "time5pm": "5:00 PM",
+      "time530pm": "5:30 PM",
+      "time6pm": "6:00 PM",
+      "time630pm": "6:30 PM",
+      "time7pm": "7:00 PM",
+      "time730pm": "7:30 PM",
+      "time8pm": "8:00 PM",
+      "time830pm": "8:30 PM",
+      "time9pm": "9:00 PM",
+      "time930pm": "9:30 PM",
+      "time10pm": "10:00 PM",
+      "specialRequests": "Special Requests",
+      "specialRequestsPlaceholder": "Any dietary restrictions, allergies, or special occasions?",
+      "processingReservation": "Processing Reservation...",
+      "reserveTable": "Reserve Table"
+    },
+    "restaurantInfo": {
+      "title": "Visit Bella Vista Restaurant",
+      "subtitle": "We offer an exceptional dining experience with panoramic views.",
+      "callUs": "Call Us",
+      "phoneNumber": "+1 (555) 123-4567",
+      "dailyHours": "Daily: 5:00 PM - 11:00 PM",
+      "emailUs": "Email Us",
+      "emailAddress": "Stackly@gmail.com",
+      "emailResponse": "Response within 2 hours",
+      "visitUs": "Visit Us",
+      "address": "123 Main Street, Downtown",
+      "city": "New York, NY 10001"
+    },
+    "form": {
+      "title": "Send Us a Message",
+      "subtitle": "Fill out the form below and we'll get back to you within 24 hours.",
+      "successMessage": "Thank you! Your message has been sent successfully. We'll get back to you soon.",
+      "fullName": "Full Name *",
+      "fullNamePlaceholder": "Enter your full name",
+      "emailAddress": "Email Address *",
+      "emailPlaceholder": "Enter your email address",
+      "phoneNumber": "Phone Number",
+      "phonePlaceholder": "Enter your phone number",
+      "subject": "Subject *",
+      "subjectPlaceholder": "What's this about?",
+      "message": "Message *",
+      "messagePlaceholder": "Tell us about your project, requirements, or any questions you have...",
+      "sendMessage": "Send Message",
+      "sendingMessage": "Sending Message..."
+    },
+    "map": {
+      "title": "Find Us",
+      "subtitle": "Located in the heart of downtown with easy access via public transportation and valet parking available."
+    },
+    "contactInfo": {
+      "title": "Contact Information",
+      "subtitle": "Multiple ways to reach us. Choose what works best for you!",
+      "phone": "Phone",
+      "phoneNumber": "+1 (555) 123-4567",
+      "phoneHours": "Mon-Fri: 9:00 AM - 6:00 PM",
+      "email": "Email",
+      "emailAddress": "hello@enkonix.in",
+      "emailResponse": "We reply within 24 hours",
+      "office": "Office",
+      "officeAddress": "123 Enkonix Street",
+      "officeCity": "City, State 12345"
+    },
+    "cta": {
+      "title": "Reach Us Anytime",
+      "subtitle": "Call, visit, or message—we're always here to make your dining experience memorable.",
+      "button": "Reserve Your Table Now",
+      "getStartedButton": "Get Started"
+    },
+    "video": {
+      "notSupported": "Your browser does not support the video tag."
+    }
+  },
+  "websiteDevelopment": {
+    "showcase": {
+      "title": "Website Development",
+      "subtitle": "Custom business websites that convert visitors into clients.",
+      "connectButton": "connect"
+    },
+    "hero": {
+      "tagline": "WEBSITE DEVELOPMENT SERVICES",
+      "title": "Build Powerful Freelancing Platforms",
+      "description": "We specialize in developing modern, high-performance websites tailored for freelancers and businesses. From portfolio platforms to full-featured freelance marketplaces, our solutions are designed to be secure, scalable, and user-friendly — helping you connect talent with opportunities seamlessly."
+    },
+    "serviceOverview": {
+      "title": "Professional Website Solutions",
+      "description": "I specialize in creating custom websites that not only look stunning but also drive results. From simple landing pages to complex business websites, every project is built with your business goals in mind.",
+      "features": {
+        "responsiveDesign": "Responsive design for all devices",
+        "seoOptimized": "SEO optimized for better visibility",
+        "fastLoading": "Fast loading and performance optimized"
+      },
+      "websiteFeatures": {
+        "title": "What You Get",
+        "customDesign": "Custom design tailored to your brand",
+        "mobileFirst": "Mobile-first responsive design",
+        "cms": "Content management system",
+        "seoAnalytics": "SEO optimization and analytics",
+        "ongoingSupport": "Ongoing support and maintenance"
+      }
+    },
+    "process": {
+      "title": "Development Process",
+      "subtitle": "A streamlined approach to deliver your website on time and within budget",
+      "steps": {
+        "discovery": {
+          "title": "Discovery",
+          "description": "Understanding your business, goals, and target audience"
+        },
+        "design": {
+          "title": "Design",
+          "description": "Creating wireframes and visual designs for approval"
+        },
+        "development": {
+          "title": "Development",
+          "description": "Building your website with clean, optimized code"
+        },
+        "launch": {
+          "title": "Launch",
+          "description": "Testing, deployment, and post-launch support"
+        }
+      }
+    },
+    "technologies": {
+      "title": "Technologies I Use",
+      "subtitle": "Modern, reliable technologies to build fast and scalable websites",
+      "services": {
+        "react": "React",
+        "next.js": "Next.js",
+        "tailwind css": "Tailwind CSS",
+        "node.js": "Node.js",
+        "typescript": "TypeScript",
+        "mongodb": "MongoDB",
+        "postgresql": "PostgreSQL",
+        "aws": "AWS"
+      }
+    },
+    "cta": {
+      "title": "Let's Build Something Extraordinary",
+      "subtitle": "From concept to launch, we craft digital experiences that inspire action.",
+      "startProjectButton": "Start Your Project",
+      "viewServicesButton": "View Services"
+    }
+  },
+  "ecommerceSolutions": {
+    "showcase": {
+      "title": "E-Commerce Solutions",
+      "subtitle": "Online stores with secure checkout and seamless user experience.",
+      "connectButton": "connect"
+    },
+    "hero": {
+      "tagline": "E-COMMERCE SOLUTIONS",
+      "title": "Drive Online Sales",
+      "description": "We build secure, high-performance e-commerce solutions that help businesses grow online. From sleek storefronts to fully integrated marketplaces, our platforms are optimized for speed, scalability, and seamless user experience — ensuring your customers enjoy effortless shopping across all devices."
+    },
+    "serviceOverview": {
+      "title": "Complete E-Commerce Platform",
+      "description": "I build comprehensive e-commerce solutions that handle everything from product catalog management to secure payment processing. Your online store will be optimized for conversions and user experience.",
+      "features": {
+        "securePayment": "Secure payment gateway integration",
+        "inventoryManagement": "Inventory and order management",
+        "mobileOptimized": "Mobile-optimized shopping experience"
+      },
+      "ecommerceFeatures": {
+        "title": "E-Commerce Features",
+        "productCatalog": "Product catalog with categories",
+        "shoppingCart": "Shopping cart and wishlist",
+        "secureCheckout": "Secure checkout process",
+        "orderTracking": "Order tracking and notifications",
+        "adminDashboard": "Admin dashboard for management"
+      }
+    },
+    "process": {
+      "title": "E-Commerce Development Process",
+      "subtitle": "A clear, step-by-step approach to build your online store and drive sales",
+      "steps": {
+        "strategy": {
+          "title": "Strategy",
+          "description": "Analyzing your business goals, target customers, and product catalog"
+        },
+        "storeDesign": {
+          "title": "Store Design",
+          "description": "Creating a modern, user-friendly storefront that matches your brand"
+        },
+        "development": {
+          "title": "Development",
+          "description": "Setting up products, payment gateways, and secure checkout systems"
+        },
+        "launchSupport": {
+          "title": "Launch & Support",
+          "description": "Testing, going live, and providing continuous support for growth"
+        }
+      }
+    },
+    "solutions": {
+      "title": "E-Commerce Solutions",
+      "subtitle": "End-to-end e-commerce services to help you launch and grow your online store",
+      "services": {
+        "customStorefronts": "Custom Storefronts",
+        "paymentIntegration": "Payment Integration",
+        "shoppingCart": "Shopping Cart",
+        "inventoryManagement": "Inventory Management",
+        "orderTracking": "Order Tracking",
+        "customerAccounts": "Customer Accounts",
+        "analyticsReports": "Analytics & Reports",
+        "marketingTools": "Marketing Tools"
+      }
+    },
+    "cta": {
+      "title": "Let's Build Something Extraordinary",
+      "subtitle": "From concept to launch, we craft digital experiences that inspire action.",
+      "startProjectButton": "Start Your Project",
+      "viewServicesButton": "View Services"
+    }
+  },
+  "contentCopywriting": {
+    "showcase": {
+      "title": "Content & Copywriting",
+      "subtitle": "Engaging blog posts and SEO content that drive traffic",
+      "connectButton": "connect"
+    },
+    "hero": {
+      "tagline": "CONTENT COPYWRITING SERVICES",
+      "title": "Engage Audiences with Persuasive Copy",
+      "description": "Our expert copywriting services help businesses communicate clearly, build trust, and drive action. From website content and blogs to product descriptions and ad copy, we craft words that connect with your audience, strengthen your brand voice, and inspire results."
+    },
+    "serviceOverview": {
+      "title": "Content That Converts",
+      "description": "I create compelling content that engages your audience, improves your search rankings, and drives meaningful results. From blog posts to product descriptions, every piece is crafted to achieve your business goals.",
+      "features": {
+        "seoOptimized": "SEO-optimized content for better rankings",
+        "engagingCopy": "Engaging copy that converts visitors",
+        "consistentBrand": "Consistent brand voice and messaging"
+      },
+      "contentFeatures": {
+        "title": "Content Services",
+        "blogPosts": "Blog posts and articles",
+        "productDescriptions": "Product descriptions",
+        "websiteCopy": "Website copy",
+        "emailMarketing": "Email marketing content",
+        "socialMedia": "Social media content"
+      }
+    },
+    "process": {
+      "title": "Copywriting Process",
+      "subtitle": "A clear and collaborative approach to deliver impactful, brand-aligned content",
+      "steps": {
+        "research": {
+          "title": "Research",
+          "description": "Understanding your brand, audience, and content goals"
+        },
+        "strategy": {
+          "title": "Strategy",
+          "description": "Defining tone, messaging style, and content structure"
+        },
+        "writing": {
+          "title": "Writing",
+          "description": "Crafting persuasive, engaging, and SEO-friendly copy"
+        },
+        "refinement": {
+          "title": "Refinement",
+          "description": "Editing, proofreading, and finalizing content for publishing"
+        }
+      }
+    },
+    "tools": {
+      "title": "Tools & Skills I Use",
+      "subtitle": "Professional tools and skills to craft engaging, persuasive, and impactful content",
+      "skills": {
+        "seoWriting": "SEO Writing",
+        "contentStrategy": "Content Strategy",
+        "storytelling": "Storytelling",
+        "brandVoice": "Brand Voice",
+        "marketResearch": "Market Research",
+        "editingProofreading": "Editing & Proofreading",
+        "socialMediaCopy": "Social Media Copy",
+        "emailMarketing": "Email Marketing"
+      }
+    },
+    "cta": {
+      "title": "Let's Build Something Extraordinary",
+      "subtitle": "From concept to launch, we craft digital experiences that inspire action.",
+      "startProjectButton": "Start Your Project",
+      "viewServicesButton": "View Services"
+    }
+  },
+  "brandingDesign": {
+    "showcase": {
+      "title": "Branding & Design",
+      "subtitle": "Logos and color palettes that make your brand unforgettable.",
+      "connectButton": "connect",
+      "exploreServicesButton": "Explore Services"
+    },
+    "hero": {
+      "tagline": "BRANDING & DESIGN SERVICES",
+      "title": "Craft Memorable Brands",
+      "description": "We help businesses stand out with impactful branding and visually stunning designs. From logo creation and brand identity to complete design systems, our solutions ensure your brand communicates trust, creativity, and consistency — leaving a lasting impression on your audience.",
+      "getStartedButton": "Get Started",
+      "viewServicesButton": "View Services"
+    },
+    "serviceOverview": {
+      "title": "Visual Identity Design",
+      "description": "I create comprehensive branding solutions that capture your brand's essence and communicate your values to your audience. From logos to complete brand guidelines, every element is designed to build recognition and trust.",
+      "features": {
+        "uniqueLogo": "Unique and memorable logo design",
+        "colorPalette": "Strategic color palette selection",
+        "brandGuidelines": "Comprehensive brand guidelines"
+      },
+      "brandingFeatures": {
+        "title": "Branding Deliverables",
+        "primaryLogos": "Primary and secondary logos",
+        "colorPalette": "Color palette with hex codes",
+        "typography": "Typography selection",
+        "brandStyleGuide": "Brand style guide",
+        "socialTemplates": "Social media templates"
+      }
+    },
+    "process": {
+      "title": "Our Branding & Design Process",
+      "subtitle": "A creative and collaborative journey to shape your brand identity and visuals",
+      "steps": {
+        "brandDiscovery": {
+          "title": "Brand Discovery",
+          "description": "Understanding your vision, audience, and market positioning"
+        },
+        "creativeStrategy": {
+          "title": "Creative Strategy",
+          "description": "Defining brand tone, color palettes, and design direction"
+        },
+        "designExecution": {
+          "title": "Design Execution",
+          "description": "Crafting logos, brand assets, and visual designs that stand out"
+        },
+        "brandLaunch": {
+          "title": "Brand Launch",
+          "description": "Delivering final assets and ensuring consistent brand application"
+        }
+      }
+    },
+    "solutions": {
+      "title": "Branding & Design Solutions",
+      "subtitle": "Creative and strategic design services to shape a strong, memorable brand identity",
+      "services": {
+        "logoDesign": "Logo Design",
+        "brandIdentity": "Brand Identity",
+        "uiuxDesign": "UI/UX Design",
+        "printDigitalMedia": "Print & Digital Media",
+        "socialMediaCreatives": "Social Media Creatives",
+        "packagingDesign": "Packaging Design",
+        "websiteDesign": "Website Design",
+        "marketingCollaterals": "Marketing Collaterals"
+      }
+    },
+    "cta": {
+      "title": "Let's Build Something Extraordinary",
+      "subtitle": "From concept to launch, we craft digital experiences that inspire action.",
+      "startProjectButton": "Start Your Project",
+      "viewServicesButton": "View Services"
+    }
+  },
+  "blogPage": {
+    "showcase": {
+      "tagline": "",
+      "title": "Stay Ahead, Stay Inspired",
+      "subtitle": "Tips, tools, and trends to fuel your freelancing journey.",
+      "subscribeButton": "Subscribe"
+    },
+    "featuredArticles": {
+      "title": "Featured Articles",
+      "subtitle": "Our most popular and insightful posts"
+    },
+    "blogPosts": {
+      "gettingStarted": {
+        "title": "Getting Started as a Freelancer",
+        "excerpt": "A step-by-step guide to landing your first project online.",
+        "category": "Freelancing",
+        "author": "Sarah Johnson",
+        "date": "Dec 15, 2024",
+        "readTime": "8 min read"
+      },
+      "highPayingClients": {
+        "title": "How to Attract High-Paying Clients",
+        "excerpt": "Proven strategies to build trust.",
+        "category": "Client Acquisition",
+        "author": "Mike Chen",
+        "date": "Dec 12, 2024",
+        "readTime": "12 min read"
+      },
+      "multipleProjects": {
+        "title": "Balancing Multiple Projects",
+        "excerpt": "Time management hacks every freelancer should know.",
+        "category": "Productivity",
+        "author": "Emma Davis",
+        "date": "Dec 10, 2024",
+        "readTime": "10 min read"
+      }
+    },
+    "categories": {
+      "all": "All Posts",
+      "freelancing": "Freelancing",
+      "clientAcquisition": "Client Acquisition",
+      "productivity": "Productivity"
+    },
+    "whyChoosePlatform": {
+      "title": "Why Choose Our Freelancing Platform?",
+      "subtitle": "Designed for freelancers & clients to connect, collaborate, and grow",
+      "features": {
+        "globalTalent": {
+          "title": "Global Talent",
+          "description": "Access top freelancers from around the world for any project."
+        },
+        "securePayments": {
+          "title": "Secure Payments",
+          "description": "Safe & transparent payment system for both clients and freelancers."
+        },
+        "verifiedClients": {
+          "title": "Verified Clients",
+          "description": "Work only with trusted and verified clients to avoid scams."
+        },
+        "support24x7": {
+          "title": "24/7 Support",
+          "description": "Our team is available around the clock to help you succeed."
+        },
+        "skillMatching": {
+          "title": "Skill Matching",
+          "description": "Smart matching system to connect freelancers with the right projects."
+        },
+        "portfolioShowcase": {
+          "title": "Portfolio Showcase",
+          "description": "Easily display your work to attract high-paying clients."
+        }
+      }
+    },
+    "trendingTopics": {
+      "title": "Trending Topics",
+      "subtitle": "What the freelancing community is talking about",
+      "topics": [
+        "Remote Work Trends 2025",
+        "AI in Freelancing",
+        "Building Personal Brand",
+        "Financial Planning for Freelancers",
+        "Networking Strategies"
+      ]
+    },
+    "authors": {
+      "title": "Meet Our Authors",
+      "subtitle": "Expert freelancers sharing their knowledge",
+      "sarah": {
+        "name": "Sarah Johnson",
+        "role": "Freelance Writer & Consultant",
+        "bio": "10+ years helping freelancers build successful careers",
+        "expertise": ["Content Strategy", "Personal Branding", "Client Relations"]
+      },
+      "mike": {
+        "name": "Mike Chen",
+        "role": "Digital Marketing Expert",
+        "bio": "Specialized in helping freelancers scale their businesses",
+        "expertise": ["Marketing", "Growth Strategy", "Analytics"]
+      },
+      "emma": {
+        "name": "Emma Davis",
+        "role": "Productivity Coach",
+        "bio": "Teaching freelancers to work smarter, not harder",
+        "expertise": ["Time Management", "Workflow Optimization", "Mindset"]
+      }
+    },
+    "cta": {
+      "title": "Take the Next Step in Your Freelancing Journey",
+      "description": "Join a thriving community of freelancers and unlock the tools, insights, and opportunities you need to succeed.",
+      "startFreelancingButton": "Start Freelancing",
+      "learnMoreButton": "Learn More"
+    }
+  },
+  "blog": {
+    "hero": {
+      "tagline": "Culinary Excellence",
+      "title": "Restaurant Blog",
+      "subtitle": "Discover culinary secrets, chef insights, and the latest trends in fine dining",
+      "exploreMenuButton": "Explore Our Menu"
+    },
+    "categories": {
+      "title": "Culinary Categories",
+      "italianCuisine": {
+        "title": "Italian Cuisine",
+        "description": "Discover authentic Italian recipes, traditional cooking techniques, and regional specialties from our expert chefs."
+      },
+      "wineBeverages": {
+        "title": "Wine & Beverages",
+        "description": "Explore wine pairing guides, cocktail recipes, and beverage recommendations to enhance your dining experience."
+      },
+      "dessertsPastries": {
+        "title": "Desserts & Pastries",
+        "description": "Indulge in our exquisite desserts, artisanal pastries, and sweet creations crafted by our master pastry chefs."
+      }
+    },
+    "whyChooseUs": {
+      "tagline": "Why Choose Us",
+      "title": "Excellence in Every Bite",
+      "description1": "We are committed to delivering an unparalleled dining experience that combines exceptional cuisine, impeccable service, and an atmosphere that makes every visit memorable. Our passion for culinary excellence drives everything we do.",
+      "description2": "From our carefully curated menu featuring locally-sourced ingredients to our award-winning wine selection and elegant ambiance, we ensure every detail contributes to your perfect dining experience. Your satisfaction is our greatest achievement.",
+      "bookTableButton": "Book Your Table"
+    },
+    "achievements": {
+      "title": "Our Achievements",
+      "subtitle": "Numbers that speak to our commitment to excellence and customer satisfaction",
+      "yearsExcellence": "Years Excellence",
+      "menuItems": "Menu Items",
+      "awardsWon": "Awards Won",
+      "happyCustomers": "Happy Customers"
+    },
+    "testimonials": {
+      "tagline": "Testimonials",
+      "title": "Meet Our Chefs",
+      "testimonial1": {
+        "quote": "The dining experience at this restaurant is absolutely exceptional. From the moment we walked in, the service was impeccable and the atmosphere was perfect. The chef's attention to detail in every dish shows true culinary mastery. We've been coming here for years and it never disappoints.",
+        "author": "Sarah Johnson",
+        "title": "Food Critic & Blogger"
+      },
+      "testimonial2": {
+        "quote": "As a chef myself, I can truly appreciate the artistry and skill that goes into every dish here. The flavors are perfectly balanced, the presentation is stunning, and the service is world-class. This is what fine dining should be.",
+        "author": "Chef Marco Rossi",
+        "title": "Executive Chef"
+      },
+      "testimonial3": {
+        "quote": "I've traveled the world and dined at countless restaurants, but this place stands out as truly special. The wine selection is outstanding, the ambiance is perfect for any occasion, and the staff makes you feel like family. Highly recommended!",
+        "author": "Michael Chen",
+        "title": "Wine Sommelier"
+      }
+    },
+    "cta": {
+      "title": "Let's Stay Connected",
+      "subtitle": "Reach out to us for reservations, events, or simply to say hello—we're here for you.",
+      "makeReservationButton": "Make a Reservation",
+      "viewMenuButton": "View Our Menu"
+    }
+  },
+  "digitalMarketing": {
+    "title": "Digital Marketing",
+    "description": "Social media campaigns, ads, and email funnels that grow your audience.",
+    "connectButton": "connect",
+    "servicesTitle": "DIGITAL MARKETING SERVICES",
+    "strategiesTitle": "Drive Growth with Data-Driven",
+    "strategiesDescription": "We help brands boost their online presence with customized digital marketing campaigns. From SEO and content marketing to social media and paid ads, our strategies are designed to attract, engage, and convert your audience — delivering measurable results and sustainable growth.",
+    "strategicTitle": "Strategic Digital Marketing",
+    "strategicDescription": "I develop comprehensive digital marketing strategies that increase your online presence, engage your target audience, and drive measurable business growth. From social media management to paid advertising, every campaign is optimized for results.",
+    "dataDriven": "Data-driven marketing strategies",
+    "multiChannel": "Multi-channel campaign management",
+    "roiFocused": "ROI-focused campaign optimization",
+    "marketingServicesTitle": "Marketing Services",
+    "socialMediaManagement": "Social media management",
+    "ppcGoogleAds": "PPC and Google Ads",
+    "emailMarketing": "Email marketing campaigns",
+    "contentMarketing": "Content marketing strategy",
+    "analyticsReporting": "Analytics and reporting",
+    "marketingProcessTitle": "Our Marketing Process",
+    "marketingProcessDescription": "A proven step-by-step approach to help your brand grow",
+    "researchStrategyTitle": "Research & Strategy",
+    "researchStrategyDescription": "Analyzing your market, audience, and competitors to craft a winning strategy",
+    "contentCreationTitle": "Content Creation",
+    "contentCreationDescription": "Producing engaging content, ads, and creatives that attract and convert",
+    "campaignExecutionTitle": "Campaign Execution",
+    "campaignExecutionDescription": "Running data-driven ads and campaigns across the right digital channels",
+    "optimizeScaleTitle": "Optimize & Scale",
+    "optimizeScaleDescription": "Tracking results and scaling your campaigns for growth",
+    "digitalMarketingSolutionsTitle": "Digital Marketing Solutions",
+    "digitalMarketingSolutionsDescription": "Data-driven strategies and tools to grow your online presence, reach the right audience, and maximize ROI",
+    "seoOptimization": "SEO Optimization",
+    "socialMediaMarketing": "Social Media Marketing",
+    "emailCampaigns": "Email Campaigns",
+    "payPerClick": "Pay-Per-Click (PPC)",
+    "brandStrategy": "Brand Strategy",
+    "influencerMarketing": "Influencer Marketing",
+    "ctaTitle": "Let's Build Something Extraordinary",
+    "ctaDescription": "From concept to launch, we craft digital experiences that inspire action.",
+    "startProjectButton": "Start Your Project",
+    "viewServicesButton": "View Services"
+  },
+  "ongoingSupport": {
+    "showcase": {
+      "title": "Ongoing Support",
+      "subtitle": "Website maintenance, updates, and long-term collaboration.",
+      "connectButton": "connect"
+    },
+    "hero": {
+      "tagline": "ONGOING SUPPORT SERVICES",
+      "title": "Reliable Business Support",
+      "description": "We don't just deliver and disappear—we stay with you every step of the way. Our ongoing support services ensure your systems, websites, and digital tools continue to perform at their best. From regular updates and troubleshooting to proactive monitoring and quick assistance, we've got you covered so you can focus on growing your business with confidence."
+    },
+    "serviceOverview": {
+      "title": "Long-Term Partnership",
+      "description": "I provide ongoing support and maintenance to ensure your website continues to perform at its best. From regular updates to emergency fixes, you can count on reliable support that keeps your business running smoothly.",
+      "features": {
+        "emergencySupport": "24/7 emergency support",
+        "securityUpdates": "Regular security updates",
+        "performanceMonitoring": "Performance monitoring and optimization"
+      },
+      "supportServices": {
+        "title": "Support Services",
+        "websiteMaintenance": "Website maintenance",
+        "securityUpdates": "Security updates",
+        "contentUpdates": "Content updates",
+        "performanceOptimization": "Performance optimization",
+        "technicalSupport": "Technical support"
+      }
+    },
+    "process": {
+      "title": "Development Process",
+      "subtitle": "A streamlined approach to deliver your website and keep it running smoothly",
+      "steps": {
+        "discovery": {
+          "title": "Discovery",
+          "description": "Understanding your business, goals, and target audience"
+        },
+        "design": {
+          "title": "Design",
+          "description": "Creating wireframes and visual designs for approval"
+        },
+        "development": {
+          "title": "Development",
+          "description": "Building your website with clean, optimized, and scalable code"
+        },
+        "ongoingSupport": {
+          "title": "Ongoing Support",
+          "description": "Continuous updates, security monitoring, and technical assistance to keep your website running smoothly"
+        }
+      }
+    },
+    "solutions": {
+      "title": "Ongoing Support",
+      "subtitle": "Beyond launch, we ensure your website stays secure, updated, and optimized for growth.",
+      "services": {
+        "regularUpdates": "Regular Updates",
+        "securityMonitoring": "Security Monitoring",
+        "performanceOptimization": "Performance Optimization",
+        "technicalSupport": "Technical Support"
+      },
+      "serviceDescriptions": {
+        "regularUpdatesDesc": "Keep your website updated with the latest features and fixes.",
+        "securityMonitoringDesc": "Continuous monitoring to protect your site from threats.",
+        "performanceOptimizationDesc": "Ensure your website runs smoothly and loads fast.",
+        "technicalSupportDesc": "Quick assistance whenever you face technical challenges."
+      }
+    },
+    "cta": {
+      "title": "Let's Build Something Extraordinary",
+      "subtitle": "From concept to launch, we craft digital experiences that inspire action.",
+      "startProjectButton": "Start Your Project",
+      "viewServicesButton": "View Services"
+    }
+  },
+  "blogPost1": {
+    "hero": {
+      "category": "Italian Cuisine",
+      "readTime": "10 min read",
+      "date": "Dec 20, 2024",
+      "title": "The Art of Authentic Italian Cooking: From Nonna's Kitchen to Your Table",
+      "author": "Marco Conti",
+      "authorRole": "Head Chef & Italian Cuisine Expert"
+    },
+    "content": {
+      "intro": "Italian cuisine is more than just food—it's a celebration of tradition, family, and the simple pleasures of life. From the rolling hills of Tuscany to the bustling streets of Naples, each region brings its own unique flavors and techniques to create the world's most beloved cuisine.",
+      "section1": {
+        "title": "The Foundation of Italian Cooking",
+        "description": "At the heart of Italian cuisine lies a philosophy of simplicity and quality. The best Italian dishes use just a few high-quality ingredients, allowing each flavor to shine through. This approach, known as \"cucina povera\" (poor kitchen), emphasizes making the most of what you have."
+      },
+      "section2": {
+        "title": "Essential Italian Ingredients",
+        "ingredients": [
+          {
+            "name": "Extra Virgin Olive Oil",
+            "description": "The golden liquid that forms the base of countless Italian dishes"
+          },
+          {
+            "name": "San Marzano Tomatoes",
+            "description": "The gold standard for authentic Italian sauces"
+          },
+          {
+            "name": "Parmigiano-Reggiano",
+            "description": "Aged cheese that adds depth and umami to dishes"
+          },
+          {
+            "name": "Fresh Basil",
+            "description": "The aromatic herb that defines Italian cuisine"
+          }
+        ]
+      },
+      "section3": {
+        "title": "Regional Specialties",
+        "description": "Italy's diverse geography has given birth to distinct regional cuisines, each with its own character and specialties. Understanding these regional differences is key to appreciating the full spectrum of Italian cooking.",
+        "guideTitle": "Regional Italian Cuisine Guide",
+        "regions": [
+          "Northern Italy: Rich risottos, creamy polenta, and hearty meat dishes",
+          "Central Italy: Classic pasta dishes, Roman artichokes, and Tuscan beans",
+          "Southern Italy: Fresh seafood, spicy peppers, and sun-dried tomatoes",
+          "Sicily: Arab-influenced flavors, citrus fruits, and unique pasta shapes"
+        ]
+      },
+      "section4": {
+        "title": "The Art of Pasta Making",
+        "description": "Pasta is the soul of Italian cuisine, and making it from scratch is a skill that every Italian cook masters. The key lies in the perfect balance of flour, eggs, and technique.",
+        "subtitle": "Classic Pasta Shapes and Their Uses",
+        "pastaTypes": [
+          {
+            "name": "Spaghetti",
+            "description": "Perfect with light tomato sauces and seafood dishes"
+          },
+          {
+            "name": "Penne",
+            "description": "Ideal for chunky sauces and baked pasta dishes"
+          },
+          {
+            "name": "Ravioli",
+            "description": "Stuffed pasta perfect for rich, creamy sauces"
+          },
+          {
+            "name": "Fettuccine",
+            "description": "Wide noodles that pair beautifully with Alfredo sauce"
+          }
+        ]
+      },
+      "section5": {
+        "title": "Mastering Italian Sauces",
+        "description": "Italian sauces are deceptively simple yet incredibly complex in flavor. The secret lies in understanding the balance of acidity, sweetness, and umami that makes each sauce unique.",
+        "subtitle": "Essential Sauce Techniques",
+        "techniques": [
+          {
+            "name": "Marinara",
+            "description": "Start with quality tomatoes, add garlic and basil, simmer slowly"
+          },
+          {
+            "name": "Carbonara",
+            "description": "Use room-temperature eggs, toss pasta while hot, add cheese gradually"
+          },
+          {
+            "name": "Pesto",
+            "description": "Use fresh basil, quality pine nuts, and extra virgin olive oil"
+          },
+          {
+            "name": "Ragù",
+            "description": "Slow-cook meat with vegetables, add wine for depth, finish with cream"
+          }
+        ]
+      },
+      "section6": {
+        "title": "Wine Pairing Fundamentals",
+        "description": "Italian cuisine and wine are inseparable companions. The right wine can elevate a dish from good to extraordinary, creating harmony between food and drink.",
+        "subtitle": "Classic Italian Wine Pairings",
+        "pairings": [
+          {
+            "wine": "Chianti Classico",
+            "description": "Perfect with tomato-based pasta and grilled meats"
+          },
+          {
+            "wine": "Pinot Grigio",
+            "description": "Ideal with seafood dishes and light pasta"
+          },
+          {
+            "wine": "Barolo",
+            "description": "Excellent with rich meat dishes and aged cheeses"
+          },
+          {
+            "wine": "Prosecco",
+            "description": "Perfect aperitif and great with appetizers"
+          }
+        ]
+      },
+      "section7": {
+        "title": "Cooking Techniques from Nonna's Kitchen",
+        "description": "Traditional Italian cooking techniques have been passed down through generations, each method carefully developed to extract maximum flavor from simple ingredients.",
+        "subtitle": "Time-Honored Methods",
+        "methods": [
+          {
+            "name": "Slow Simmering",
+            "description": "Low heat allows flavors to develop and meld together"
+          },
+          {
+            "name": "Hand Kneading",
+            "description": "Traditional pasta dough requires patience and technique"
+          },
+          {
+            "name": "Wood-Fired Cooking",
+            "description": "Imparts unique smoky flavors to pizza and bread"
+          },
+          {
+            "name": "Fresh Herbs",
+            "description": "Added at the right moment to preserve their delicate flavors"
+          }
+        ]
+      },
+      "conclusion": {
+        "title": "Conclusion",
+        "mainText": "Italian cuisine is a journey of discovery, where each dish tells a story of tradition, family, and love. Whether you're recreating your grandmother's recipes or exploring new regional specialties, remember that the best Italian cooking comes from the heart.",
+        "finalText": "As the Italians say, \"La cucina è amore\" - cooking is love. Embrace the process, enjoy the flavors, and share the joy of authentic Italian cuisine with those you love."
+      }
+    },
+    "author": {
+      "name": "Marco Conti",
+      "role": "Head Chef & Italian Cuisine Expert",
+      "bio": "Marco Conti is a third-generation Italian chef who learned the art of cooking from his nonna in the hills of Tuscany. With over 20 years of experience in authentic Italian cuisine, Marco has dedicated his life to preserving traditional recipes and techniques while sharing the joy of Italian cooking with food lovers worldwide.",
+      "expertise": [
+        "Traditional Italian Cuisine",
+        "Regional Specialties",
+        "Wine Pairing"
+      ]
+    },
+    "sidebar": {
+      "relatedPosts": "Related Articles",
+      "chefTips": "Chef's Tips",
+      "post1": {
+        "title": "Mastering the Perfect Pizza Margherita",
+        "description": "Learn the secrets to creating authentic Neapolitan pizza at home."
+      },
+      "post2": {
+        "title": "Tuscan Wine Regions: A Complete Guide",
+        "description": "Discover the best wines from Italy's most famous wine region."
+      },
+      "tips": [
+        {
+          "title": "Fresh Ingredients",
+          "description": "Always use the freshest ingredients possible. Quality ingredients make all the difference in Italian cooking."
+        },
+        {
+          "title": "Low and Slow",
+          "description": "Many Italian dishes benefit from slow cooking. Patience is key to developing deep, complex flavors."
+        },
+        {
+          "title": "Salt Your Pasta Water",
+          "description": "Make your pasta water as salty as the Mediterranean Sea for perfectly seasoned pasta."
+        }
+      ]
+    }
+  },
+  "blogPost2": {
+    "hero": {
+      "category": "Wine & Beverages",
+      "readTime": "12 min read",
+      "date": "Dec 18, 2024",
+      "title": "The Complete Guide to Wine Pairing: Elevating Your Dining Experience",
+      "author": "James Wilson",
+      "authorRole": "Master Sommelier & Wine Director"
+    },
+    "content": {
+      "intro": "Wine pairing is an art form that transforms a simple meal into an extraordinary culinary experience. The right wine can enhance flavors, create harmony between food and drink, and elevate your dining to new heights. This comprehensive guide will teach you the fundamentals of wine pairing and help you become confident in selecting the perfect wine for any occasion.",
+      "section1": {
+        "title": "Understanding Wine Fundamentals",
+        "description": "Before diving into pairing principles, it's essential to understand the basic characteristics that define wine. These elements—acidity, tannins, body, sweetness, and alcohol content—form the foundation of successful wine pairing.",
+        "subtitle": "Key Wine Characteristics",
+        "characteristics": [
+          {
+            "name": "Acidity",
+            "description": "Creates freshness and cuts through rich, fatty foods"
+          },
+          {
+            "name": "Tannins",
+            "description": "Provide structure and pair well with protein-rich dishes"
+          },
+          {
+            "name": "Body",
+            "description": "Full-bodied wines complement hearty dishes, light wines suit delicate foods"
+          },
+          {
+            "name": "Sweetness",
+            "description": "Sweet wines balance spicy and salty flavors"
+          }
+        ]
+      },
+      "section2": {
+        "title": "Classic Pairing Principles",
+        "description": "While wine pairing can seem complex, several time-tested principles can guide your selections. These rules help create harmonious combinations that enhance both the food and wine.",
+        "subtitle": "Essential Pairing Rules",
+        "rules": [
+          "Match intensity: Bold wines with bold foods, delicate wines with delicate foods",
+          "Complement or contrast: Similar flavors enhance each other, contrasting flavors create balance",
+          "Consider preparation: Grilled foods pair differently than steamed or raw preparations",
+          "Regional harmony: Wines from the same region often pair naturally with local cuisine",
+          "Acid cuts fat: High-acid wines cleanse the palate after rich, fatty dishes"
+        ]
+      },
+      "section3": {
+        "title": "Red Wine Pairings",
+        "description": "Red wines offer incredible versatility in food pairing, from light Pinot Noirs to bold Cabernets. Understanding the spectrum of red wine styles helps you make perfect matches.",
+        "subtitle": "Popular Red Wine Styles",
+        "styles": [
+          {
+            "name": "Pinot Noir",
+            "description": "Pairs beautifully with salmon, duck, mushrooms, and earthy dishes"
+          },
+          {
+            "name": "Cabernet Sauvignon",
+            "description": "Perfect with grilled steaks, lamb, and aged cheeses"
+          },
+          {
+            "name": "Merlot",
+            "description": "Versatile choice for pasta, pizza, and roasted chicken"
+          },
+          {
+            "name": "Syrah/Shiraz",
+            "description": "Excellent with barbecue, spicy foods, and game meats"
+          }
+        ]
+      },
+      "section4": {
+        "title": "White Wine Pairings",
+        "description": "White wines bring brightness and acidity to the table, making them perfect companions for lighter dishes, seafood, and creamy sauces. Their versatility makes them essential for any wine collection.",
+        "subtitle": "White Wine Recommendations",
+        "recommendations": [
+          {
+            "name": "Chardonnay",
+            "description": "Complements lobster, creamy pasta, and roasted chicken"
+          },
+          {
+            "name": "Sauvignon Blanc",
+            "description": "Pairs with goat cheese, green vegetables, and light seafood"
+          },
+          {
+            "name": "Riesling",
+            "description": "Perfect for spicy Asian cuisine and pork dishes"
+          },
+          {
+            "name": "Pinot Grigio",
+            "description": "Ideal with light salads, fish, and summer dishes"
+          }
+        ]
+      },
+      "section5": {
+        "title": "Sparkling Wine & Champagne",
+        "description": "Sparkling wines aren't just for celebrations—they're incredibly food-friendly and can elevate any meal. Their acidity and effervescence make them perfect palate cleansers and versatile pairing partners.",
+        "subtitle": "Sparkling Wine Applications",
+        "applications": [
+          {
+            "name": "Champagne",
+            "description": "Excellent with oysters, caviar, and fried foods"
+          },
+          {
+            "name": "Prosecco",
+            "description": "Perfect aperitif and great with light appetizers"
+          },
+          {
+            "name": "Cava",
+            "description": "Versatile Spanish sparkling wine for tapas and seafood"
+          },
+          {
+            "name": "Lambrusco",
+            "description": "Italian sparkling red perfect with charcuterie and pasta"
+          }
+        ]
+      },
+      "section6": {
+        "title": "Advanced Pairing Techniques",
+        "description": "Once you've mastered the basics, explore advanced techniques that can create truly memorable dining experiences. These methods consider texture, temperature, and the progression of flavors throughout a meal.",
+        "subtitle": "Sophisticated Pairing Strategies",
+        "strategies": [
+          {
+            "name": "Texture Matching",
+            "description": "Creamy wines with creamy foods, crisp wines with crunchy textures"
+          },
+          {
+            "name": "Temperature Considerations",
+            "description": "Serve wines at proper temperatures to enhance flavors"
+          },
+          {
+            "name": "Progressive Pairing",
+            "description": "Start light and build intensity throughout the meal"
+          },
+          {
+            "name": "Regional Pairing",
+            "description": "Match wines with cuisine from the same geographical region"
+          }
+        ]
+      },
+      "conclusion": {
+        "title": "Conclusion",
+        "mainText": "Wine pairing is a journey of discovery that enhances both your culinary experiences and your appreciation for wine. Remember that the best pairing is the one you enjoy most—these guidelines are starting points, not rigid rules. Experiment, taste, and trust your palate as you explore the wonderful world of wine and food harmony."
+      }
+    },
+    "author": {
+      "name": "James Wilson",
+      "role": "Master Sommelier & Wine Director",
+      "bio": "James Wilson is a Master Sommelier with over 15 years of experience in the wine industry. Having worked in prestigious restaurants across Europe and North America, James has developed an exceptional palate and deep knowledge of wine regions worldwide. He specializes in wine education and has helped thousands of enthusiasts discover the art of wine pairing.",
+      "expertise": [
+        "Master Sommelier",
+        "Wine Education",
+        "Food Pairing"
+      ]
+    },
+    "sidebar": {
+      "relatedPosts": "Related Articles",
+      "post1": {
+        "title": "Italian Wine Regions: A Complete Guide",
+        "description": "Discover the best wines from Italy's most famous wine regions."
+      },
+      "post2": {
+        "title": "Dessert Wine Pairings: Sweet Endings",
+        "description": "Learn how to pair dessert wines with your favorite sweet treats."
+      },
+      "sommelierTips": "Sommelier Tips",
+      "tips": [
+        {
+          "title": "Temperature Matters",
+          "description": "Serve white wines chilled (45-50°F) and red wines slightly below room temperature (60-65°F)."
+        },
+        {
+          "title": "Decanting Benefits",
+          "description": "Decant young red wines to soften tannins and older wines to separate sediment."
+        },
+        {
+          "title": "Glass Shape",
+          "description": "Use appropriate glassware - wider bowls for reds, narrower for whites to concentrate aromas."
+        }
+      ],
+      "wineRegions": "Popular Wine Regions",
+      "regions": [
+        {
+          "name": "Bordeaux, France",
+          "type": "Red Blends"
+        },
+        {
+          "name": "Burgundy, France",
+          "type": "Pinot Noir"
+        },
+        {
+          "name": "Tuscany, Italy",
+          "type": "Chianti"
+        },
+        {
+          "name": "Napa Valley, USA",
+          "type": "Cabernet"
+        },
+        {
+          "name": "Mosel, Germany",
+          "type": "Riesling"
+        }
+      ]
+    }
+  },
+  "blogPost3": {
+    "hero": {
+      "category": "Desserts & Pastries",
+      "readTime": "15 min read",
+      "date": "Dec 22, 2024",
+      "title": "The Art of French Pastry: Mastering Classic Techniques",
+      "author": "Sophie Chen",
+      "authorRole": "Executive Pastry Chef"
+    },
+    "content": {
+      "intro": "French pastry is the pinnacle of culinary artistry, where precision meets creativity to create unforgettable sweet experiences. From delicate macarons to towering croquembouches, mastering these techniques opens a world of possibilities for creating stunning desserts that delight both the eye and the palate.",
+      "section1": {
+        "title": "Essential Pastry Techniques",
+        "description": "Before diving into complex recipes, mastering fundamental techniques is crucial. These building blocks form the foundation of all great pastries and desserts.",
+        "subtitle": "Core Techniques Every Pastry Chef Must Master",
+        "techniques": [
+          {
+            "name": "Pâte à Choux",
+            "description": "The versatile dough for éclairs, profiteroles, and cream puffs"
+          },
+          {
+            "name": "Pâte Brisée",
+            "description": "Classic shortcrust pastry for tarts and quiches"
+          },
+          {
+            "name": "Pâte Sucrée",
+            "description": "Sweet pastry dough perfect for dessert tarts"
+          },
+          {
+            "name": "Crème Pâtissière",
+            "description": "The essential pastry cream for filling pastries"
+          }
+        ]
+      },
+      "section2": {
+        "title": "Classic French Desserts",
+        "description": "These timeless desserts represent the height of French pastry artistry. Each requires specific techniques and attention to detail to achieve perfection.",
+        "subtitle": "Signature French Desserts",
+        "desserts": [
+          {
+            "name": "Macarons",
+            "description": "Delicate almond meringue cookies with ganache filling"
+          },
+          {
+            "name": "Tarte Tatin",
+            "description": "Upside-down caramelized apple tart with flaky pastry"
+          },
+          {
+            "name": "Crème Brûlée",
+            "description": "Rich custard dessert with caramelized sugar topping"
+          },
+          {
+            "name": "Mille-Feuille",
+            "description": "Layered puff pastry with pastry cream and fondant"
+          }
+        ],
+        "successFactors": [
+          "Temperature Control: Precise temperature management is crucial for proper texture and rise",
+          "Timing: Each step has optimal timing that affects the final result",
+          "Ingredient Quality: Use the finest ingredients for superior taste and texture",
+          "Technique Precision: Exact measurements and methods ensure consistent results"
+        ]
+      },
+      "section3": {
+        "title": "Chocolate Work Techniques",
+        "description": "Working with chocolate requires specialized skills and understanding of tempering, molding, and decoration techniques that elevate desserts to art forms.",
+        "subtitle": "Essential Chocolate Skills",
+        "skills": [
+          {
+            "name": "Tempering",
+            "description": "Properly crystallizing chocolate for smooth, glossy finish"
+          },
+          {
+            "name": "Molding",
+            "description": "Creating decorative chocolate shapes and garnishes"
+          },
+          {
+            "name": "Ganache Making",
+            "description": "Perfecting the balance of chocolate and cream"
+          },
+          {
+            "name": "Piping",
+            "description": "Creating intricate chocolate decorations and writing"
+          }
+        ]
+      },
+      "section4": {
+        "title": "Modern Plating Techniques",
+        "description": "Contemporary pastry presentation combines traditional techniques with modern aesthetics to create visually stunning desserts that are as beautiful as they are delicious.",
+        "subtitle": "Essential Tools for Modern Pastry",
+        "tools": [
+          {
+            "name": "Offset Spatula",
+            "description": "Essential for smooth frosting and precise spreading"
+          },
+          {
+            "name": "Piping Bags & Tips",
+            "description": "Various sizes for different decorative techniques"
+          },
+          {
+            "name": "Silpat Mats",
+            "description": "Non-stick surfaces for perfect baking results"
+          },
+          {
+            "name": "Digital Scale",
+            "description": "Precise measurements for consistent results"
+          }
+        ]
+      },
+      "section5": {
+        "title": "Seasonal Dessert Trends",
+        "description": "Staying current with dessert trends while maintaining classic techniques ensures your pastry program remains relevant and exciting for guests.",
+        "subtitle": "Current Dessert Trends",
+        "trends": [
+          "Plant-based desserts with innovative ingredients",
+          "Deconstructed classics with modern presentations",
+          "Interactive desserts that engage diners",
+          "Fusion flavors combining global influences",
+          "Sustainable and locally sourced ingredients"
+        ],
+        "menuPlanning": "Adapting your dessert menu to seasonal ingredients and occasions keeps your offerings fresh and exciting throughout the year."
+      },
+      "section6": {
+        "title": "Quality Control Standards",
+        "description": "Maintaining consistent quality in pastry production requires systematic approaches to testing, storage, and presentation standards.",
+        "subtitle": "Quality Assurance Checklist",
+        "checklist": [
+          {
+            "name": "Texture Testing",
+            "description": "Ensuring proper consistency and mouthfeel"
+          },
+          {
+            "name": "Temperature Monitoring",
+            "description": "Maintaining optimal storage conditions"
+          },
+          {
+            "name": "Visual Inspection",
+            "description": "Checking for proper appearance and presentation"
+          },
+          {
+            "name": "Taste Evaluation",
+            "description": "Regular sampling to ensure flavor consistency"
+          }
+        ]
+      },
+      "conclusion": {
+        "title": "Conclusion",
+        "mainText": "Mastering French pastry techniques is a journey that combines technical skill with artistic vision. Whether you're creating classic desserts or innovative new creations, the principles of precision, quality ingredients, and attention to detail remain constant. Practice these techniques regularly, and you'll develop the confidence and skill to create desserts that truly impress.",
+        "finalText": "Remember, great pastry is not just about following recipes—it's about understanding the science behind the techniques and developing the intuition to create exceptional desserts that delight your guests."
+      }
+    },
+    "author": {
+      "name": "Sophie Chen",
+      "bio": "Sophie Chen is an Executive Pastry Chef with over 12 years of experience in fine dining establishments across Paris, New York, and Tokyo. Trained at Le Cordon Bleu, Sophie specializes in French pastry techniques and modern dessert presentation. She has won multiple awards for her innovative dessert creations and has been featured in prestigious culinary publications worldwide.",
+      "expertise": [
+        "French Pastry",
+        "Chocolate Work",
+        "Modern Plating"
+      ]
+    },
+    "sidebar": {
+      "relatedPosts": "Related Articles",
+      "post1": {
+        "title": "Italian Dessert Traditions",
+        "description": "Explore classic Italian desserts like tiramisu and cannoli."
+      },
+      "post2": {
+        "title": "Dessert Wine Pairings",
+        "description": "Learn how to pair wines with different dessert styles."
+      },
+      "chefTips": "Chef's Tips",
+      "tips": [
+        {
+          "title": "Temperature Control",
+          "description": "Keep ingredients at proper temperatures for best results. Cold butter for pastry, room temperature eggs for mixing."
+        },
+        {
+          "title": "Precision Matters",
+          "description": "Use a digital scale for accurate measurements. Pastry is a science that requires exact ratios."
+        },
+        {
+          "title": "Rest Your Dough",
+          "description": "Always rest pastry dough in the refrigerator before rolling. This prevents shrinking and improves texture."
+        }
+      ],
+      "classicDesserts": "Classic Desserts",
+      "dessertsList": [
+        { "name": "Macarons", "origin": "French" },
+        { "name": "Tiramisu", "origin": "Italian" },
+        { "name": "Crème Brûlée", "origin": "French" },
+        { "name": "Chocolate Soufflé", "origin": "French" },
+        { "name": "Opera Cake", "origin": "French" }
+      ]
+    }
+  },
+  "home1": {
+    "hero": {
+      "title": "SAVOR THE FLAVORS OF EXCELLENCE",
+      "subtitle": "Experience culinary artistry at its finest. From farm-fresh ingredients to masterful preparation.",
+      "reserveTable": "Reserve Table"
+    },
+    "welcome": {
+      "title": "Welcome to A World of Taste",
+      "subtitle": "From rich curries to sizzling grills, a feast for every mood.",
+      "description": "Step into a world of authentic flavors where tradition meets modern taste. Every dish is prepared with fresh ingredients, rich spices, and a touch of love to give you an unforgettable dining experience.",
+      "viewButton": "View"
+    },
+    "signatureDishes": {
+      "title": "Our Signature Dishes",
+      "subtitle": "Carefully crafted by our master chefs, each dish represents the perfect harmony of flavors, textures, and presentation.",
+      "badges": {
+        "chefSpecial": "Chef's Special",
+        "popular": "Popular",
+        "premium": "Premium",
+        "healthy": "Healthy",
+        "freshCatch": "Fresh Catch",
+        "dessert": "Dessert"
+      },
+      "orderNow": "Order Now",
+      "dishes": {
+        "grilledSalmon": {
+          "name": "Signature Grilled Salmon",
+          "description": "Fresh Atlantic salmon with lemon herb butter, roasted vegetables, and wild rice pilaf"
+        },
+        "beefTenderloin": {
+          "name": "Prime Beef Tenderloin",
+          "description": "Premium beef tenderloin cooked to perfection with garlic mashed potatoes"
+        },
+        "lobsterRisotto": {
+          "name": "Lobster Risotto",
+          "description": "Creamy Arborio rice with fresh Maine lobster and truffle oil"
+        },
+        "gardenBowl": {
+          "name": "Garden Fresh Bowl",
+          "description": "Seasonal vegetables, quinoa, avocado with house-made tahini dressing"
+        },
+        "seafoodPasta": {
+          "name": "Mediterranean Seafood Pasta",
+          "description": "Linguine with fresh mussels, clams, shrimp in white wine garlic sauce"
+        },
+        "lavaCake": {
+          "name": "Chocolate Lava Cake",
+          "description": "Warm chocolate cake with molten center, vanilla ice cream and berries"
+        }
+      }
+    },
+    "culinaryJourney": {
+      "title": "Our Culinary Journey",
+      "description": "Founded in 2018 by Chef Maria Rodriguez, our restaurant began as a small family kitchen serving traditional recipes passed down through generations. What started as a dream to share authentic flavors with our community has grown into a culinary destination that celebrates the rich tapestry of global cuisine.",
+      "stats": {
+        "yearsExcellence": "Years of Excellence",
+        "happyCustomers": "Happy Customers",
+        "signatureDishes": "Signature Dishes",
+        "customerSatisfaction": "Customer Satisfaction"
+      }
+    },
+    "testimonials": {
+      "title": "What Our Guests Say",
+      "subtitle": "Here's what our valued guests have to say about their dining experience.",
+      "guests": {
+        "sarah": {
+          "name": "Sarah Johnson",
+          "role": "Food Critic",
+          "content": "The most exquisite dining experience I've had this year. The flavors are perfectly balanced and the presentation is simply stunning."
+        },
+        "michael": {
+          "name": "Michael Chen",
+          "role": "Regular Customer",
+          "content": "Been coming here for three years and it never disappoints. The chef's specials are always innovative and delicious."
+        },
+        "emily": {
+          "name": "Emily Rodriguez",
+          "role": "Food Blogger",
+          "content": "The ambiance is perfect for a romantic dinner, and the food quality is consistently outstanding. Highly recommended!"
+        }
+      }
+    },
+    "contact": {
+      "title": "Reserve Your Table",
+      "subtitle": "Book your table today and let us create an unforgettable dining experience",
+      "bookNow": "Book Now",
+      "viewMenu": "View Menu"
+    }
+  },
+  "admin": {
+    "title": "Admin Dashboard",
+    "welcome": "Welcome to Admin Dashboard",
+    "overview": "System Overview",
+    "users": "All Users",
+    "userManagement": "User Management",
+    "statistics": "Statistics",
+    "recentActivity": "Recent Activity",
+    "totalUsers": "Total Users",
+    "activeUsers": "Active Users",
+    "newRegistrations": "New Registrations",
+    "userDetails": {
+      "id": "ID",
+      "name": "Name",
+      "email": "Email",
+      "loginTime": "Login Time",
+      "logoutTime": "Logout Time",
+      "status": "Status",
+      "actions": "Actions"
+    },
+    "actions": {
+      "view": "View",
+      "edit": "Edit",
+      "delete": "Delete",
+      "export": "Export Data"
+    },
+    "deleteConfirm": {
+      "title": "Delete User",
+      "message": "Are you sure you want to delete {{name}}? This action cannot be undone.",
+      "cancel": "Cancel",
+      "confirm": "Delete User"
+    },
+    "editMode": {
+      "cancel": "Cancel"
+    },
+    "filters": {
+      "all": "All Users",
+      "active": "Active",
+      "inactive": "Inactive",
+      "search": "Search users..."
+    }
+  }
+  ,
+  "aboutPage": {
+    "hero": {
+      "title": "About Us",
+      "subtitle": "Crafting culinary excellence through generations of passion, tradition, and innovation",
+      "exploreButton": "Explore Our Story",
+      "viewMenu": "View Menu"
+    },
+    "story": {
+      "tagline": "FAVOLA Since 1985",
+      "title": "Where Passion Meets Flavor",
+      "sections": {
+        "family": {
+          "title": "Our Family",
+          "description": "Three generations of passionate chefs dedicated to bringing authentic Italian cuisine to our community. From Nonna's traditional recipes to Chef Alessandro's modern innovations, our family legacy continues to evolve."
+        },
+        "homemade": {
+          "title": "Homemade Food",
+          "description": "Every dish is crafted with love using time-honored techniques and the freshest ingredients. Fresh pasta daily, slow-simmered sauces, and bread baked in-house each morning."
+        },
+        "authentic": {
+          "title": "Authentic with a Twist",
+          "description": "We honor traditional Italian recipes while embracing culinary creativity. Signature dishes blend classic techniques with contemporary flavors for an unforgettable experience."
+        }
+      }
+    },
+    "features": {
+      "title": "Our Specialties",
+      "subtitle": "Discover what makes our restaurant unique",
+      "items": {
+        "pastries": {
+          "title": "Delicious Pastries",
+          "description": "Freshly baked pastries made daily using traditional techniques and premium ingredients."
+        },
+        "juices": {
+          "title": "Fresh Juices",
+          "description": "Hand-pressed juices from seasonal fruits with natural vitamins and refreshing flavors."
+        },
+        "natural": {
+          "title": "Natural Food",
+          "description": "Organic ingredients sourced from local farms for the highest quality and freshness."
+        },
+        "breakfasts": {
+          "title": "Tasty Breakfasts",
+          "description": "Hearty morning meals prepared with love to start your day right."
+        }
+      }
+    },
+    "testimonials": {
+      "title": "What People Say",
+      "subtitle": "Hear from our valued guests about their dining experiences",
+      "items": {
+        "sarah": {
+          "name": "Sarah Johnson",
+          "role": "Food Critic",
+          "content": "The most authentic Italian experience outside of Italy. Every dish tells a story."
+        },
+        "michael": {
+          "name": "Michael Chen",
+          "role": "Regular Customer",
+          "content": "Been coming here for 15 years. The quality never changes, only gets better."
+        },
+        "emma": {
+          "name": "Emma Rodriguez",
+          "role": "Chef",
+          "content": "Their attention to detail and ingredient sourcing is truly inspiring."
+        }
+      }
+    },
+    "excellence": {
+      "tagline": "Excellence Since 1985",
+      "title": "Culinary Mastery",
+      "subtitle": "Where tradition meets innovation in every dish we serve",
+      "cards": {
+        "award": {
+          "title": "Award Winning",
+          "description": "Recognized by culinary associations for our authentic Italian cuisine and exceptional service quality."
+        },
+        "fresh": {
+          "title": "Fresh Daily",
+          "description": "We source the finest ingredients daily, ensuring every dish meets our high standards of freshness and quality."
+        },
+        "family": {
+          "title": "Family Legacy",
+          "description": "Three generations of culinary expertise passed down through our family, creating unforgettable dining experiences."
+        }
+      }
+    },
+    "stats": {
+      "yearsExcellence": "Years of Excellence",
+      "happyCustomers": "Happy Customers",
+      "signatureDishes": "Signature Dishes",
+      "awardsWon": "Awards Won"
+    },
+    "weBelieve": {
+      "tagline": "We Believe",
+      "title": "FOOD IS IMPORTANT",
+      "description": "Experience the perfect blend of traditional Italian flavors and modern culinary innovation. Every dish tells a story of passion, quality ingredients, and decades of expertise.",
+      "button": "BOOK A TABLE"
+    }
+  }
+  ,
+  "servicesPage": {
+    "common": {
+      "learnMore": "Learn More"
+    },
+    "hero": {
+      "welcome": "Welcome to",
+      "titleLine1": "Culinary",
+      "titleLine2": "Excellence",
+      "description": "Experience world-class dining with our exceptional restaurant services, from intimate dinners to grand celebrations.",
+      "ctaExplore": "Explore Our Services",
+      "ctaBook": "Book a Table"
+    },
+    "masonry": {
+      "badge": "Our Services",
+      "title": "Exceptional Dining Experiences",
+      "subtitle": "From intimate dinners to grand celebrations, we provide comprehensive restaurant services tailored to your needs",
+      "items": {
+        "fineDining": {
+          "title": "Fine Dining Experience",
+          "description": "Indulge in our carefully curated menu featuring the finest ingredients and exceptional service in our elegant dining room.",
+          "category": "Dining"
+        },
+        "privateEvents": {
+          "title": "Private Events & Catering",
+          "description": "Host unforgettable celebrations with our professional catering services and private dining spaces.",
+          "category": "Events"
+        },
+        "takeawayDelivery": {
+          "title": "Takeaway & Delivery",
+          "description": "Enjoy our delicious cuisine in the comfort of your home with our convenient takeaway and delivery options.",
+          "category": "Delivery"
+        },
+        "winePairing": {
+          "title": "Wine & Beverage Pairing",
+          "description": "Discover perfect wine and beverage pairings curated by our sommelier to enhance your dining experience.",
+          "category": "Beverages"
+        },
+        "chefsTable": {
+          "title": "Chef's Table Experience",
+          "description": "Join our chef for an exclusive culinary journey with personalized menu and cooking demonstrations.",
+          "category": "Premium"
+        },
+        "onlineReservations": {
+          "title": "Online Reservations",
+          "description": "Book your table effortlessly with our user-friendly online reservation system available 24/7.",
+          "category": "Booking"
+        }
+      }
+    },
+    "capabilities": {
+      "menu": {
+        "title": "Menu Management",
+        "points": ["Custom menu design", "Seasonal updates", "Allergy information", "Nutritional details"]
+      },
+      "service": {
+        "title": "Service Excellence",
+        "points": ["Staff training", "Quality standards", "Customer satisfaction", "Service protocols"]
+      },
+      "technology": {
+        "title": "Restaurant Technology",
+        "points": ["POS systems", "Online ordering", "Reservation management", "Inventory tracking"]
+      },
+      "marketing": {
+        "title": "Restaurant Marketing",
+        "points": ["Social media", "Local SEO", "Customer reviews", "Promotional campaigns"]
+      },
+      "operations": {
+        "title": "Operations Management",
+        "points": ["Supply chain", "Cost control", "Staff scheduling", "Quality assurance"]
+      },
+      "experience": {
+        "title": "Customer Experience",
+        "points": ["Ambiance design", "Service flow", "Customer feedback", "Loyalty programs"]
+      }
+    },
+    "benefits": [
+      "Expert culinary team",
+      "Fresh ingredients daily",
+      "Competitive pricing",
+      "Flexible service options"
+    ]
+    ,
+    "testimonials": {
+      "badge": "Testimonials",
+      "title": "What Our Guests Say",
+      "subtitle": "Discover why our guests keep coming back for exceptional dining experiences",
+      "items": [
+        {
+          "name": "Sarah Johnson",
+          "role": "Food Critic",
+          "rating": 5,
+          "text": "An absolutely phenomenal dining experience. The chef's attention to detail and the impeccable service made our anniversary dinner unforgettable."
+        },
+        {
+          "name": "Michael Chen",
+          "role": "Regular Guest",
+          "rating": 5,
+          "text": "The private dining room was perfect for our corporate event. The catering team exceeded all expectations and our clients were thoroughly impressed."
+        },
+        {
+          "name": "Emily Rodriguez",
+          "role": "Wedding Planner",
+          "rating": 5,
+          "text": "We've worked with many restaurants, but none compare to the level of professionalism and culinary excellence here. Highly recommended!"
+        }
+      ]
+    },
+    "gallery": {
+      "badge": "Gallery",
+      "title": "A Peek Into Our World",
+      "subtitle": "Explore moments from our dining room, kitchen, and special events.",
+      "alt": "Restaurant gallery"
+    },
+    "menu": {
+      "badge": "Our Menu",
+      "title": "Culinary Excellence",
+      "subtitle": "Discover our carefully crafted menu featuring the finest ingredients and innovative culinary techniques",
+      "imageAlt": "Restaurant Menu",
+      "cardTitle": "Chef's Special",
+      "cardSubtitle": "Experience our signature dishes crafted with passion and precision",
+      "viewFull": "View Full Menu",
+      "categories": {
+        "appetizers": {
+          "title": "Appetizers",
+          "items": [
+            { "name": "Truffle Arancini", "price": "$18", "description": "Crispy risotto balls with truffle oil and parmesan" },
+            { "name": "Seared Scallops", "price": "$24", "description": "Pan-seared with cauliflower puree and pancetta" },
+            { "name": "Burrata Caprese", "price": "$16", "description": "Fresh burrata with heirloom tomatoes and basil" }
+          ]
+        },
+        "mainCourses": {
+          "title": "Main Courses",
+          "items": [
+            { "name": "Wagyu Beef Tenderloin", "price": "$65", "description": "8oz tenderloin with red wine reduction" },
+            { "name": "Pan-Seared Salmon", "price": "$32", "description": "Atlantic salmon with lemon butter sauce" },
+            { "name": "Lobster Risotto", "price": "$45", "description": "Creamy risotto with fresh lobster and herbs" }
+          ]
+        },
+        "desserts": {
+          "title": "Desserts",
+          "items": [
+            { "name": "Chocolate Soufflé", "price": "$14", "description": "Warm chocolate soufflé with vanilla ice cream" },
+            { "name": "Tiramisu", "price": "$12", "description": "Classic Italian dessert with espresso and mascarpone" },
+            { "name": "Crème Brûlée", "price": "$11", "description": "Vanilla custard with caramelized sugar" }
+          ]
+        }
+      }
+    },
+    "location": {
+      "badge": "Visit Us",
+      "title": "Location & Hours",
+      "subtitle": "Come experience our exceptional dining in the heart of the city",
+      "cardTitle": "Restaurant Location",
+      "address": "Address",
+      "phone": "Phone",
+      "email": "Email",
+      "hoursTitle": "Operating Hours",
+      "hours": {
+        "monThu": "Monday - Thursday",
+        "friSat": "Friday - Saturday",
+        "sun": "Sunday",
+        "brunch": "Brunch"
+      },
+      "mapTitle": "Interactive Map",
+      "mapSubtitle": "Click to view location",
+      "openNow": "Open Now",
+      "ctaReserve": "Make a Reservation"
+    }
+  },
+  "fineDiningPage": {
+    "hero": {
+      "title": "Fine Dining",
+      "subtitle": "Excellence",
+      "description": "Experience culinary artistry at its finest with our carefully curated menu, exceptional service, and elegant ambiance.",
+      "ctaReserve": "Reserve Table",
+      "ctaMenu": "View Menu"
+    },
+    "menu": {
+      "badge": "Our Signature",
+      "title": "Fine Dining Menu",
+      "subtitle": "Discover our carefully crafted dishes featuring premium ingredients",
+      "items": {
+        "truffleRisotto": {
+          "name": "Truffle Risotto",
+          "description": "Creamy Arborio rice with wild mushrooms, truffle oil, and aged Parmesan",
+          "price": 45,
+          "category": "Appetizer"
+        },
+        "wagyuBeef": {
+          "name": "Wagyu Beef Tenderloin",
+          "description": "Premium Japanese Wagyu with red wine reduction and seasonal vegetables",
+          "price": 85,
+          "category": "Main Course"
+        },
+        "foieGras": {
+          "name": "Pan-Seared Foie Gras",
+          "description": "French foie gras with brioche toast and fig compote",
+          "price": 38,
+          "category": "Appetizer"
+        },
+        "lobsterThermidor": {
+          "name": "Lobster Thermidor",
+          "description": "Fresh Maine lobster in creamy cognac sauce with gruyere cheese",
+          "price": 52,
+          "category": "Main Course"
+        },
+        "chocolateSouffle": {
+          "name": "Chocolate Soufflé",
+          "description": "Warm chocolate soufflé with vanilla bean ice cream",
+          "price": 24,
+          "category": "Dessert"
+        },
+        "caviarSelection": {
+          "name": "Caviar Selection",
+          "description": "Premium Beluga caviar with blinis and crème fraîche",
+          "price": 120,
+          "category": "Appetizer"
+        }
+      }
+    },
+    "wine": {
+      "badge": "Sommelier's Choice",
+      "title": "Premium Wine Collection",
+      "subtitle": "Carefully selected wines from renowned vineyards around the world",
+      "items": {
+        "chandonImperial": {
+          "name": "Chandon Impérial Brut",
+          "type": "Champagne",
+          "description": "Perfect with seafood & celebrations"
+        },
+        "domPerignon": {
+          "name": "Dom Pérignon Vintage",
+          "type": "Champagne",
+          "description": "Ideal pairing with premium meats"
+        },
+        "chateauMargaux": {
+          "name": "Opus One Napa Valley",
+          "type": "Red Wine",
+          "description": "Ideal pairing with premium meats"
+        },
+        "drc": {
+          "name": "Domaine de la Romanée-Conti",
+          "type": "Pinot Noir",
+          "description": "Crafted for unforgettable occasions"
+        }
+      }
+    },
+    "chefSpecials": {
+      "badge": "Exclusive Experience",
+      "title": "Chef's Specialties",
+      "subtitle": "Immerse yourself in our most exclusive dining experiences",
+      "tastingMenu": {
+        "name": "Chef's Tasting Menu",
+        "description": "7-course culinary journey curated by our executive chef",
+        "duration": "2.5 hours",
+        "price": 150
+      },
+      "winePairing": {
+        "name": "Wine Pairing Experience",
+        "description": "Each course paired with premium wines by our sommelier",
+        "duration": "3 hours",
+        "price": 200
+      },
+      "chefsTable": {
+        "name": "Chef's Table",
+        "description": "Exclusive kitchen-side dining with chef interaction",
+        "duration": "3.5 hours",
+        "price": 250
+      }
+    },
+    "testimonials": {
+      "badge": "Guest Reviews",
+      "title": "What Our Guests Say",
+      "items": {
+        "t1": {
+          "content": "An extraordinary culinary experience that redefines fine dining. Every dish is a masterpiece.",
+          "name": "Sarah Mitchell",
+          "role": "Food Critic"
+        },
+        "t2": {
+          "content": "The attention to detail and service excellence is unmatched. A true gastronomic journey.",
+          "name": "James Thompson",
+          "role": "Restaurant Owner"
+        },
+        "t3": {
+          "content": "From the ambiance to the flavors, everything is perfectly orchestrated. Simply divine.",
+          "name": "Emily Rodriguez",
+          "role": "Food Blogger"
+        }
+      }
+    },
+    "reservation": {
+      "badge": "Reserve Your Table",
+      "title": "Book Your Fine Dining Experience",
+      "subtitle": "Secure your table for an unforgettable culinary journey",
+      "form": {
+        "date": "Date",
+        "time": "Time",
+        "partySize": "Party Size",
+        "specialOccasion": "Special Occasion",
+        "submit": "Make Reservation",
+        "options": {
+          "time": {
+            "t700": "7:00 PM",
+            "t730": "7:30 PM",
+            "t800": "8:00 PM",
+            "t830": "8:30 PM",
+            "t900": "9:00 PM"
+          },
+          "partySize": {
+            "two": "2",
+            "four": "4",
+            "six": "6",
+            "eight": "8",
+            "tenPlus": "10+"
+          },
+          "occasion": {
+            "anniversary": "Anniversary",
+            "birthday": "Birthday",
+            "businessDinner": "Business Dinner",
+            "dateNight": "Date Night",
+            "other": "Other"
+          }
+        }
+      }
+    }
+  }
+  ,
+  "takeawayPage": {
+    "hero": {
+      "title": "Takeaway & Delivery",
+      "subtitle": "Excellence",
+      "description": "Enjoy restaurant-quality meals delivered fresh to your doorstep with our fast and reliable service.",
+      "ctaOrder": "Order Now",
+      "ctaMenu": "View Menu"
+    },
+    "menu": {
+      "badge": "Our Menu",
+      "title": "Takeaway & Delivery Menu",
+      "subtitle": "Fresh, delicious meals prepared with care and delivered to your door",
+      "categories": {
+        "mainCourse": "Main Course",
+        "healthy": "Healthy",
+        "wrap": "Wrap",
+        "pasta": "Pasta",
+        "dessert": "Dessert",
+        "salad": "Salad"
+      },
+      "deliveryTimes": {
+        "m10_15": "10-15 min",
+        "m15_20": "15-20 min",
+        "m20_25": "20-25 min",
+        "m25_30": "25-30 min",
+        "m30_35": "30-35 min"
+      },
+      "items": {
+        "gourmetBurger": {
+          "name": "Gourmet Burger",
+          "description": "Premium beef patty with artisanal cheese, fresh lettuce, and signature sauce"
+        },
+        "mediterraneanBowl": {
+          "name": "Mediterranean Bowl",
+          "description": "Fresh quinoa, grilled vegetables, feta cheese, and olive oil dressing"
+        },
+        "chickenTikkaWrap": {
+          "name": "Chicken Tikka Wrap",
+          "description": "Tender chicken tikka with fresh vegetables in a soft tortilla wrap"
+        },
+        "seafoodPasta": {
+          "name": "Seafood Pasta",
+          "description": "Creamy pasta with fresh seafood, herbs, and parmesan cheese"
+        },
+        "chocolateLavaCake": {
+          "name": "Chocolate Lava Cake",
+          "description": "Warm chocolate cake with molten center, served with vanilla ice cream"
+        },
+        "greekSalad": {
+          "name": "Greek Salad",
+          "description": "Fresh tomatoes, cucumbers, olives, feta cheese with Greek dressing"
+        }
+      }
+    },
+    "badges": {
+      "popular": "Popular",
+      "healthy": "Healthy",
+      "spicy": "Spicy",
+      "premium": "Premium",
+      "signature": "Signature",
+      "fresh": "Fresh"
+    },
+    "deliveryOptions": {
+      "badge": "Delivery Options",
+      "title": "Choose Your Delivery",
+      "subtitle": "Flexible delivery options to suit your schedule and needs",
+      "options": {
+        "express": {
+          "name": "Express Delivery",
+          "type": "Fast",
+          "time": "15-20 min",
+          "description": "Quick delivery for urgent orders"
+        },
+        "standard": {
+          "name": "Standard Delivery",
+          "type": "Regular",
+          "time": "30-45 min",
+          "description": "Standard delivery with care"
+        },
+        "scheduled": {
+          "name": "Scheduled Delivery",
+          "type": "Planned",
+          "time": "Flexible",
+          "description": "Schedule your delivery for later"
+        }
+      }
+    },
+    "offers": {
+      "badge": "Special Offers",
+      "title": "Great Deals & Combos",
+      "subtitle": "Save more with our special offers and combo deals",
+      "save": "Save ${{amount}}",
+      "items": {
+        "familyFeast": {
+          "name": "Family Feast Deal",
+          "description": "4 main courses + 2 sides + 2 desserts for the whole family",
+          "duration": "Valid all day"
+        },
+        "lunchCombo": {
+          "name": "Lunch Combo",
+          "description": "Any main course + drink + dessert at lunch time",
+          "duration": "11 AM - 3 PM"
+        },
+        "weekendSpecial": {
+          "name": "Weekend Special",
+          "description": "Premium dishes with complimentary dessert on weekends",
+          "duration": "Fri-Sun"
+        }
+      }
+    },
+    "testimonials": {
+      "badge": "Customer Reviews",
+      "title": "What Our Customers Say",
+      "items": {
+        "t1": {
+          "content": "Amazing food quality and super fast delivery! The packaging keeps everything fresh and hot.",
+          "name": "Michael Chen",
+          "role": "Regular Customer"
+        },
+        "t2": {
+          "content": "Best takeaway experience in town! The food arrives exactly as described and tastes incredible.",
+          "name": "Lisa Johnson",
+          "role": "Food Blogger"
+        },
+        "t3": {
+          "content": "Perfect for busy workdays. Quick, delicious, and always on time. Highly recommended!",
+          "name": "David Rodriguez",
+          "role": "Office Worker"
+        }
+      }
+    },
+    "cta": {
+      "orderNow": "Order Now"
+    },
+    "order": {
+      "badge": "Place Your Order",
+      "title": "Order Your Meal Now",
+      "subtitle": "Quick and easy ordering with fast delivery to your location",
+      "form": {
+        "address": "Delivery Address",
+        "addressPlaceholder": "Enter your address",
+        "phone": "Phone Number",
+        "phonePlaceholder": "Your phone number",
+        "deliveryTime": "Delivery Time",
+        "paymentMethod": "Payment Method",
+        "options": {
+          "asap": "ASAP (30-45 min)",
+          "express": "Express (15-20 min)",
+          "schedule": "Schedule for later"
+        },
+        "paymentOptions": {
+          "cod": "Cash on Delivery",
+          "card": "Credit Card",
+          "wallet": "Digital Wallet",
+          "online": "Online Payment"
+        },
+        "submit": "Place Order"
+      }
+    }
+  }
+  ,
+  "chefsTablePage": {
+    "hero": {
+      "title": "Chef's Table",
+      "subtitle": "Exclusivity",
+      "description": "Experience the ultimate in culinary luxury with our exclusive chef's table, featuring personalized service and intimate chef interaction.",
+      "ctaReserve": "Reserve Chef's Table",
+      "ctaView": "View Experience"
+    },
+    "menu": {
+      "badge": "Exclusive Menu",
+      "title": "Chef's Table Menu",
+      "subtitle": "Discover our most exclusive dishes crafted specifically for the chef's table experience",
+      "badges": {
+        "exclusive": "Exclusive",
+        "premium": "Premium",
+        "signature": "Signature",
+        "classic": "Classic",
+        "luxury": "Luxury"
+      }
+    },
+    "wine": {
+      "badge": "Master Sommelier's Selection",
+      "title": "Premium Wine Collection",
+      "subtitle": "Carefully curated wines from the world's most prestigious vineyards",
+      "items": {
+        "domPerignon": {
+          "name": "Dom Pérignon Vintage",
+          "type": "Champagne",
+          "year": "2015",
+          "description": "Perfect for celebrations and seafood courses"
+        },
+        "chateauMargaux": {
+          "name": "Château Margaux",
+          "type": "Red Wine",
+          "year": "2018",
+          "description": "Elegant Bordeaux for premium meats"
+        },
+        "drc": {
+          "name": "Domaine de la Romanée-Conti",
+          "type": "Pinot Noir",
+          "year": "2019",
+          "description": "Rare Burgundy for special occasions"
+        }
+      }
+    },
+    "experiences": {
+      "badge": "Exclusive Experiences",
+      "title": "Chef's Table Experiences",
+      "subtitle": "Immerse yourself in our most exclusive and intimate dining experiences",
+      "maxGuests": "Max {{count}} guests",
+      "bookButton": "Book Experience",
+      "items": {
+        "chefsTable": {
+          "name": "Chef's Table Experience",
+          "description": "Exclusive kitchen-side dining with chef interaction and personalized service",
+          "duration": "3.5 hours"
+        },
+        "wineJourney": {
+          "name": "Sommelier's Wine Journey",
+          "description": "Each course paired with premium wines by our master sommelier",
+          "duration": "4 hours"
+        },
+        "privateKitchen": {
+          "name": "Private Chef's Kitchen",
+          "description": "Complete private dining experience with dedicated chef and staff",
+          "duration": "5 hours"
+        }
+      }
+    },
+    "testimonials": {
+      "badge": "Guest Reviews",
+      "title": "What Our Guests Say",
+      "items": {
+        "t1": {
+          "content": "The chef's table experience is absolutely extraordinary. The intimate setting and chef interaction create an unforgettable culinary journey.",
+          "name": "Alexander Thompson",
+          "role": "Food Critic"
+        },
+        "t2": {
+          "content": "This is fine dining at its absolute finest. The attention to detail and personalized service is unmatched anywhere.",
+          "name": "Victoria Chen",
+          "role": "Restaurant Owner"
+        },
+        "t3": {
+          "content": "An exclusive experience that redefines luxury dining. Every moment is carefully orchestrated for perfection.",
+          "name": "Marcus Rodriguez",
+          "role": "Food Blogger"
+        }
+      }
+    },
+    "reservation": {
+      "badge": "Reserve Your Experience",
+      "title": "Book Your Chef's Table",
+      "subtitle": "Secure your exclusive chef's table experience for an unforgettable culinary journey",
+      "form": {
+        "date": "Date",
+        "time": "Time",
+        "partySize": "Party Size",
+        "experienceType": "Experience Type",
+        "submit": "Reserve Chef's Table",
+        "options": {
+          "time": {
+            "t600": "6:00 PM",
+            "t630": "6:30 PM",
+            "t700": "7:00 PM",
+            "t730": "7:30 PM",
+            "t800": "8:00 PM",
+            "t830": "8:30 PM"
+          },
+          "party": {
+            "two": "2 Guests",
+            "four": "4 Guests",
+            "six": "6 Guests",
+            "eight": "8 Guests",
+            "ten": "10 Guests",
+            "twelve": "12 Guests"
+          },
+          "experience": {
+            "chefsTable": "Chef's Table Experience",
+            "wineJourney": "Sommelier's Wine Journey",
+            "privateKitchen": "Private Chef's Kitchen"
+          }
+        }
+      }
+    }
+  }
+}
