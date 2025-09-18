@@ -82,6 +82,153 @@
     "successEmailVerified": "Email verified! Please enter your new password.",
     "successPasswordReset": "Password reset successfully! Redirecting to login..."
   },
+  "privateEvents": {
+    "hero": {
+      "title": "Private Events Excellence",
+      "subtitle": "Create unforgettable memories with our exclusive private event services",
+      "cta": "Plan Your Event"
+    },
+    "menus": {
+      "tag": "Custom Menus",
+      "title": "Private Event Menus",
+      "subtitle": "Tailored menus designed specifically for your special occasions and celebrations",
+      "weddingReception": {
+        "name": "Wedding Reception Menu",
+        "description": "Elegant multi-course dinner with premium ingredients and personalized service",
+        "category": "Wedding"
+      },
+      "corporateGala": {
+        "name": "Corporate Gala Dinner",
+        "description": "Sophisticated menu designed for business events and corporate celebrations",
+        "category": "Corporate"
+      },
+      "anniversary": {
+        "name": "Anniversary Celebration",
+        "description": "Romantic dinner menu perfect for milestone celebrations and special moments",
+        "category": "Anniversary"
+      },
+      "birthday": {
+        "name": "Birthday Party Feast",
+        "description": "Fun and festive menu with crowd-pleasing dishes for birthday celebrations",
+        "category": "Birthday"
+      },
+      "holiday": {
+        "name": "Holiday Party Menu",
+        "description": "Seasonal specialties and traditional favorites for holiday gatherings",
+        "category": "Holiday"
+      },
+      "graduation": {
+        "name": "Graduation Celebration",
+        "description": "Special menu to celebrate academic achievements and new beginnings",
+        "category": "Graduation"
+      },
+      "badges": {
+        "wedding": "Wedding",
+        "corporate": "Corporate",
+        "romantic": "Romantic",
+        "festive": "Festive",
+        "seasonal": "Seasonal",
+        "celebration": "Celebration"
+      }
+    },
+    "packages": {
+      "tag": "Event Packages",
+      "title": "Choose Your Package",
+      "subtitle": "Flexible packages designed to accommodate events of all sizes and budgets",
+      "intimate": {
+        "name": "Intimate Gathering",
+        "type": "Small Events",
+        "capacity": "10-20 guests",
+        "description": "Perfect for intimate celebrations and small gatherings"
+      },
+      "grand": {
+        "name": "Grand Celebration",
+        "type": "Medium Events",
+        "capacity": "50-100 guests",
+        "description": "Ideal for medium-sized events and celebrations"
+      },
+      "luxury": {
+        "name": "Luxury Event",
+        "type": "Large Events",
+        "capacity": "100+ guests",
+        "description": "Premium service for large-scale events and grand celebrations"
+      }
+    },
+    "services": {
+      "tag": "Full Service",
+      "title": "Event Services",
+      "subtitle": "Comprehensive event services to make your celebration truly special",
+      "includes": "INCLUDES:",
+      "book": "Book Service",
+      "fullService": {
+        "name": "Full Service Catering",
+        "description": "Complete catering service with professional staff, setup, and cleanup",
+        "duration": "All day",
+        "includes": "Staff, Setup, Cleanup"
+      },
+      "weddingPlanning": {
+        "name": "Wedding Planning",
+        "description": "Comprehensive wedding planning service with menu coordination and timeline management",
+        "duration": "Months",
+        "includes": "Planning, Coordination, Execution"
+      },
+      "corporateEvents": {
+        "name": "Corporate Events",
+        "description": "Professional corporate event management with branded service and presentation",
+        "duration": "Flexible",
+        "includes": "Management, Branding, Service"
+      }
+    },
+    "testimonials": {
+      "tag": "Client Reviews",
+      "title": "What Our Clients Say",
+      "items": {
+        "jennifer": {
+          "name": "Jennifer & Michael",
+          "role": "Wedding Couple",
+          "content": "Our wedding reception was absolutely perfect! The food was exquisite and the service was flawless. Our guests are still talking about it months later."
+        },
+        "robert": {
+          "name": "Robert Chen",
+          "role": "Corporate Executive",
+          "content": "The corporate gala was executed flawlessly. Professional service, outstanding food, and seamless coordination made our event a huge success."
+        },
+        "sarah": {
+          "name": "Sarah Williams",
+          "role": "Event Planner",
+          "content": "Working with this team for our anniversary celebration was a dream. They handled every detail perfectly and made our special day unforgettable."
+        }
+      }
+    },
+    "planning": {
+      "tag": "Plan Your Event",
+      "title": "Start Planning Your Event",
+      "subtitle": "Let us help you create the perfect celebration with our comprehensive event planning services",
+      "eventType": "Event Type",
+      "eventDate": "Event Date",
+      "guestCount": "Guest Count",
+      "serviceLevel": "Service Level",
+      "options": {
+        "weddingReception": "Wedding Reception",
+        "corporateEvent": "Corporate Event",
+        "anniversary": "Anniversary Celebration",
+        "birthday": "Birthday Party",
+        "holiday": "Holiday Party",
+        "graduation": "Graduation Celebration",
+        "other": "Other",
+        "guests10_20": "10-20 guests",
+        "guests20_50": "20-50 guests",
+        "guests50_100": "50-100 guests",
+        "guests100_200": "100-200 guests",
+        "guests200plus": "200+ guests",
+        "fullService": "Full Service Catering",
+        "weddingPlanning": "Wedding Planning",
+        "corporateEvents": "Corporate Events",
+        "customPackage": "Custom Package"
+      },
+      "submit": "Request Event Quote"
+    }
+  },
   "home": {
     "showcase": {
       "title": "Find the Right Freelancer",
@@ -2661,6 +2808,38 @@
         "signature": "Signature",
         "classic": "Classic",
         "luxury": "Luxury"
+      },
+      "items": {
+        "amuseBouche": {
+          "name": "Chef's Signature Amuse-Bouche",
+          "description": "A delicate introduction featuring seasonal ingredients and innovative techniques",
+          "category": "Amuse-Bouche"
+        },
+        "wagyuCarpaccio": {
+          "name": "Wagyu Beef Carpaccio",
+          "description": "Premium Japanese Wagyu with truffle oil, microgreens, and aged balsamic",
+          "category": "Appetizer"
+        },
+        "lobsterThermidor": {
+          "name": "Lobster Thermidor",
+          "description": "Fresh Maine lobster in creamy cognac sauce with gruyere cheese",
+          "category": "Main Course"
+        },
+        "truffleRisotto": {
+          "name": "Truffle Risotto",
+          "description": "Creamy Arborio rice with wild mushrooms, truffle oil, and aged Parmesan",
+          "category": "Main Course"
+        },
+        "chocolateSouffle": {
+          "name": "Chocolate Soufflé",
+          "description": "Warm chocolate soufflé with vanilla bean ice cream and gold leaf",
+          "category": "Dessert"
+        },
+        "caviarSelection": {
+          "name": "Caviar Selection",
+          "description": "Premium Beluga caviar with blinis, crème fraîche, and champagne",
+          "category": "Luxury"
+        }
       }
     },
     "wine": {
@@ -2766,6 +2945,327 @@
             "privateKitchen": "Private Chef's Kitchen"
           }
         }
+      }
+    }
+  },
+  "reservations": {
+    "title": "Reservations Excellence",
+    "subtitle": "Secure your perfect dining experience with our easy reservation system.",
+    "makeReservation": "Make Reservation",
+    "diningOptions": {
+      "title": "Dining Options",
+      "subtitle": "Choose Your Experience",
+      "description": "Select from our variety of dining experiences, each designed to create the perfect atmosphere for your occasion",
+      "fineDiningTable": {
+        "name": "Fine Dining Table",
+        "description": "Elegant dining experience with premium service and exquisite cuisine",
+        "category": "Fine Dining",
+        "capacity": "2-8 guests"
+      },
+      "chefsTable": {
+        "name": "Chef's Table",
+        "description": "Exclusive kitchen-side dining with chef interaction and personalized service",
+        "category": "Exclusive",
+        "capacity": "2-8 guests"
+      },
+      "privateDiningRoom": {
+        "name": "Private Dining Room",
+        "description": "Intimate private space perfect for special celebrations and business dinners",
+        "category": "Private",
+        "capacity": "8-20 guests"
+      },
+      "outdoorTerrace": {
+        "name": "Outdoor Terrace",
+        "description": "Beautiful outdoor seating with garden views and fresh air dining",
+        "category": "Outdoor",
+        "capacity": "2-12 guests"
+      },
+      "wineBarSeating": {
+        "name": "Wine Bar Seating",
+        "description": "Casual wine bar experience with extensive wine selection and small plates",
+        "category": "Casual",
+        "capacity": "2-6 guests"
+      },
+      "eventSpace": {
+        "name": "Event Space",
+        "description": "Large event space for parties, corporate events, and special celebrations",
+        "category": "Events",
+        "capacity": "20-100 guests"
+      },
+      "premium": "Premium",
+      "exclusive": "Exclusive",
+      "private": "Private",
+      "outdoor": "Outdoor",
+      "casual": "Casual",
+      "events": "Events",
+      "free": "Free"
+    },
+    "timeSlots": {
+      "title": "Dining Hours",
+      "subtitle": "Available Time Slots",
+      "description": "Choose from our carefully planned dining hours to suit your schedule and preferences",
+      "earlyEvening": {
+        "name": "Early Evening",
+        "time": "5:00 PM - 7:00 PM",
+        "description": "Perfect for pre-theater dining and early celebrations"
+      },
+      "primeTime": {
+        "name": "Prime Time",
+        "time": "7:00 PM - 9:00 PM",
+        "description": "Our most popular dining hours with full menu and service"
+      },
+      "lateEvening": {
+        "name": "Late Evening",
+        "time": "9:00 PM - 11:00 PM",
+        "description": "Intimate late dining experience with reduced menu"
+      },
+      "availability": {
+        "high": "High Availability",
+        "limited": "Limited Availability",
+        "available": "Available"
+      }
+    },
+    "specialPackages": {
+      "title": "Special Packages",
+      "subtitle": "Complete Experiences",
+      "description": "Enhance your dining experience with our specially curated packages for every occasion",
+      "romanticDinner": {
+        "name": "Romantic Dinner Package",
+        "description": "Perfect for anniversaries and special dates with champagne and dessert",
+        "duration": "2.5 hours",
+        "includes": "Champagne, Dessert, Rose Petals"
+      },
+      "businessDinner": {
+        "name": "Business Dinner Package",
+        "description": "Professional dining experience with private service and premium wines",
+        "duration": "3 hours",
+        "includes": "Private Service, Wine Selection, Business Menu"
+      },
+      "celebration": {
+        "name": "Celebration Package",
+        "description": "Complete celebration experience with decorations and special service",
+        "duration": "4 hours",
+        "includes": "Decorations, Cake, Special Service"
+      },
+      "includes": "INCLUDES:",
+      "bookPackage": "Book Package"
+    },
+    "testimonials": {
+      "title": "Guest Reviews",
+      "subtitle": "What Our Guests Say",
+      "emmaJames": {
+        "name": "Emma & James",
+        "role": "Anniversary Couple",
+        "content": "Our anniversary dinner was absolutely perfect! The reservation process was seamless and the service exceeded our expectations."
+      },
+      "michaelRodriguez": {
+        "name": "Michael Rodriguez",
+        "role": "Business Executive",
+        "content": "The business dinner package was exceptional. Professional service, perfect ambiance, and our clients were thoroughly impressed."
+      },
+      "sarahThompson": {
+        "name": "Sarah Thompson",
+        "role": "Event Host",
+        "content": "Booking our celebration was so easy! The team handled every detail perfectly and made our special day unforgettable."
+      }
+    },
+    "reservationForm": {
+      "title": "Make Your Reservation",
+      "subtitle": "Book Your Table",
+      "description": "Reserve your perfect dining experience with our easy online booking system",
+      "date": "Date",
+      "time": "Time",
+      "partySize": "Party Size",
+      "diningOption": "Dining Option",
+      "specialOccasion": "Special Occasion",
+      "specialPackage": "Special Package",
+      "confirmReservation": "Confirm Reservation",
+      "guests": {
+        "2": "2 Guests",
+        "4": "4 Guests",
+        "6": "6 Guests",
+        "8": "8 Guests",
+        "10": "10 Guests",
+        "12+": "12+ Guests"
+      },
+      "occasions": {
+        "anniversary": "Anniversary",
+        "birthday": "Birthday",
+        "businessDinner": "Business Dinner",
+        "dateNight": "Date Night",
+        "celebration": "Celebration",
+        "other": "Other"
+      },
+      "packages": {
+        "none": "None",
+        "romanticDinner": "Romantic Dinner Package",
+        "businessDinner": "Business Dinner Package",
+        "celebration": "Celebration Package"
+      },
+      "times": {
+        "5:00PM": "5:00 PM",
+        "5:30PM": "5:30 PM",
+        "6:00PM": "6:00 PM",
+        "6:30PM": "6:30 PM",
+        "7:00PM": "7:00 PM",
+        "7:30PM": "7:30 PM",
+        "8:00PM": "8:00 PM",
+        "8:30PM": "8:30 PM",
+        "9:00PM": "9:00 PM",
+        "9:30PM": "9:30 PM"
+      }
+    }
+  },
+  "winePairing": {
+    "hero": {
+      "title": "Wine Pairing Excellence",
+      "subtitle": "Discover the art of perfect wine pairing with our master sommelier, featuring exceptional wines and expertly crafted food combinations.",
+      "cta": "Book Tasting"
+    },
+    "menu": {
+      "badge": "Sommelier's Selection",
+      "title": "Wine Pairing Menu",
+      "subtitle": "Carefully curated wine and food pairings designed by our master sommelier",
+      "tags": {
+        "luxury": "Luxury",
+        "premium": "Premium",
+        "classic": "Classic",
+        "italian": "Italian",
+        "dessert": "Dessert",
+        "french": "French"
+      },
+      "items": {
+        "champagneCaviar": {
+          "name": "Champagne & Caviar",
+          "description": "Premium Dom Pérignon paired with Beluga caviar and blinis",
+          "category": "Luxury"
+        },
+        "bordeauxWagyu": {
+          "name": "Bordeaux & Wagyu",
+          "description": "Château Margaux 2018 with Japanese Wagyu beef tenderloin",
+          "category": "Premium"
+        },
+        "burgundyLobster": {
+          "name": "Burgundy & Lobster",
+          "description": "Domaine de la Romanée-Conti with Maine lobster thermidor",
+          "category": "Classic"
+        },
+        "chiantiRisotto": {
+          "name": "Chianti & Risotto",
+          "description": "Antinori Chianti Classico with truffle risotto",
+          "category": "Italian"
+        },
+        "portChocolate": {
+          "name": "Port & Chocolate",
+          "description": "Vintage Port with warm chocolate soufflé",
+          "category": "Dessert"
+        },
+        "sauternesFoieGras": {
+          "name": "Sauternes & Foie Gras",
+          "description": "Château d'Yquem with pan-seared foie gras",
+          "category": "French"
+        }
+      }
+    },
+    "collection": {
+      "badge": "Premium Collection",
+      "title": "Wine Collection",
+      "subtitle": "Exceptional wines from the world's most prestigious vineyards and regions",
+      "items": {
+        "domPerignon": {
+          "name": "Dom Pérignon Vintage",
+          "type": "Champagne",
+          "year": "2015",
+          "description": "Perfect for celebrations and seafood pairings",
+          "region": "France"
+        },
+        "chateauMargaux": {
+          "name": "Château Margaux",
+          "type": "Red Wine",
+          "year": "2018",
+          "description": "Elegant Bordeaux for premium meats",
+          "region": "Bordeaux"
+        },
+        "drc": {
+          "name": "Domaine de la Romanée-Conti",
+          "type": "Pinot Noir",
+          "year": "2019",
+          "description": "Rare Burgundy for special occasions",
+          "region": "Burgundy"
+        }
+      }
+    },
+    "experiences": {
+      "badge": "Wine Experiences",
+      "title": "Sommelier Experiences",
+      "subtitle": "Immerse yourself in our exclusive wine experiences guided by our master sommelier",
+      "bookCta": "Book Experience",
+      "items": {
+        "sommelierJourney": {
+          "name": "Sommelier's Tasting Journey",
+          "description": "Guided wine tasting with our master sommelier featuring 6 premium wines",
+          "duration": "2 hours",
+          "wines": "6 Premium Wines"
+        },
+        "foodWinePairing": {
+          "name": "Food & Wine Pairing",
+          "description": "Complete dining experience with expertly paired wines for each course",
+          "duration": "3 hours",
+          "wines": "5 Course Menu"
+        },
+        "privateCellarTour": {
+          "name": "Private Wine Cellar Tour",
+          "description": "Exclusive tour of our wine cellar with rare vintage tastings",
+          "duration": "1.5 hours",
+          "wines": "Rare Vintages"
+        }
+      }
+    },
+    "testimonials": {
+      "badge": "Wine Enthusiast Reviews",
+      "title": "What Wine Lovers Say",
+      "items": {
+        "isabella": {
+          "name": "Isabella Martinez",
+          "role": "Wine Enthusiast",
+          "content": "The sommelier's expertise is extraordinary. Each wine pairing was perfectly matched and elevated the entire dining experience."
+        },
+        "david": {
+          "name": "David Thompson",
+          "role": "Restaurant Critic",
+          "content": "This is wine pairing at its absolute finest. The knowledge and passion of the sommelier team is unmatched."
+        },
+        "sophie": {
+          "name": "Sophie Chen",
+          "role": "Food Blogger",
+          "content": "An incredible journey through exceptional wines. The pairings were so perfect, each sip revealed new flavors."
+        }
+      }
+    },
+    "form": {
+      "badge": "Reserve Your Experience",
+      "title": "Book Your Wine Tasting",
+      "subtitle": "Secure your spot for an unforgettable wine tasting experience with our master sommelier",
+      "date": "Date",
+      "time": "Time",
+      "partySize": "Party Size",
+      "experienceType": "Experience Type",
+      "submit": "Reserve Wine Tasting",
+      "times": {
+        "t600": "6:00 PM",
+        "t630": "6:30 PM",
+        "t700": "7:00 PM",
+        "t730": "7:30 PM",
+        "t800": "8:00 PM",
+        "t830": "8:30 PM"
+      },
+      "guests": {
+        "two": "2 Guests",
+        "four": "4 Guests",
+        "six": "6 Guests",
+        "eight": "8 Guests",
+        "ten": "10 Guests",
+        "twelve": "12 Guests"
       }
     }
   }

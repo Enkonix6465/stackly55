@@ -26,137 +26,137 @@ export default function PrivateEvents() {
 
   const user = getCurrentUser()
 
-  // Private events menu items
+  // Private events menu items (translated)
   const privateEventsMenu = [
     {
       id: 1,
-      name: "Wedding Reception Menu",
-      description: "Elegant multi-course dinner with premium ingredients and personalized service",
+      name: t('privateEvents.menus.weddingReception.name'),
+      description: t('privateEvents.menus.weddingReception.description'),
       price: 85,
-      image: "/images/Lobster Risotto.jpg",
-      category: "Wedding",
+      image: "/images/Wedding Reception Menu.jpg",
+      category: t('privateEvents.menus.weddingReception.category'),
       isWedding: true
     },
     {
       id: 2,
-      name: "Corporate Gala Dinner",
-      description: "Sophisticated menu designed for business events and corporate celebrations",
+      name: t('privateEvents.menus.corporateGala.name'),
+      description: t('privateEvents.menus.corporateGala.description'),
       price: 75,
-      image: "/images/Prime Beef Tenderloin.jpg",
-      category: "Corporate",
+      image: "/images/Corporate Gala Dinner.jpg",
+      category: t('privateEvents.menus.corporateGala.category'),
       isCorporate: true
     },
     {
       id: 3,
-      name: "Anniversary Celebration",
-      description: "Romantic dinner menu perfect for milestone celebrations and special moments",
+      name: t('privateEvents.menus.anniversary.name'),
+      description: t('privateEvents.menus.anniversary.description'),
       price: 65,
-      image: "/images/Mediterranean Seafood Pasta.jpg",
-      category: "Anniversary",
+      image: "/images/Anniversary Celebration.jpg",
+      category: t('privateEvents.menus.anniversary.category'),
       isRomantic: true
     },
     {
       id: 4,
-      name: "Birthday Party Feast",
-      description: "Fun and festive menu with crowd-pleasing dishes for birthday celebrations",
+      name: t('privateEvents.menus.birthday.name'),
+      description: t('privateEvents.menus.birthday.description'),
       price: 55,
-      image: "/images/Signature Grilled Salmon.jpg",
-      category: "Birthday",
+      image: "/images/Birthday Party Feast.jpg",
+      category: t('privateEvents.menus.birthday.category'),
       isFestive: true
     },
     {
       id: 5,
-      name: "Holiday Party Menu",
-      description: "Seasonal specialties and traditional favorites for holiday gatherings",
+      name: t('privateEvents.menus.holiday.name'),
+      description: t('privateEvents.menus.holiday.description'),
       price: 60,
-      image: "/images/Chocolate Lava Cak.jpg",
-      category: "Holiday",
+      image: "/images/Holiday Party Menu.jpg",
+      category: t('privateEvents.menus.holiday.category'),
       isSeasonal: true
     },
     {
       id: 6,
-      name: "Graduation Celebration",
-      description: "Special menu to celebrate academic achievements and new beginnings",
+      name: t('privateEvents.menus.graduation.name'),
+      description: t('privateEvents.menus.graduation.description'),
       price: 50,
-      image: "/images/Garden Fresh Bowl.jpg",
-      category: "Graduation",
+      image: "/images/Graduation Celebration.jpg",
+      category: t('privateEvents.menus.graduation.category'),
       isCelebration: true
     }
   ]
 
-  // Event packages
+  // Event packages (translated)
   const eventPackages = [
     {
-      name: "Intimate Gathering",
-      type: "Small Events",
-      capacity: "10-20 guests",
-      description: "Perfect for intimate celebrations and small gatherings",
+      name: t('privateEvents.packages.intimate.name'),
+      type: t('privateEvents.packages.intimate.type'),
+      capacity: t('privateEvents.packages.intimate.capacity'),
+      description: t('privateEvents.packages.intimate.description'),
       price: 1200
     },
     {
-      name: "Grand Celebration",
-      type: "Medium Events",
-      capacity: "50-100 guests",
-      description: "Ideal for medium-sized events and celebrations",
+      name: t('privateEvents.packages.grand.name'),
+      type: t('privateEvents.packages.grand.type'),
+      capacity: t('privateEvents.packages.grand.capacity'),
+      description: t('privateEvents.packages.grand.description'),
       price: 3500
     },
     {
-      name: "Luxury Event",
-      type: "Large Events",
-      capacity: "100+ guests",
-      description: "Premium service for large-scale events and grand celebrations",
+      name: t('privateEvents.packages.luxury.name'),
+      type: t('privateEvents.packages.luxury.type'),
+      capacity: t('privateEvents.packages.luxury.capacity'),
+      description: t('privateEvents.packages.luxury.description'),
       price: 7500
     }
   ]
 
-  // Event services
+  // Event services (translated)
   const eventServices = [
     {
-      name: "Full Service Catering",
-      description: "Complete catering service with professional staff, setup, and cleanup",
-      duration: "All day",
+      name: t('privateEvents.services.fullService.name'),
+      description: t('privateEvents.services.fullService.description'),
+      duration: t('privateEvents.services.fullService.duration'),
       price: 2500,
       image: "/images/RS1.jpg",
-      includes: "Staff, Setup, Cleanup"
+      includes: t('privateEvents.services.fullService.includes')
     },
     {
-      name: "Wedding Planning",
-      description: "Comprehensive wedding planning service with menu coordination and timeline management",
-      duration: "Months",
+      name: t('privateEvents.services.weddingPlanning.name'),
+      description: t('privateEvents.services.weddingPlanning.description'),
+      duration: t('privateEvents.services.weddingPlanning.duration'),
       price: 5000,
-      image: "/images/RS2.jpg",
-      includes: "Planning, Coordination, Execution"
+      image: "/images/Wedding planing.jpg",
+      includes: t('privateEvents.services.weddingPlanning.includes')
     },
     {
-      name: "Corporate Events",
-      description: "Professional corporate event management with branded service and presentation",
-      duration: "Flexible",
+      name: t('privateEvents.services.corporateEvents.name'),
+      description: t('privateEvents.services.corporateEvents.description'),
+      duration: t('privateEvents.services.corporateEvents.duration'),
       price: 3000,
-      image: "/images/RS3.jpg",
-      includes: "Management, Branding, Service"
+      image: "/images/Corporate Events.jpg",
+      includes: t('privateEvents.services.corporateEvents.includes')
     }
   ]
 
-  // Testimonials
+  // Testimonials (translated)
   const testimonials = [
     {
-      name: "Jennifer & Michael",
-      role: "Wedding Couple",
-      content: "Our wedding reception was absolutely perfect! The food was exquisite and the service was flawless. Our guests are still talking about it months later.",
+      name: t('privateEvents.testimonials.items.jennifer.name'),
+      role: t('privateEvents.testimonials.items.jennifer.role'),
+      content: t('privateEvents.testimonials.items.jennifer.content'),
       rating: 5,
       image: "/images/RS4Testimonal1.jpg"
     },
     {
-      name: "Robert Chen",
-      role: "Corporate Executive",
-      content: "The corporate gala was executed flawlessly. Professional service, outstanding food, and seamless coordination made our event a huge success.",
+      name: t('privateEvents.testimonials.items.robert.name'),
+      role: t('privateEvents.testimonials.items.robert.role'),
+      content: t('privateEvents.testimonials.items.robert.content'),
       rating: 5,
       image: "/images/RS4Testimonal2.jpg"
     },
     {
-      name: "Sarah Williams",
-      role: "Event Planner",
-      content: "Working with this team for our anniversary celebration was a dream. They handled every detail perfectly and made our special day unforgettable.",
+      name: t('privateEvents.testimonials.items.sarah.name'),
+      role: t('privateEvents.testimonials.items.sarah.role'),
+      content: t('privateEvents.testimonials.items.sarah.content'),
       rating: 5,
       image: "/images/RS4Testimonal3.jpg"
     }
@@ -190,20 +190,19 @@ export default function PrivateEvents() {
         
         <div className="relative z-10 text-center max-w-4xl mx-auto px-6">
           <ScrollAnimation animation="fade-in" stagger="scroll-stagger-1">
-            <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-6 text-white whitespace-nowrap">
-              Private Events Excellence
+              <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-6 text-white whitespace-nowrap">
+              {t('privateEvents.hero.title')}
             </h1>
           </ScrollAnimation>
           <ScrollAnimation animation="fade-in" stagger="scroll-stagger-2">
-            <p className="text-xl md:text-2xl text-gray-200 mb-8 max-w-2xl mx-auto">
-              Create unforgettable memories with our exclusive private event services, 
-              featuring custom menus and impeccable service for your special occasions.
+            <p className="text-xl md:text-2xl text-gray-200 mb-8 max-w-2xl mx-auto whitespace-nowrap">
+              {t('privateEvents.hero.subtitle')}
             </p>
           </ScrollAnimation>
           <ScrollAnimation animation="fade-in" stagger="scroll-stagger-3">
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <button onClick={() => navigate('/contact')} className="bg-red-600 hover:bg-red-700 text-white px-8 py-4 rounded-lg text-lg font-semibold transition-colors">
-                Plan Your Event
+                {t('privateEvents.hero.cta')}
               </button>
             </div>
           </ScrollAnimation>
@@ -215,12 +214,12 @@ export default function PrivateEvents() {
         <div className="max-w-7xl mx-auto px-6">
           <div className="text-center mb-16">
             <ScrollAnimation animation="fade-in" stagger="scroll-stagger-1">
-              <span className="text-red-500 text-sm font-semibold tracking-wider uppercase">Custom Menus</span>
+              <span className="text-red-500 text-sm font-semibold tracking-wider uppercase">{t('privateEvents.menus.tag')}</span>
               <h2 className={`text-5xl font-bold mt-4 mb-6 ${isDark ? 'text-white' : 'text-black'}`}>
-                Private Event Menus
+                {t('privateEvents.menus.title')}
               </h2>
               <p className={`text-xl max-w-3xl mx-auto ${isDark ? 'text-gray-300' : 'text-gray-600'}`}>
-                Tailored menus designed specifically for your special occasions and celebrations
+                {t('privateEvents.menus.subtitle')}
               </p>
             </ScrollAnimation>
           </div>
@@ -238,32 +237,32 @@ export default function PrivateEvents() {
                     <div className="absolute top-4 right-4">
                       {item.isWedding && (
                         <span className="bg-pink-600 text-white px-3 py-1 rounded-full text-sm font-semibold">
-                          Wedding
+                          {t('privateEvents.menus.badges.wedding')}
                         </span>
                       )}
                       {item.isCorporate && (
                         <span className="bg-blue-600 text-white px-3 py-1 rounded-full text-sm font-semibold">
-                          Corporate
+                          {t('privateEvents.menus.badges.corporate')}
                         </span>
                       )}
                       {item.isRomantic && (
                         <span className="bg-red-600 text-white px-3 py-1 rounded-full text-sm font-semibold">
-                          Romantic
+                          {t('privateEvents.menus.badges.romantic')}
                         </span>
                       )}
                       {item.isFestive && (
                         <span className="bg-yellow-600 text-white px-3 py-1 rounded-full text-sm font-semibold">
-                          Festive
+                          {t('privateEvents.menus.badges.festive')}
                         </span>
                       )}
                       {item.isSeasonal && (
                         <span className="bg-green-600 text-white px-3 py-1 rounded-full text-sm font-semibold">
-                          Seasonal
+                          {t('privateEvents.menus.badges.seasonal')}
                         </span>
                       )}
                       {item.isCelebration && (
                         <span className="bg-purple-600 text-white px-3 py-1 rounded-full text-sm font-semibold">
-                          Celebration
+                          {t('privateEvents.menus.badges.celebration')}
                         </span>
                       )}
                     </div>
@@ -294,12 +293,12 @@ export default function PrivateEvents() {
         <div className="max-w-7xl mx-auto px-6">
           <div className="text-center mb-16">
             <ScrollAnimation animation="fade-in" stagger="scroll-stagger-1">
-              <span className="text-red-500 text-sm font-semibold tracking-wider uppercase">Event Packages</span>
+              <span className="text-red-500 text-sm font-semibold tracking-wider uppercase">{t('privateEvents.packages.tag')}</span>
               <h2 className={`text-5xl font-bold mt-4 mb-6 ${isDark ? 'text-white' : 'text-black'}`}>
-                Choose Your Package
+                {t('privateEvents.packages.title')}
               </h2>
               <p className={`text-xl max-w-3xl mx-auto ${isDark ? 'text-gray-300' : 'text-gray-600'}`}>
-                Flexible packages designed to accommodate events of all sizes and budgets
+                {t('privateEvents.packages.subtitle')}
               </p>
             </ScrollAnimation>
           </div>
@@ -331,12 +330,12 @@ export default function PrivateEvents() {
         <div className="max-w-7xl mx-auto px-6">
           <div className="text-center mb-16">
             <ScrollAnimation animation="fade-in" stagger="scroll-stagger-1">
-              <span className="text-red-500 text-sm font-semibold tracking-wider uppercase">Full Service</span>
+              <span className="text-red-500 text-sm font-semibold tracking-wider uppercase">{t('privateEvents.services.tag')}</span>
               <h2 className={`text-5xl font-bold mt-4 mb-6 ${isDark ? 'text-white' : 'text-black'}`}>
-                Event Services
+                {t('privateEvents.services.title')}
               </h2>
               <p className={`text-xl max-w-3xl mx-auto ${isDark ? 'text-gray-300' : 'text-gray-600'}`}>
-                Comprehensive event services to make your celebration truly special
+                {t('privateEvents.services.subtitle')}
               </p>
             </ScrollAnimation>
           </div>
@@ -363,7 +362,7 @@ export default function PrivateEvents() {
                     </p>
                     <div className="mb-4">
                       <p className={`text-xs font-semibold mb-2 ${isDark ? 'text-gray-400' : 'text-gray-500'}`}>
-                        INCLUDES:
+                        {t('privateEvents.services.includes')}
                       </p>
                       <p className={`text-sm ${isDark ? 'text-gray-300' : 'text-gray-600'}`}>
                         {service.includes}
@@ -372,7 +371,7 @@ export default function PrivateEvents() {
                     <div className="flex justify-between items-center">
                       <span className="text-2xl font-bold text-red-500">${service.price}</span>
                       <button className="bg-red-600 hover:bg-red-700 text-white px-6 py-2 rounded-lg transition-colors">
-                        Book Service
+                        {t('privateEvents.services.book')}
                       </button>
                     </div>
                   </div>
@@ -387,9 +386,9 @@ export default function PrivateEvents() {
       <section className={`py-20 ${isDark ? 'bg-gray-900' : 'bg-white'}`}>
         <div className="max-w-4xl mx-auto px-6 text-center">
           <ScrollAnimation animation="fade-in" stagger="scroll-stagger-1">
-            <span className="text-red-500 text-sm font-semibold tracking-wider uppercase">Client Reviews</span>
+            <span className="text-red-500 text-sm font-semibold tracking-wider uppercase">{t('privateEvents.testimonials.tag')}</span>
             <h2 className={`text-5xl font-bold mt-4 mb-16 ${isDark ? 'text-white' : 'text-black'}`}>
-              What Our Clients Say
+              {t('privateEvents.testimonials.title')}
             </h2>
           </ScrollAnimation>
 
@@ -444,12 +443,12 @@ export default function PrivateEvents() {
       <section className={`py-20 ${isDark ? 'bg-gray-800' : 'bg-gray-50'}`}>
         <div className="max-w-4xl mx-auto px-6 text-center">
           <ScrollAnimation animation="fade-in" stagger="scroll-stagger-1">
-            <span className="text-red-500 text-sm font-semibold tracking-wider uppercase">Plan Your Event</span>
+            <span className="text-red-500 text-sm font-semibold tracking-wider uppercase">{t('privateEvents.planning.tag')}</span>
             <h2 className={`text-5xl font-bold mt-4 mb-6 ${isDark ? 'text-white' : 'text-black'}`}>
-              Start Planning Your Event
+              {t('privateEvents.planning.title')}
             </h2>
             <p className={`text-xl mb-12 ${isDark ? 'text-gray-300' : 'text-gray-600'}`}>
-              Let us help you create the perfect celebration with our comprehensive event planning services
+              {t('privateEvents.planning.subtitle')}
             </p>
           </ScrollAnimation>
 
@@ -458,21 +457,21 @@ export default function PrivateEvents() {
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
                 <div>
                   <label className={`block text-sm font-semibold mb-2 ${isDark ? 'text-white' : 'text-black'}`}>
-                    Event Type
+                    {t('privateEvents.planning.eventType')}
                   </label>
                   <select className={`w-full p-3 rounded-lg border ${isDark ? 'bg-gray-600 border-gray-500 text-white' : 'bg-white border-gray-300 text-black'}`}>
-                    <option>Wedding Reception</option>
-                    <option>Corporate Event</option>
-                    <option>Anniversary Celebration</option>
-                    <option>Birthday Party</option>
-                    <option>Holiday Party</option>
-                    <option>Graduation Celebration</option>
-                    <option>Other</option>
+                    <option>{t('privateEvents.planning.options.weddingReception')}</option>
+                    <option>{t('privateEvents.planning.options.corporateEvent')}</option>
+                    <option>{t('privateEvents.planning.options.anniversary')}</option>
+                    <option>{t('privateEvents.planning.options.birthday')}</option>
+                    <option>{t('privateEvents.planning.options.holiday')}</option>
+                    <option>{t('privateEvents.planning.options.graduation')}</option>
+                    <option>{t('privateEvents.planning.options.other')}</option>
                   </select>
                 </div>
                 <div>
                   <label className={`block text-sm font-semibold mb-2 ${isDark ? 'text-white' : 'text-black'}`}>
-                    Event Date
+                    {t('privateEvents.planning.eventDate')}
                   </label>
                   <input
                     type="date"
@@ -481,30 +480,30 @@ export default function PrivateEvents() {
                 </div>
                 <div>
                   <label className={`block text-sm font-semibold mb-2 ${isDark ? 'text-white' : 'text-black'}`}>
-                    Guest Count
+                    {t('privateEvents.planning.guestCount')}
                   </label>
                   <select className={`w-full p-3 rounded-lg border ${isDark ? 'bg-gray-600 border-gray-500 text-white' : 'bg-white border-gray-300 text-black'}`}>
-                    <option>10-20 guests</option>
-                    <option>20-50 guests</option>
-                    <option>50-100 guests</option>
-                    <option>100-200 guests</option>
-                    <option>200+ guests</option>
+                    <option>{t('privateEvents.planning.options.guests10_20')}</option>
+                    <option>{t('privateEvents.planning.options.guests20_50')}</option>
+                    <option>{t('privateEvents.planning.options.guests50_100')}</option>
+                    <option>{t('privateEvents.planning.options.guests100_200')}</option>
+                    <option>{t('privateEvents.planning.options.guests200plus')}</option>
                   </select>
                 </div>
                 <div>
                   <label className={`block text-sm font-semibold mb-2 ${isDark ? 'text-white' : 'text-black'}`}>
-                    Service Level
+                    {t('privateEvents.planning.serviceLevel')}
                   </label>
                   <select className={`w-full p-3 rounded-lg border ${isDark ? 'bg-gray-600 border-gray-500 text-white' : 'bg-white border-gray-300 text-black'}`}>
-                    <option>Full Service Catering</option>
-                    <option>Wedding Planning</option>
-                    <option>Corporate Events</option>
-                    <option>Custom Package</option>
+                    <option>{t('privateEvents.planning.options.fullService')}</option>
+                    <option>{t('privateEvents.planning.options.weddingPlanning')}</option>
+                    <option>{t('privateEvents.planning.options.corporateEvents')}</option>
+                    <option>{t('privateEvents.planning.options.customPackage')}</option>
                   </select>
                 </div>
               </div>
               <button className="w-full bg-red-600 hover:bg-red-700 text-white py-4 rounded-lg text-lg font-semibold transition-colors">
-                Request Event Quote
+                {t('privateEvents.planning.submit')}
               </button>
             </div>
           </ScrollAnimation>

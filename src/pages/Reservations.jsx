@@ -30,86 +30,86 @@ export default function Reservations() {
   const reservationOptions = [
     {
       id: 1,
-      name: "Fine Dining Table",
-      description: "Elegant dining experience with premium service and exquisite cuisine",
+      name: t('reservations.diningOptions.fineDiningTable.name'),
+      description: t('reservations.diningOptions.fineDiningTable.description'),
       price: 0,
       image: "/images/Lobster Risotto.jpg",
-      category: "Fine Dining",
+      category: t('reservations.diningOptions.fineDiningTable.category'),
       isPremium: true,
-      capacity: "2-8 guests"
+      capacity: t('reservations.diningOptions.fineDiningTable.capacity')
     },
     {
       id: 2,
-      name: "Chef's Table",
-      description: "Exclusive kitchen-side dining with chef interaction and personalized service",
+      name: t('reservations.diningOptions.chefsTable.name'),
+      description: t('reservations.diningOptions.chefsTable.description'),
       price: 50,
       image: "/images/Prime Beef Tenderloin.jpg",
-      category: "Exclusive",
+      category: t('reservations.diningOptions.chefsTable.category'),
       isExclusive: true,
-      capacity: "2-8 guests"
+      capacity: t('reservations.diningOptions.chefsTable.capacity')
     },
     {
       id: 3,
-      name: "Private Dining Room",
-      description: "Intimate private space perfect for special celebrations and business dinners",
+      name: t('reservations.diningOptions.privateDiningRoom.name'),
+      description: t('reservations.diningOptions.privateDiningRoom.description'),
       price: 100,
       image: "/images/Mediterranean Seafood Pasta.jpg",
-      category: "Private",
+      category: t('reservations.diningOptions.privateDiningRoom.category'),
       isPrivate: true,
-      capacity: "8-20 guests"
+      capacity: t('reservations.diningOptions.privateDiningRoom.capacity')
     },
     {
       id: 4,
-      name: "Outdoor Terrace",
-      description: "Beautiful outdoor seating with garden views and fresh air dining",
+      name: t('reservations.diningOptions.outdoorTerrace.name'),
+      description: t('reservations.diningOptions.outdoorTerrace.description'),
       price: 0,
       image: "/images/Signature Grilled Salmon.jpg",
-      category: "Outdoor",
+      category: t('reservations.diningOptions.outdoorTerrace.category'),
       isOutdoor: true,
-      capacity: "2-12 guests"
+      capacity: t('reservations.diningOptions.outdoorTerrace.capacity')
     },
     {
       id: 5,
-      name: "Wine Bar Seating",
-      description: "Casual wine bar experience with extensive wine selection and small plates",
+      name: t('reservations.diningOptions.wineBarSeating.name'),
+      description: t('reservations.diningOptions.wineBarSeating.description'),
       price: 0,
       image: "/images/Chocolate Lava Cak.jpg",
-      category: "Casual",
+      category: t('reservations.diningOptions.wineBarSeating.category'),
       isCasual: true,
-      capacity: "2-6 guests"
+      capacity: t('reservations.diningOptions.wineBarSeating.capacity')
     },
     {
       id: 6,
-      name: "Event Space",
-      description: "Large event space for parties, corporate events, and special celebrations",
+      name: t('reservations.diningOptions.eventSpace.name'),
+      description: t('reservations.diningOptions.eventSpace.description'),
       price: 200,
       image: "/images/Garden Fresh Bowl.jpg",
-      category: "Events",
+      category: t('reservations.diningOptions.eventSpace.category'),
       isEvent: true,
-      capacity: "20-100 guests"
+      capacity: t('reservations.diningOptions.eventSpace.capacity')
     }
   ]
 
   // Time slots
   const timeSlots = [
     {
-      name: "Early Evening",
-      time: "5:00 PM - 7:00 PM",
-      description: "Perfect for pre-theater dining and early celebrations",
+      name: t('reservations.timeSlots.earlyEvening.name'),
+      time: t('reservations.timeSlots.earlyEvening.time'),
+      description: t('reservations.timeSlots.earlyEvening.description'),
       price: 0,
       availability: "High"
     },
     {
-      name: "Prime Time",
-      time: "7:00 PM - 9:00 PM",
-      description: "Our most popular dining hours with full menu and service",
+      name: t('reservations.timeSlots.primeTime.name'),
+      time: t('reservations.timeSlots.primeTime.time'),
+      description: t('reservations.timeSlots.primeTime.description'),
       price: 0,
       availability: "Limited"
     },
     {
-      name: "Late Evening",
-      time: "9:00 PM - 11:00 PM",
-      description: "Intimate late dining experience with reduced menu",
+      name: t('reservations.timeSlots.lateEvening.name'),
+      time: t('reservations.timeSlots.lateEvening.time'),
+      description: t('reservations.timeSlots.lateEvening.description'),
       price: 0,
       availability: "Available"
     }
@@ -118,51 +118,51 @@ export default function Reservations() {
   // Special packages
   const specialPackages = [
     {
-      name: "Romantic Dinner Package",
-      description: "Perfect for anniversaries and special dates with champagne and dessert",
-      duration: "2.5 hours",
+      name: t('reservations.specialPackages.romanticDinner.name'),
+      description: t('reservations.specialPackages.romanticDinner.description'),
+      duration: t('reservations.specialPackages.romanticDinner.duration'),
       price: 150,
       image: "/images/RS1.jpg",
-      includes: "Champagne, Dessert, Rose Petals"
+      includes: t('reservations.specialPackages.romanticDinner.includes')
     },
     {
-      name: "Business Dinner Package",
-      description: "Professional dining experience with private service and premium wines",
-      duration: "3 hours",
+      name: t('reservations.specialPackages.businessDinner.name'),
+      description: t('reservations.specialPackages.businessDinner.description'),
+      duration: t('reservations.specialPackages.businessDinner.duration'),
       price: 200,
       image: "/images/RS2.jpg",
-      includes: "Private Service, Wine Selection, Business Menu"
+      includes: t('reservations.specialPackages.businessDinner.includes')
     },
     {
-      name: "Celebration Package",
-      description: "Complete celebration experience with decorations and special service",
-      duration: "4 hours",
+      name: t('reservations.specialPackages.celebration.name'),
+      description: t('reservations.specialPackages.celebration.description'),
+      duration: t('reservations.specialPackages.celebration.duration'),
       price: 300,
       image: "/images/RS3.jpg",
-      includes: "Decorations, Cake, Special Service"
+      includes: t('reservations.specialPackages.celebration.includes')
     }
   ]
 
   // Testimonials
   const testimonials = [
     {
-      name: "Emma & James",
-      role: "Anniversary Couple",
-      content: "Our anniversary dinner was absolutely perfect! The reservation process was seamless and the service exceeded our expectations.",
+      name: t('reservations.testimonials.emmaJames.name'),
+      role: t('reservations.testimonials.emmaJames.role'),
+      content: t('reservations.testimonials.emmaJames.content'),
       rating: 5,
       image: "/images/RS6Testimonal1.jpg"
     },
     {
-      name: "Michael Rodriguez",
-      role: "Business Executive",
-      content: "The business dinner package was exceptional. Professional service, perfect ambiance, and our clients were thoroughly impressed.",
+      name: t('reservations.testimonials.michaelRodriguez.name'),
+      role: t('reservations.testimonials.michaelRodriguez.role'),
+      content: t('reservations.testimonials.michaelRodriguez.content'),
       rating: 5,
       image: "/images/RS6Testimonal2.jpg"
     },
     {
-      name: "Sarah Thompson",
-      role: "Event Host",
-      content: "Booking our celebration was so easy! The team handled every detail perfectly and made our special day unforgettable.",
+      name: t('reservations.testimonials.sarahThompson.name'),
+      role: t('reservations.testimonials.sarahThompson.role'),
+      content: t('reservations.testimonials.sarahThompson.content'),
       rating: 5,
       image: "/images/RS6Testimonal3.jpg"
     }
@@ -197,19 +197,18 @@ export default function Reservations() {
         <div className="relative z-10 text-center max-w-4xl mx-auto px-6">
           <ScrollAnimation animation="fade-in" stagger="scroll-stagger-1">
             <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-6 text-white whitespace-nowrap">
-              Reservations Excellence
+              {t('reservations.title')}
             </h1>
           </ScrollAnimation>
           <ScrollAnimation animation="fade-in" stagger="scroll-stagger-2">
-            <p className="text-xl md:text-2xl text-gray-200 mb-8 max-w-2xl mx-auto">
-              Secure your perfect dining experience with our easy reservation system, 
-              featuring multiple dining options and personalized service.
+            <p className="text-xl md:text-2xl text-gray-200 mb-8 max-w-2xl mx-auto whitespace-nowrap">
+              {t('reservations.subtitle')}
             </p>
           </ScrollAnimation>
           <ScrollAnimation animation="fade-in" stagger="scroll-stagger-3">
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <button onClick={() => navigate('/contact')} className="bg-red-600 hover:bg-red-700 text-white px-8 py-4 rounded-lg text-lg font-semibold transition-colors">
-                Make Reservation
+                {t('reservations.makeReservation')}
               </button>
             </div>
           </ScrollAnimation>
@@ -221,12 +220,12 @@ export default function Reservations() {
         <div className="max-w-7xl mx-auto px-6">
           <div className="text-center mb-16">
             <ScrollAnimation animation="fade-in" stagger="scroll-stagger-1">
-              <span className="text-red-500 text-sm font-semibold tracking-wider uppercase">Dining Options</span>
+              <span className="text-red-500 text-sm font-semibold tracking-wider uppercase">{t('reservations.diningOptions.title')}</span>
               <h2 className={`text-5xl font-bold mt-4 mb-6 ${isDark ? 'text-white' : 'text-black'}`}>
-                Choose Your Experience
+                {t('reservations.diningOptions.subtitle')}
               </h2>
               <p className={`text-xl max-w-3xl mx-auto ${isDark ? 'text-gray-300' : 'text-gray-600'}`}>
-                Select from our variety of dining experiences, each designed to create the perfect atmosphere for your occasion
+                {t('reservations.diningOptions.description')}
               </p>
             </ScrollAnimation>
           </div>
@@ -244,32 +243,32 @@ export default function Reservations() {
                     <div className="absolute top-4 right-4">
                       {option.isPremium && (
                         <span className="bg-gold-600 text-white px-3 py-1 rounded-full text-sm font-semibold">
-                          Premium
+                          {t('reservations.diningOptions.premium')}
                         </span>
                       )}
                       {option.isExclusive && (
                         <span className="bg-purple-600 text-white px-3 py-1 rounded-full text-sm font-semibold">
-                          Exclusive
+                          {t('reservations.diningOptions.exclusive')}
                         </span>
                       )}
                       {option.isPrivate && (
                         <span className="bg-blue-600 text-white px-3 py-1 rounded-full text-sm font-semibold">
-                          Private
+                          {t('reservations.diningOptions.private')}
                         </span>
                       )}
                       {option.isOutdoor && (
                         <span className="bg-green-600 text-white px-3 py-1 rounded-full text-sm font-semibold">
-                          Outdoor
+                          {t('reservations.diningOptions.outdoor')}
                         </span>
                       )}
                       {option.isCasual && (
                         <span className="bg-yellow-600 text-white px-3 py-1 rounded-full text-sm font-semibold">
-                          Casual
+                          {t('reservations.diningOptions.casual')}
                         </span>
                       )}
                       {option.isEvent && (
                         <span className="bg-red-600 text-white px-3 py-1 rounded-full text-sm font-semibold">
-                          Events
+                          {t('reservations.diningOptions.events')}
                         </span>
                       )}
                     </div>
@@ -285,7 +284,7 @@ export default function Reservations() {
                         {option.name}
                       </h3>
                       <span className="text-red-500 font-bold text-lg">
-                        {option.price === 0 ? 'Free' : `$${option.price}`}
+                        {option.price === 0 ? t('reservations.diningOptions.free') : `$${option.price}`}
                       </span>
                     </div>
                     <p className={`text-sm mb-3 ${isDark ? 'text-gray-300' : 'text-gray-600'}`}>
@@ -307,12 +306,12 @@ export default function Reservations() {
         <div className="max-w-7xl mx-auto px-6">
           <div className="text-center mb-16">
             <ScrollAnimation animation="fade-in" stagger="scroll-stagger-1">
-              <span className="text-red-500 text-sm font-semibold tracking-wider uppercase">Dining Hours</span>
+              <span className="text-red-500 text-sm font-semibold tracking-wider uppercase">{t('reservations.timeSlots.title')}</span>
               <h2 className={`text-5xl font-bold mt-4 mb-6 ${isDark ? 'text-white' : 'text-black'}`}>
-                Available Time Slots
+                {t('reservations.timeSlots.subtitle')}
               </h2>
               <p className={`text-xl max-w-3xl mx-auto ${isDark ? 'text-gray-300' : 'text-gray-600'}`}>
-                Choose from our carefully planned dining hours to suit your schedule and preferences
+                {t('reservations.timeSlots.description')}
               </p>
             </ScrollAnimation>
           </div>
@@ -337,7 +336,9 @@ export default function Reservations() {
                       slot.availability === 'Limited' ? 'bg-yellow-100 text-yellow-800' :
                       'bg-blue-100 text-blue-800'
                     }`}>
-                      {slot.availability} Availability
+                      {slot.availability === 'High' ? t('reservations.timeSlots.availability.high') :
+                       slot.availability === 'Limited' ? t('reservations.timeSlots.availability.limited') :
+                       t('reservations.timeSlots.availability.available')}
                     </span>
                   </div>
                 </div>
@@ -352,12 +353,12 @@ export default function Reservations() {
         <div className="max-w-7xl mx-auto px-6">
           <div className="text-center mb-16">
             <ScrollAnimation animation="fade-in" stagger="scroll-stagger-1">
-              <span className="text-red-500 text-sm font-semibold tracking-wider uppercase">Special Packages</span>
+              <span className="text-red-500 text-sm font-semibold tracking-wider uppercase">{t('reservations.specialPackages.title')}</span>
               <h2 className={`text-5xl font-bold mt-4 mb-6 ${isDark ? 'text-white' : 'text-black'}`}>
-                Complete Experiences
+                {t('reservations.specialPackages.subtitle')}
               </h2>
               <p className={`text-xl max-w-3xl mx-auto ${isDark ? 'text-gray-300' : 'text-gray-600'}`}>
-                Enhance your dining experience with our specially curated packages for every occasion
+                {t('reservations.specialPackages.description')}
               </p>
             </ScrollAnimation>
           </div>
@@ -384,7 +385,7 @@ export default function Reservations() {
                     </p>
                     <div className="mb-4">
                       <p className={`text-xs font-semibold mb-2 ${isDark ? 'text-gray-400' : 'text-gray-500'}`}>
-                        INCLUDES:
+                        {t('reservations.specialPackages.includes')}
                       </p>
                       <p className={`text-sm ${isDark ? 'text-gray-300' : 'text-gray-600'}`}>
                         {pkg.includes}
@@ -393,7 +394,7 @@ export default function Reservations() {
                     <div className="flex justify-between items-center">
                       <span className="text-2xl font-bold text-red-500">${pkg.price}</span>
                       <button className="bg-red-600 hover:bg-red-700 text-white px-6 py-2 rounded-lg transition-colors">
-                        Book Package
+                        {t('reservations.specialPackages.bookPackage')}
                       </button>
                     </div>
                   </div>
@@ -408,9 +409,9 @@ export default function Reservations() {
       <section className={`py-20 ${isDark ? 'bg-gray-900' : 'bg-white'}`}>
         <div className="max-w-4xl mx-auto px-6 text-center">
           <ScrollAnimation animation="fade-in" stagger="scroll-stagger-1">
-            <span className="text-red-500 text-sm font-semibold tracking-wider uppercase">Guest Reviews</span>
+            <span className="text-red-500 text-sm font-semibold tracking-wider uppercase">{t('reservations.testimonials.title')}</span>
             <h2 className={`text-5xl font-bold mt-4 mb-16 ${isDark ? 'text-white' : 'text-black'}`}>
-              What Our Guests Say
+              {t('reservations.testimonials.subtitle')}
             </h2>
           </ScrollAnimation>
 
@@ -465,12 +466,12 @@ export default function Reservations() {
       <section className={`py-20 ${isDark ? 'bg-gray-800' : 'bg-gray-50'}`}>
         <div className="max-w-4xl mx-auto px-6 text-center">
           <ScrollAnimation animation="fade-in" stagger="scroll-stagger-1">
-            <span className="text-red-500 text-sm font-semibold tracking-wider uppercase">Make Your Reservation</span>
+            <span className="text-red-500 text-sm font-semibold tracking-wider uppercase">{t('reservations.reservationForm.title')}</span>
             <h2 className={`text-5xl font-bold mt-4 mb-6 ${isDark ? 'text-white' : 'text-black'}`}>
-              Book Your Table
+              {t('reservations.reservationForm.subtitle')}
             </h2>
             <p className={`text-xl mb-12 ${isDark ? 'text-gray-300' : 'text-gray-600'}`}>
-              Reserve your perfect dining experience with our easy online booking system
+              {t('reservations.reservationForm.description')}
             </p>
           </ScrollAnimation>
 
@@ -479,7 +480,7 @@ export default function Reservations() {
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
                 <div>
                   <label className={`block text-sm font-semibold mb-2 ${isDark ? 'text-white' : 'text-black'}`}>
-                    Date
+                    {t('reservations.reservationForm.date')}
                   </label>
                   <input
                     type="date"
@@ -488,74 +489,74 @@ export default function Reservations() {
                 </div>
                 <div>
                   <label className={`block text-sm font-semibold mb-2 ${isDark ? 'text-white' : 'text-black'}`}>
-                    Time
+                    {t('reservations.reservationForm.time')}
                   </label>
                   <select className={`w-full p-3 rounded-lg border ${isDark ? 'bg-gray-600 border-gray-500 text-white' : 'bg-white border-gray-300 text-black'}`}>
-                    <option>5:00 PM</option>
-                    <option>5:30 PM</option>
-                    <option>6:00 PM</option>
-                    <option>6:30 PM</option>
-                    <option>7:00 PM</option>
-                    <option>7:30 PM</option>
-                    <option>8:00 PM</option>
-                    <option>8:30 PM</option>
-                    <option>9:00 PM</option>
-                    <option>9:30 PM</option>
+                    <option>{t('reservations.reservationForm.times.5:00PM')}</option>
+                    <option>{t('reservations.reservationForm.times.5:30PM')}</option>
+                    <option>{t('reservations.reservationForm.times.6:00PM')}</option>
+                    <option>{t('reservations.reservationForm.times.6:30PM')}</option>
+                    <option>{t('reservations.reservationForm.times.7:00PM')}</option>
+                    <option>{t('reservations.reservationForm.times.7:30PM')}</option>
+                    <option>{t('reservations.reservationForm.times.8:00PM')}</option>
+                    <option>{t('reservations.reservationForm.times.8:30PM')}</option>
+                    <option>{t('reservations.reservationForm.times.9:00PM')}</option>
+                    <option>{t('reservations.reservationForm.times.9:30PM')}</option>
                   </select>
                 </div>
                 <div>
                   <label className={`block text-sm font-semibold mb-2 ${isDark ? 'text-white' : 'text-black'}`}>
-                    Party Size
+                    {t('reservations.reservationForm.partySize')}
                   </label>
                   <select className={`w-full p-3 rounded-lg border ${isDark ? 'bg-gray-600 border-gray-500 text-white' : 'bg-white border-gray-300 text-black'}`}>
-                    <option>2 Guests</option>
-                    <option>4 Guests</option>
-                    <option>6 Guests</option>
-                    <option>8 Guests</option>
-                    <option>10 Guests</option>
-                    <option>12+ Guests</option>
+                    <option>{t('reservations.reservationForm.guests.2')}</option>
+                    <option>{t('reservations.reservationForm.guests.4')}</option>
+                    <option>{t('reservations.reservationForm.guests.6')}</option>
+                    <option>{t('reservations.reservationForm.guests.8')}</option>
+                    <option>{t('reservations.reservationForm.guests.10')}</option>
+                    <option>{t('reservations.reservationForm.guests.12+')}</option>
                   </select>
                 </div>
                 <div>
                   <label className={`block text-sm font-semibold mb-2 ${isDark ? 'text-white' : 'text-black'}`}>
-                    Dining Option
+                    {t('reservations.reservationForm.diningOption')}
                   </label>
                   <select className={`w-full p-3 rounded-lg border ${isDark ? 'bg-gray-600 border-gray-500 text-white' : 'bg-white border-gray-300 text-black'}`}>
-                    <option>Fine Dining Table</option>
-                    <option>Chef's Table</option>
-                    <option>Private Dining Room</option>
-                    <option>Outdoor Terrace</option>
-                    <option>Wine Bar Seating</option>
-                    <option>Event Space</option>
+                    <option>{t('reservations.diningOptions.fineDiningTable.name')}</option>
+                    <option>{t('reservations.diningOptions.chefsTable.name')}</option>
+                    <option>{t('reservations.diningOptions.privateDiningRoom.name')}</option>
+                    <option>{t('reservations.diningOptions.outdoorTerrace.name')}</option>
+                    <option>{t('reservations.diningOptions.wineBarSeating.name')}</option>
+                    <option>{t('reservations.diningOptions.eventSpace.name')}</option>
                   </select>
                 </div>
                 <div>
                   <label className={`block text-sm font-semibold mb-2 ${isDark ? 'text-white' : 'text-black'}`}>
-                    Special Occasion
+                    {t('reservations.reservationForm.specialOccasion')}
                   </label>
                   <select className={`w-full p-3 rounded-lg border ${isDark ? 'bg-gray-600 border-gray-500 text-white' : 'bg-white border-gray-300 text-black'}`}>
-                    <option>Anniversary</option>
-                    <option>Birthday</option>
-                    <option>Business Dinner</option>
-                    <option>Date Night</option>
-                    <option>Celebration</option>
-                    <option>Other</option>
+                    <option>{t('reservations.reservationForm.occasions.anniversary')}</option>
+                    <option>{t('reservations.reservationForm.occasions.birthday')}</option>
+                    <option>{t('reservations.reservationForm.occasions.businessDinner')}</option>
+                    <option>{t('reservations.reservationForm.occasions.dateNight')}</option>
+                    <option>{t('reservations.reservationForm.occasions.celebration')}</option>
+                    <option>{t('reservations.reservationForm.occasions.other')}</option>
                   </select>
                 </div>
                 <div>
                   <label className={`block text-sm font-semibold mb-2 ${isDark ? 'text-white' : 'text-black'}`}>
-                    Special Package
+                    {t('reservations.reservationForm.specialPackage')}
                   </label>
                   <select className={`w-full p-3 rounded-lg border ${isDark ? 'bg-gray-600 border-gray-500 text-white' : 'bg-white border-gray-300 text-black'}`}>
-                    <option>None</option>
-                    <option>Romantic Dinner Package</option>
-                    <option>Business Dinner Package</option>
-                    <option>Celebration Package</option>
+                    <option>{t('reservations.reservationForm.packages.none')}</option>
+                    <option>{t('reservations.reservationForm.packages.romanticDinner')}</option>
+                    <option>{t('reservations.reservationForm.packages.businessDinner')}</option>
+                    <option>{t('reservations.reservationForm.packages.celebration')}</option>
                   </select>
                 </div>
               </div>
               <button className="w-full bg-red-600 hover:bg-red-700 text-white py-4 rounded-lg text-lg font-semibold transition-colors">
-                Confirm Reservation
+                {t('reservations.reservationForm.confirmReservation')}
               </button>
             </div>
           </ScrollAnimation>

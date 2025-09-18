@@ -30,56 +30,56 @@ export default function WinePairing() {
   const winePairingMenu = [
     {
       id: 1,
-      name: "Champagne & Caviar",
-      description: "Premium Dom Pérignon paired with Beluga caviar and blinis",
+      name: t('winePairing.menu.items.champagneCaviar.name'),
+      description: t('winePairing.menu.items.champagneCaviar.description'),
       price: 180,
       image: "/images/Lobster Risotto.jpg",
-      category: "Luxury",
+      category: t('winePairing.menu.items.champagneCaviar.category'),
       isLuxury: true
     },
     {
       id: 2,
-      name: "Bordeaux & Wagyu",
-      description: "Château Margaux 2018 with Japanese Wagyu beef tenderloin",
+      name: t('winePairing.menu.items.bordeauxWagyu.name'),
+      description: t('winePairing.menu.items.bordeauxWagyu.description'),
       price: 220,
       image: "/images/Prime Beef Tenderloin.jpg",
-      category: "Premium",
+      category: t('winePairing.menu.items.bordeauxWagyu.category'),
       isPremium: true
     },
     {
       id: 3,
-      name: "Burgundy & Lobster",
-      description: "Domaine de la Romanée-Conti with Maine lobster thermidor",
+      name: t('winePairing.menu.items.burgundyLobster.name'),
+      description: t('winePairing.menu.items.burgundyLobster.description'),
       price: 280,
       image: "/images/Mediterranean Seafood Pasta.jpg",
-      category: "Classic",
+      category: t('winePairing.menu.items.burgundyLobster.category'),
       isClassic: true
     },
     {
       id: 4,
-      name: "Chianti & Risotto",
-      description: "Antinori Chianti Classico with truffle risotto",
+      name: t('winePairing.menu.items.chiantiRisotto.name'),
+      description: t('winePairing.menu.items.chiantiRisotto.description'),
       price: 95,
       image: "/images/Signature Grilled Salmon.jpg",
-      category: "Italian",
+      category: t('winePairing.menu.items.chiantiRisotto.category'),
       isItalian: true
     },
     {
       id: 5,
-      name: "Port & Chocolate",
-      description: "Vintage Port with warm chocolate soufflé",
+      name: t('winePairing.menu.items.portChocolate.name'),
+      description: t('winePairing.menu.items.portChocolate.description'),
       price: 65,
       image: "/images/Chocolate Lava Cak.jpg",
-      category: "Dessert",
+      category: t('winePairing.menu.items.portChocolate.category'),
       isDessert: true
     },
     {
       id: 6,
-      name: "Sauternes & Foie Gras",
-      description: "Château d'Yquem with pan-seared foie gras",
+      name: t('winePairing.menu.items.sauternesFoieGras.name'),
+      description: t('winePairing.menu.items.sauternesFoieGras.description'),
       price: 150,
       image: "/images/Garden Fresh Bowl.jpg",
-      category: "French",
+      category: t('winePairing.menu.items.sauternesFoieGras.category'),
       isFrench: true
     }
   ]
@@ -87,79 +87,79 @@ export default function WinePairing() {
   // Wine collection
   const wineCollection = [
     {
-      name: "Dom Pérignon Vintage",
-      type: "Champagne",
-      year: "2015",
-      description: "Perfect for celebrations and seafood pairings",
+      name: t('winePairing.collection.items.domPerignon.name'),
+      type: t('winePairing.collection.items.domPerignon.type'),
+      year: t('winePairing.collection.items.domPerignon.year'),
+      description: t('winePairing.collection.items.domPerignon.description'),
       price: 320,
-      region: "France"
+      region: t('winePairing.collection.items.domPerignon.region')
     },
     {
-      name: "Château Margaux",
-      type: "Red Wine",
-      year: "2018",
-      description: "Elegant Bordeaux for premium meats",
+      name: t('winePairing.collection.items.chateauMargaux.name'),
+      type: t('winePairing.collection.items.chateauMargaux.type'),
+      year: t('winePairing.collection.items.chateauMargaux.year'),
+      description: t('winePairing.collection.items.chateauMargaux.description'),
       price: 520,
-      region: "Bordeaux"
+      region: t('winePairing.collection.items.chateauMargaux.region')
     },
     {
-      name: "Domaine de la Romanée-Conti",
-      type: "Pinot Noir",
-      year: "2019",
-      description: "Rare Burgundy for special occasions",
+      name: t('winePairing.collection.items.drc.name'),
+      type: t('winePairing.collection.items.drc.type'),
+      year: t('winePairing.collection.items.drc.year'),
+      description: t('winePairing.collection.items.drc.description'),
       price: 1500,
-      region: "Burgundy"
+      region: t('winePairing.collection.items.drc.region')
     }
   ]
 
   // Wine experiences
   const wineExperiences = [
     {
-      name: "Sommelier's Tasting Journey",
-      description: "Guided wine tasting with our master sommelier featuring 6 premium wines",
-      duration: "2 hours",
+      name: t('winePairing.experiences.items.sommelierJourney.name'),
+      description: t('winePairing.experiences.items.sommelierJourney.description'),
+      duration: t('winePairing.experiences.items.sommelierJourney.duration'),
       price: 120,
       image: "/images/RS1.jpg",
-      wines: "6 Premium Wines"
+      wines: t('winePairing.experiences.items.sommelierJourney.wines')
     },
     {
-      name: "Food & Wine Pairing",
-      description: "Complete dining experience with expertly paired wines for each course",
-      duration: "3 hours",
+      name: t('winePairing.experiences.items.foodWinePairing.name'),
+      description: t('winePairing.experiences.items.foodWinePairing.description'),
+      duration: t('winePairing.experiences.items.foodWinePairing.duration'),
       price: 180,
       image: "/images/RS2.jpg",
-      wines: "5 Course Menu"
+      wines: t('winePairing.experiences.items.foodWinePairing.wines')
     },
     {
-      name: "Private Wine Cellar Tour",
-      description: "Exclusive tour of our wine cellar with rare vintage tastings",
-      duration: "1.5 hours",
+      name: t('winePairing.experiences.items.privateCellarTour.name'),
+      description: t('winePairing.experiences.items.privateCellarTour.description'),
+      duration: t('winePairing.experiences.items.privateCellarTour.duration'),
       price: 95,
       image: "/images/RS3.jpg",
-      wines: "Rare Vintages"
+      wines: t('winePairing.experiences.items.privateCellarTour.wines')
     }
   ]
 
   // Testimonials
   const testimonials = [
     {
-      name: "Isabella Martinez",
-      role: "Wine Enthusiast",
-      content: "The sommelier's expertise is extraordinary. Each wine pairing was perfectly matched and elevated the entire dining experience.",
+      name: t('winePairing.testimonials.items.isabella.name'),
+      role: t('winePairing.testimonials.items.isabella.role'),
+      content: t('winePairing.testimonials.items.isabella.content'),
       rating: 5,
       image: "/images/RS5Testimonal1.jpg"
     },
     {
-      name: "David Thompson",
-      role: "Restaurant Critic",
-      content: "This is wine pairing at its absolute finest. The knowledge and passion of the sommelier team is unmatched.",
+      name: t('winePairing.testimonials.items.david.name'),
+      role: t('winePairing.testimonials.items.david.role'),
+      content: t('winePairing.testimonials.items.david.content'),
       rating: 5,
       image: "/images/RS5Testimonal2.jpg"
     },
     {
-      name: "Sophie Chen",
-      role: "Food Blogger",
-      content: "An incredible journey through exceptional wines. The pairings were so perfect, each sip revealed new flavors.",
+      name: t('winePairing.testimonials.items.sophie.name'),
+      role: t('winePairing.testimonials.items.sophie.role'),
+      content: t('winePairing.testimonials.items.sophie.content'),
       rating: 5,
       image: "/images/RS5Testimonal3.jpg"
     }
@@ -194,19 +194,18 @@ export default function WinePairing() {
         <div className="relative z-10 text-center max-w-4xl mx-auto px-6">
           <ScrollAnimation animation="fade-in" stagger="scroll-stagger-1">
             <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-6 text-white whitespace-nowrap">
-              Wine Pairing Excellence
+              {t('winePairing.hero.title')}
             </h1>
           </ScrollAnimation>
           <ScrollAnimation animation="fade-in" stagger="scroll-stagger-2">
             <p className="text-xl md:text-2xl text-gray-200 mb-8 max-w-2xl mx-auto">
-              Discover the art of perfect wine pairing with our master sommelier, 
-              featuring exceptional wines and expertly crafted food combinations.
+              {t('winePairing.hero.subtitle')}
             </p>
           </ScrollAnimation>
           <ScrollAnimation animation="fade-in" stagger="scroll-stagger-3">
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <button onClick={() => navigate('/contact')} className="bg-red-600 hover:bg-red-700 text-white px-8 py-4 rounded-lg text-lg font-semibold transition-colors">
-                Book Tasting
+                {t('winePairing.hero.cta')}
               </button>
             </div>
           </ScrollAnimation>
@@ -218,12 +217,12 @@ export default function WinePairing() {
         <div className="max-w-7xl mx-auto px-6">
           <div className="text-center mb-16">
             <ScrollAnimation animation="fade-in" stagger="scroll-stagger-1">
-              <span className="text-red-500 text-sm font-semibold tracking-wider uppercase">Sommelier's Selection</span>
+              <span className="text-red-500 text-sm font-semibold tracking-wider uppercase">{t('winePairing.menu.badge')}</span>
               <h2 className={`text-5xl font-bold mt-4 mb-6 ${isDark ? 'text-white' : 'text-black'}`}>
-                Wine Pairing Menu
+                {t('winePairing.menu.title')}
               </h2>
               <p className={`text-xl max-w-3xl mx-auto ${isDark ? 'text-gray-300' : 'text-gray-600'}`}>
-                Carefully curated wine and food pairings designed by our master sommelier
+                {t('winePairing.menu.subtitle')}
               </p>
             </ScrollAnimation>
           </div>
@@ -241,32 +240,32 @@ export default function WinePairing() {
                     <div className="absolute top-4 right-4">
                       {item.isLuxury && (
                         <span className="bg-purple-600 text-white px-3 py-1 rounded-full text-sm font-semibold">
-                          Luxury
+                          {t('winePairing.menu.tags.luxury')}
                         </span>
                       )}
                       {item.isPremium && (
                         <span className="bg-gold-600 text-white px-3 py-1 rounded-full text-sm font-semibold">
-                          Premium
+                          {t('winePairing.menu.tags.premium')}
                         </span>
                       )}
                       {item.isClassic && (
                         <span className="bg-blue-600 text-white px-3 py-1 rounded-full text-sm font-semibold">
-                          Classic
+                          {t('winePairing.menu.tags.classic')}
                         </span>
                       )}
                       {item.isItalian && (
                         <span className="bg-green-600 text-white px-3 py-1 rounded-full text-sm font-semibold">
-                          Italian
+                          {t('winePairing.menu.tags.italian')}
                         </span>
                       )}
                       {item.isDessert && (
                         <span className="bg-pink-600 text-white px-3 py-1 rounded-full text-sm font-semibold">
-                          Dessert
+                          {t('winePairing.menu.tags.dessert')}
                         </span>
                       )}
                       {item.isFrench && (
                         <span className="bg-red-600 text-white px-3 py-1 rounded-full text-sm font-semibold">
-                          French
+                          {t('winePairing.menu.tags.french')}
                         </span>
                       )}
                     </div>
@@ -297,12 +296,12 @@ export default function WinePairing() {
         <div className="max-w-7xl mx-auto px-6">
           <div className="text-center mb-16">
             <ScrollAnimation animation="fade-in" stagger="scroll-stagger-1">
-              <span className="text-red-500 text-sm font-semibold tracking-wider uppercase">Premium Collection</span>
+              <span className="text-red-500 text-sm font-semibold tracking-wider uppercase">{t('winePairing.collection.badge')}</span>
               <h2 className={`text-5xl font-bold mt-4 mb-6 ${isDark ? 'text-white' : 'text-black'}`}>
-                Wine Collection
+                {t('winePairing.collection.title')}
               </h2>
               <p className={`text-xl max-w-3xl mx-auto ${isDark ? 'text-gray-300' : 'text-gray-600'}`}>
-                Exceptional wines from the world's most prestigious vineyards and regions
+                {t('winePairing.collection.subtitle')}
               </p>
             </ScrollAnimation>
           </div>
@@ -335,12 +334,12 @@ export default function WinePairing() {
         <div className="max-w-7xl mx-auto px-6">
           <div className="text-center mb-16">
             <ScrollAnimation animation="fade-in" stagger="scroll-stagger-1">
-              <span className="text-red-500 text-sm font-semibold tracking-wider uppercase">Wine Experiences</span>
+              <span className="text-red-500 text-sm font-semibold tracking-wider uppercase">{t('winePairing.experiences.badge')}</span>
               <h2 className={`text-5xl font-bold mt-4 mb-6 ${isDark ? 'text-white' : 'text-black'}`}>
-                Sommelier Experiences
+                {t('winePairing.experiences.title')}
               </h2>
               <p className={`text-xl max-w-3xl mx-auto ${isDark ? 'text-gray-300' : 'text-gray-600'}`}>
-                Immerse yourself in our exclusive wine experiences guided by our master sommelier
+                {t('winePairing.experiences.subtitle')}
               </p>
             </ScrollAnimation>
           </div>
@@ -373,7 +372,7 @@ export default function WinePairing() {
                     <div className="flex justify-between items-center">
                       <span className="text-2xl font-bold text-red-500">${experience.price}</span>
                       <button className="bg-red-600 hover:bg-red-700 text-white px-6 py-2 rounded-lg transition-colors">
-                        Book Experience
+                        {t('winePairing.experiences.bookCta')}
                       </button>
                     </div>
                   </div>
@@ -388,9 +387,9 @@ export default function WinePairing() {
       <section className={`py-20 ${isDark ? 'bg-gray-900' : 'bg-white'}`}>
         <div className="max-w-4xl mx-auto px-6 text-center">
           <ScrollAnimation animation="fade-in" stagger="scroll-stagger-1">
-            <span className="text-red-500 text-sm font-semibold tracking-wider uppercase">Wine Enthusiast Reviews</span>
+            <span className="text-red-500 text-sm font-semibold tracking-wider uppercase">{t('winePairing.testimonials.badge')}</span>
             <h2 className={`text-5xl font-bold mt-4 mb-16 ${isDark ? 'text-white' : 'text-black'}`}>
-              What Wine Lovers Say
+              {t('winePairing.testimonials.title')}
             </h2>
           </ScrollAnimation>
 
@@ -445,12 +444,12 @@ export default function WinePairing() {
       <section className={`py-20 ${isDark ? 'bg-gray-800' : 'bg-gray-50'}`}>
         <div className="max-w-4xl mx-auto px-6 text-center">
           <ScrollAnimation animation="fade-in" stagger="scroll-stagger-1">
-            <span className="text-red-500 text-sm font-semibold tracking-wider uppercase">Reserve Your Experience</span>
+            <span className="text-red-500 text-sm font-semibold tracking-wider uppercase">{t('winePairing.form.badge')}</span>
             <h2 className={`text-5xl font-bold mt-4 mb-6 ${isDark ? 'text-white' : 'text-black'}`}>
-              Book Your Wine Tasting
+              {t('winePairing.form.title')}
             </h2>
             <p className={`text-xl mb-12 ${isDark ? 'text-gray-300' : 'text-gray-600'}`}>
-              Secure your spot for an unforgettable wine tasting experience with our master sommelier
+              {t('winePairing.form.subtitle')}
             </p>
           </ScrollAnimation>
 
@@ -459,7 +458,7 @@ export default function WinePairing() {
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
                 <div>
                   <label className={`block text-sm font-semibold mb-2 ${isDark ? 'text-white' : 'text-black'}`}>
-                    Date
+                    {t('winePairing.form.date')}
                   </label>
                   <input
                     type="date"
@@ -468,43 +467,43 @@ export default function WinePairing() {
                 </div>
                 <div>
                   <label className={`block text-sm font-semibold mb-2 ${isDark ? 'text-white' : 'text-black'}`}>
-                    Time
+                    {t('winePairing.form.time')}
                   </label>
                   <select className={`w-full p-3 rounded-lg border ${isDark ? 'bg-gray-600 border-gray-500 text-white' : 'bg-white border-gray-300 text-black'}`}>
-                    <option>6:00 PM</option>
-                    <option>6:30 PM</option>
-                    <option>7:00 PM</option>
-                    <option>7:30 PM</option>
-                    <option>8:00 PM</option>
-                    <option>8:30 PM</option>
+                    <option>{t('winePairing.form.times.t600')}</option>
+                    <option>{t('winePairing.form.times.t630')}</option>
+                    <option>{t('winePairing.form.times.t700')}</option>
+                    <option>{t('winePairing.form.times.t730')}</option>
+                    <option>{t('winePairing.form.times.t800')}</option>
+                    <option>{t('winePairing.form.times.t830')}</option>
                   </select>
                 </div>
                 <div>
                   <label className={`block text-sm font-semibold mb-2 ${isDark ? 'text-white' : 'text-black'}`}>
-                    Party Size
+                    {t('winePairing.form.partySize')}
                   </label>
                   <select className={`w-full p-3 rounded-lg border ${isDark ? 'bg-gray-600 border-gray-500 text-white' : 'bg-white border-gray-300 text-black'}`}>
-                    <option>2 Guests</option>
-                    <option>4 Guests</option>
-                    <option>6 Guests</option>
-                    <option>8 Guests</option>
-                    <option>10 Guests</option>
-                    <option>12 Guests</option>
+                    <option>{t('winePairing.form.guests.two')}</option>
+                    <option>{t('winePairing.form.guests.four')}</option>
+                    <option>{t('winePairing.form.guests.six')}</option>
+                    <option>{t('winePairing.form.guests.eight')}</option>
+                    <option>{t('winePairing.form.guests.ten')}</option>
+                    <option>{t('winePairing.form.guests.twelve')}</option>
                   </select>
                 </div>
                 <div>
                   <label className={`block text-sm font-semibold mb-2 ${isDark ? 'text-white' : 'text-black'}`}>
-                    Experience Type
+                    {t('winePairing.form.experienceType')}
                   </label>
                   <select className={`w-full p-3 rounded-lg border ${isDark ? 'bg-gray-600 border-gray-500 text-white' : 'bg-white border-gray-300 text-black'}`}>
-                    <option>Sommelier's Tasting Journey</option>
-                    <option>Food & Wine Pairing</option>
-                    <option>Private Wine Cellar Tour</option>
+                    <option>{t('winePairing.experiences.items.sommelierJourney.name')}</option>
+                    <option>{t('winePairing.experiences.items.foodWinePairing.name')}</option>
+                    <option>{t('winePairing.experiences.items.privateCellarTour.name')}</option>
                   </select>
                 </div>
               </div>
               <button className="w-full bg-red-600 hover:bg-red-700 text-white py-4 rounded-lg text-lg font-semibold transition-colors">
-                Reserve Wine Tasting
+                {t('winePairing.form.submit')}
               </button>
             </div>
           </ScrollAnimation>

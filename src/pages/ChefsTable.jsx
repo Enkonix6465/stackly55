@@ -30,56 +30,44 @@ export default function ChefsTable() {
   const chefsTableMenu = [
     {
       id: 1,
-      name: "Chef's Signature Amuse-Bouche",
-      description: "A delicate introduction featuring seasonal ingredients and innovative techniques",
+      translationKey: 'amuseBouche',
       price: 25,
       image: "/images/Lobster Risotto.jpg",
-      category: "Amuse-Bouche",
       isExclusive: true
     },
     {
       id: 2,
-      name: "Wagyu Beef Carpaccio",
-      description: "Premium Japanese Wagyu with truffle oil, microgreens, and aged balsamic",
+      translationKey: 'wagyuCarpaccio',
       price: 45,
       image: "/images/Prime Beef Tenderloin.jpg",
-      category: "Appetizer",
       isPremium: true
     },
     {
       id: 3,
-      name: "Lobster Thermidor",
-      description: "Fresh Maine lobster in creamy cognac sauce with gruyere cheese",
+      translationKey: 'lobsterThermidor',
       price: 52,
       image: "/images/Mediterranean Seafood Pasta.jpg",
-      category: "Main Course",
       isClassic: true
     },
     {
       id: 4,
-      name: "Truffle Risotto",
-      description: "Creamy Arborio rice with wild mushrooms, truffle oil, and aged Parmesan",
+      translationKey: 'truffleRisotto',
       price: 38,
       image: "/images/Signature Grilled Salmon.jpg",
-      category: "Main Course",
       isSignature: true
     },
     {
       id: 5,
-      name: "Chocolate Soufflé",
-      description: "Warm chocolate soufflé with vanilla bean ice cream and gold leaf",
+      translationKey: 'chocolateSouffle',
       price: 28,
       image: "/images/Chocolate Lava Cak.jpg",
-      category: "Dessert",
       isExclusive: true
     },
     {
       id: 6,
-      name: "Caviar Selection",
-      description: "Premium Beluga caviar with blinis, crème fraîche, and champagne",
+      translationKey: 'caviarSelection',
       price: 150,
       image: "/images/Garden Fresh Bowl.jpg",
-      category: "Luxury",
       isLuxury: true
     }
   ]
@@ -240,7 +228,7 @@ export default function ChefsTable() {
                   <div className="relative h-64 overflow-hidden">
                     <img
                       src={item.image}
-                      alt={item.name}
+                      alt={t(`chefsTablePage.menu.items.${item.translationKey}.name`)}
                       className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
                     />
                     <div className="absolute top-4 right-4">
@@ -274,15 +262,15 @@ export default function ChefsTable() {
                   <div className="p-6">
                     <div className="flex justify-between items-start mb-2">
                       <h3 className={`text-xl font-bold ${isDark ? 'text-white' : 'text-black'}`}>
-                        {item.name}
+                        {t(`chefsTablePage.menu.items.${item.translationKey}.name`)}
                       </h3>
                       <span className="text-red-500 font-bold text-lg">${item.price}</span>
                     </div>
                     <p className={`text-sm mb-3 ${isDark ? 'text-gray-300' : 'text-gray-600'}`}>
-                      {item.description}
+                      {t(`chefsTablePage.menu.items.${item.translationKey}.description`)}
                     </p>
                     <span className="text-xs text-gray-500 uppercase tracking-wider">
-                      {item.category}
+                      {t(`chefsTablePage.menu.items.${item.translationKey}.category`)}
                     </span>
                   </div>
                 </div>
