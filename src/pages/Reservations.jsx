@@ -33,7 +33,7 @@ export default function Reservations() {
       name: t('reservations.diningOptions.fineDiningTable.name'),
       description: t('reservations.diningOptions.fineDiningTable.description'),
       price: 0,
-      image: "/images/Lobster Risotto.jpg",
+      image: "/images/Fine Dining Table.jpg",
       category: t('reservations.diningOptions.fineDiningTable.category'),
       isPremium: true,
       capacity: t('reservations.diningOptions.fineDiningTable.capacity')
@@ -43,7 +43,7 @@ export default function Reservations() {
       name: t('reservations.diningOptions.chefsTable.name'),
       description: t('reservations.diningOptions.chefsTable.description'),
       price: 50,
-      image: "/images/Prime Beef Tenderloin.jpg",
+      image: "/images/Chef's Table.jpg",
       category: t('reservations.diningOptions.chefsTable.category'),
       isExclusive: true,
       capacity: t('reservations.diningOptions.chefsTable.capacity')
@@ -53,7 +53,7 @@ export default function Reservations() {
       name: t('reservations.diningOptions.privateDiningRoom.name'),
       description: t('reservations.diningOptions.privateDiningRoom.description'),
       price: 100,
-      image: "/images/Mediterranean Seafood Pasta.jpg",
+      image: "/images/Private Dining Room.jpg",
       category: t('reservations.diningOptions.privateDiningRoom.category'),
       isPrivate: true,
       capacity: t('reservations.diningOptions.privateDiningRoom.capacity')
@@ -63,7 +63,7 @@ export default function Reservations() {
       name: t('reservations.diningOptions.outdoorTerrace.name'),
       description: t('reservations.diningOptions.outdoorTerrace.description'),
       price: 0,
-      image: "/images/Signature Grilled Salmon.jpg",
+      image: "/images/Outdoor Terrace.jpg",
       category: t('reservations.diningOptions.outdoorTerrace.category'),
       isOutdoor: true,
       capacity: t('reservations.diningOptions.outdoorTerrace.capacity')
@@ -73,7 +73,7 @@ export default function Reservations() {
       name: t('reservations.diningOptions.wineBarSeating.name'),
       description: t('reservations.diningOptions.wineBarSeating.description'),
       price: 0,
-      image: "/images/Chocolate Lava Cak.jpg",
+      image: "/images/Wine Bar Seating.jpg",
       category: t('reservations.diningOptions.wineBarSeating.category'),
       isCasual: true,
       capacity: t('reservations.diningOptions.wineBarSeating.capacity')
@@ -83,7 +83,7 @@ export default function Reservations() {
       name: t('reservations.diningOptions.eventSpace.name'),
       description: t('reservations.diningOptions.eventSpace.description'),
       price: 200,
-      image: "/images/Garden Fresh Bowl.jpg",
+      image: "/images/Event Space.jpg",
       category: t('reservations.diningOptions.eventSpace.category'),
       isEvent: true,
       capacity: t('reservations.diningOptions.eventSpace.capacity')
@@ -122,7 +122,7 @@ export default function Reservations() {
       description: t('reservations.specialPackages.romanticDinner.description'),
       duration: t('reservations.specialPackages.romanticDinner.duration'),
       price: 150,
-      image: "/images/RS1.jpg",
+      image: "/images/Romantic Dinner Package.jpg",
       includes: t('reservations.specialPackages.romanticDinner.includes')
     },
     {
@@ -130,7 +130,7 @@ export default function Reservations() {
       description: t('reservations.specialPackages.businessDinner.description'),
       duration: t('reservations.specialPackages.businessDinner.duration'),
       price: 200,
-      image: "/images/RS2.jpg",
+      image: "/images/Business Dinner Packag.jpg",
       includes: t('reservations.specialPackages.businessDinner.includes')
     },
     {
@@ -138,7 +138,7 @@ export default function Reservations() {
       description: t('reservations.specialPackages.celebration.description'),
       duration: t('reservations.specialPackages.celebration.duration'),
       price: 300,
-      image: "/images/RS3.jpg",
+      image: "/images/Celebration Package.jpg",
       includes: t('reservations.specialPackages.celebration.includes')
     }
   ]
