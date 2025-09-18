@@ -38,7 +38,7 @@ export default function BlogPost1() {
       <section 
         className="relative text-white"
         style={{
-          backgroundImage: "url('/images/Italian thali.jpeg')",
+          backgroundImage: "url('/images/RB!.jpg')",
           backgroundSize: "cover",
           backgroundPosition: "center"
         }}
@@ -78,7 +78,7 @@ export default function BlogPost1() {
             <div className="lg:col-span-2">
               <article className="prose prose-lg max-w-none dark:prose-invert">
                 <img
-                  src="/images/Italian thali.jpeg"
+                  src="/images/RB!.jpg"
                   alt="Authentic Italian Cuisine"
                   className="w-full h-64 object-cover rounded-xl mb-8"
                 />
