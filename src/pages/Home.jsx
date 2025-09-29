@@ -2,7 +2,6 @@ import { useEffect, useState, useRef } from 'react'
 import { useNavigate } from 'react-router-dom'
 import { getCurrentUser, logoutUser, isAuthenticated } from '../utils/auth'
 import Navbar from '../components/Navbar'
-import { ThemeDebug } from '../components/theme-debug'
 import Footer from '../components/Footer'
 import ScrollAnimation from '../components/ScrollAnimation'
 import { useTranslation } from 'react-i18next'
@@ -134,7 +133,6 @@ export default function Home() {
   return (
     <div className={isDark ? 'bg-gray-900 text-white transition-colors' : 'bg-white text-black transition-colors'}>
       <Navbar user={user} />
-      <ThemeDebug />
 
       {/* Hero Section */}
       <section className="relative overflow-hidden h-screen flex items-center justify-center text-center bg-black">
@@ -156,13 +154,13 @@ export default function Home() {
         {/* Content */}
         <div className="relative z-10 px-6 max-w-4xl">
           <ScrollAnimation animation="fade-in" stagger="scroll-stagger-1">
-            <h1 className="text-4xl md:text-5xl font-bold leading-tight text-white mb-6 whitespace-nowrap" style={{ fontFamily: 'serif' }}>
+            <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold leading-tight text-white mb-6" style={{ fontFamily: 'serif' }}>
               {t('home1.hero.title')}
             </h1>
           </ScrollAnimation>
           
           <ScrollAnimation animation="fade-in" stagger="scroll-stagger-2">
-            <p className="mt-6 text-xl text-white/90 max-w-3xl mx-auto mb-8 whitespace-nowrap">
+            <p className="mt-6 text-base sm:text-lg md:text-xl text-white/90 max-w-3xl mx-auto mb-8 px-4">
               {t('home1.hero.subtitle')}
             </p>
           </ScrollAnimation>
@@ -181,24 +179,24 @@ export default function Home() {
       </section>
 
       {/* Welcome Section */}
-      <section className={`py-20 ${isDark ? 'bg-gray-800 text-white' : 'bg-white text-black'}`}>
-        <div className="max-w-7xl mx-auto px-4">
-          <div className="grid lg:grid-cols-2 gap-12 items-center">
+      <section className={`py-12 sm:py-16 md:py-20 ${isDark ? 'bg-gray-800 text-white' : 'bg-white text-black'}`}>
+        <div className="max-w-7xl mx-auto px-4 sm:px-6">
+          <div className="grid lg:grid-cols-2 gap-8 sm:gap-12 items-center">
             {/* Left Side - Content */}
-            <div className="space-y-8">
+            <div className="space-y-6 sm:space-y-6 md:space-y-8">
               <ScrollAnimation animation="slide-in-left" stagger="scroll-stagger-1">
                 <div className="space-y-4">
-                  <h2 className={`text-3xl md:text-4xl font-bold uppercase whitespace-nowrap ${isDark ? 'text-white' : 'text-black'}`}>
+                  <h2 className={`text-2xl sm:text-3xl md:text-4xl font-bold uppercase ${isDark ? 'text-white' : 'text-black'}`}>
 {t('home1.welcome.title')}
                   </h2>
-                  <h3 className="text-xl md:text-2xl text-red-600 font-semibold whitespace-nowrap">
+                  <h3 className="text-lg sm:text-xl md:text-2xl text-red-600 font-semibold">
 {t('home1.welcome.subtitle')}
                   </h3>
                 </div>
               </ScrollAnimation>
               
               <ScrollAnimation animation="slide-in-left" stagger="scroll-stagger-2">
-                <p className={`text-lg leading-relaxed ${isDark ? 'text-gray-300' : 'text-black'}`}>
+                <p className={`text-base sm:text-lg leading-relaxed ${isDark ? 'text-gray-300' : 'text-black'}`}>
 {t('home1.welcome.description')}
                 </p>
               </ScrollAnimation>
@@ -206,7 +204,7 @@ export default function Home() {
               <ScrollAnimation animation="slide-in-left" stagger="scroll-stagger-3">
                 <a
                   href="/services"
-                  className="btn-animate-strong rounded-lg px-8 py-4 font-bold text-lg transition-all duration-300 bg-red-500 text-white hover:bg-red-600 shadow-lg hover:shadow-xl mt-8 inline-block"
+                  className="btn-animate-strong rounded-lg px-6 sm:px-8 py-3 sm:py-4 font-bold text-base sm:text-lg transition-all duration-300 bg-red-500 text-white hover:bg-red-600 shadow-lg hover:shadow-xl mt-8 inline-block"
                 >
                   {t('home1.welcome.viewButton')}
                 </a>
@@ -231,24 +229,24 @@ export default function Home() {
       </section>
 
       {/* Featured Dishes Section */}
-      <section id="menu" className={`py-20 ${isDark ? 'bg-gray-900 text-white' : 'bg-white text-black'}`}>
-        <div className="max-w-7xl mx-auto px-4">
+      <section id="menu" className={`py-12 sm:py-16 md:py-20 ${isDark ? 'bg-gray-900 text-white' : 'bg-white text-black'}`}>
+        <div className="max-w-7xl mx-auto px-4 sm:px-6">
           {/* Header */}
-          <div className="text-center mb-16">
-            <ScrollAnimation animation="fade-in" stagger="scroll-stagger-1">
-              <h2 className={`text-4xl md:text-5xl font-bold mb-4 ${isDark ? 'text-white' : 'text-black'}`}>
+          <div className="text-center mb-12 sm:mb-16">
+              <ScrollAnimation animation="fade-in" stagger="scroll-stagger-1">
+                <h2 className={`text-3xl sm:text-4xl md:text-5xl font-bold mb-4 ${isDark ? 'text-white' : 'text-black'}`}>
 {t('home1.signatureDishes.title')}
-              </h2>
-            </ScrollAnimation>
-            <ScrollAnimation animation="fade-in" stagger="scroll-stagger-2">
-              <p className={`text-lg whitespace-nowrap mb-8 ${isDark ? 'text-gray-300' : 'text-gray-600'}`}>
+                </h2>
+              </ScrollAnimation>
+              <ScrollAnimation animation="fade-in" stagger="scroll-stagger-2">
+                <p className={`text-base sm:text-lg mb-8 px-4 ${isDark ? 'text-gray-300' : 'text-gray-600'}`}>
 {t('home1.signatureDishes.subtitle')}
-              </p>
-            </ScrollAnimation>
+                </p>
+              </ScrollAnimation>
           </div>
 
           {/* Dishes Grid */}
-          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
             {featuredDishes.map((dish, index) => (
               <ScrollAnimation key={dish.id} animation="fade-in" stagger={`scroll-stagger-${(index % 6) + 1}`}>
                 <div className={`rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 overflow-hidden border hover:border-red-200 group ${isDark ? 'bg-gray-800 border-gray-700' : 'bg-white border-gray-100'}`}>
@@ -333,14 +331,14 @@ export default function Home() {
       </section>
 
       {/* About Us Section */}
-      <section className={`py-20 ${isDark ? 'bg-gray-900 text-white' : 'bg-black text-white'}`}>
-        <div className="max-w-7xl mx-auto px-4">
-          <div className="grid lg:grid-cols-2 gap-12 items-stretch">
+      <section className={`py-12 sm:py-16 md:py-20 ${isDark ? 'bg-gray-900 text-white' : 'bg-black text-white'}`}>
+        <div className="max-w-7xl mx-auto px-4 sm:px-6">
+          <div className="grid lg:grid-cols-2 gap-8 sm:gap-12 items-stretch">
             {/* Left Side - Content */}
-            <div className="flex flex-col justify-center space-y-8 h-[500px]">
+            <div className="flex flex-col justify-center space-y-6 sm:space-y-8 h-auto sm:h-[500px]">
               <ScrollAnimation animation="slide-in-left" stagger="scroll-stagger-1">
                 <div className="space-y-4">
-                  <h2 className="text-4xl md:text-5xl font-bold text-white">
+                  <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-white">
 {t('home1.culinaryJourney.title')}
                   </h2>
                 </div>
@@ -353,11 +351,11 @@ export default function Home() {
               </ScrollAnimation>
               
               <ScrollAnimation animation="slide-in-left" stagger="scroll-stagger-3">
-                <div className="grid grid-cols-2 gap-6">
-                  {restaurantStats.map((stat, index) => (
-                    <div key={index} className={`text-center p-6 rounded-xl border ${isDark ? 'bg-white/5 border-white/10' : 'bg-white/5 border-white/10'}`}>
-                      <div className="text-3xl font-bold text-red-500 mb-2">{stat.number}</div>
-                      <div className="text-sm text-gray-300">{stat.label}</div>
+                <div className="grid grid-cols-2 gap-3 sm:gap-6">
+          {restaurantStats.map((stat, index) => (
+                    <div key={index} className={`text-center p-4 sm:p-6 rounded-xl border ${isDark ? 'bg-white/5 border-white/10' : 'bg-white/5 border-white/10'}`}>
+                      <div className="text-xl sm:text-2xl md:text-3xl font-bold text-red-500 mb-2">{stat.number}</div>
+                      <div className="text-xs sm:text-sm text-gray-300">{stat.label}</div>
                     </div>
                   ))}
                 </div>
@@ -367,7 +365,7 @@ export default function Home() {
 
             {/* Right Side - Image */}
             <ScrollAnimation animation="slide-in-right" stagger="scroll-stagger-1">
-              <div className="relative h-[500px]">
+              <div className="relative h-[300px] sm:h-[400px] lg:h-[500px]">
                 <div className="relative overflow-hidden rounded-2xl shadow-2xl h-full">
                   <img
                     src="/images/Our Culinary Journey.jpg"
@@ -384,27 +382,27 @@ export default function Home() {
 
 
       {/* Testimonials Section */}
-      <section className={`py-20 ${isDark ? 'bg-gray-800 text-white' : 'bg-white text-black'}`}>
-        <div className="max-w-7xl mx-auto px-4">
+      <section className={`py-12 sm:py-16 md:py-20 ${isDark ? 'bg-gray-800 text-white' : 'bg-white text-black'}`}>
+        <div className="max-w-7xl mx-auto px-4 sm:px-6">
           {/* Header */}
-          <div className="text-center mb-16">
-            <ScrollAnimation animation="fade-in" stagger="scroll-stagger-1">
-              <h2 className={`text-4xl md:text-5xl font-bold mb-4 ${isDark ? 'text-white' : 'text-black'}`}>
+          <div className="text-center mb-12 sm:mb-16">
+          <ScrollAnimation animation="fade-in" stagger="scroll-stagger-1">
+                <h2 className={`text-3xl sm:text-4xl md:text-5xl font-bold mb-4 ${isDark ? 'text-white' : 'text-black'}`}>
 {t('home1.testimonials.title')}
-              </h2>
-            </ScrollAnimation>
-            <ScrollAnimation animation="fade-in" stagger="scroll-stagger-2">
-              <p className={`text-lg max-w-2xl mx-auto mb-8 ${isDark ? 'text-gray-300' : 'text-gray-600'}`}>
+                </h2>
+              </ScrollAnimation>
+              <ScrollAnimation animation="fade-in" stagger="scroll-stagger-2">
+                <p className={`text-base sm:text-lg max-w-2xl mx-auto mb-8 px-4 ${isDark ? 'text-gray-300' : 'text-gray-600'}`}>
 {t('home1.testimonials.subtitle')}
-              </p>
-            </ScrollAnimation>
+                </p>
+              </ScrollAnimation>
           </div>
 
           {/* Testimonials Grid */}
-          <div className="grid md:grid-cols-3 gap-8">
+          <div className="grid md:grid-cols-3 gap-6 sm:gap-8">
             {testimonials.map((testimonial, index) => (
               <ScrollAnimation key={testimonial.id} animation="fade-in" stagger={`scroll-stagger-${index + 1}`}>
-                <div className={`rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 p-8 border hover:border-red-200 ${isDark ? 'bg-gray-900 border-gray-700' : 'bg-white border-gray-100'}`}>
+                <div className={`rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 p-6 sm:p-8 border hover:border-red-200 ${isDark ? 'bg-gray-900 border-gray-700' : 'bg-white border-gray-100'}`}>
                   <div className="flex items-center mb-6">
                     <img
                       src={testimonial.image}
@@ -441,7 +439,7 @@ export default function Home() {
 
 
       {/* Contact Section */}
-      <section className="relative py-20 overflow-hidden">
+      <section className="relative py-12 sm:py-16 md:py-20 overflow-hidden">
         {/* Background Image */}
         <div 
           className="absolute inset-0 bg-cover bg-center bg-no-repeat bg-fixed"
@@ -453,35 +451,35 @@ export default function Home() {
         {/* Dynamic Overlay for better text readability */}
         <div className={`absolute inset-0 ${isDark ? 'bg-black/60' : 'bg-black/50'}`}></div>
         
-        <div className="relative z-10 max-w-7xl mx-auto px-4">
+        <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6">
           <div className="max-w-4xl mx-auto text-center">
-            <div className="space-y-8">
+            <div className="space-y-6 sm:space-y-8">
               <ScrollAnimation animation="slide-in-left" stagger="scroll-stagger-1">
                 <div className="space-y-4">
-                  <h2 className="text-4xl md:text-5xl font-bold text-white">
+                  <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-white px-4">
 {t('home1.contact.title')}
                   </h2>
                 </div>
               </ScrollAnimation>
               
               <ScrollAnimation animation="slide-in-left" stagger="scroll-stagger-2">
-                <p className="text-lg text-gray-300 leading-relaxed">
+                <p className="text-base sm:text-lg text-gray-300 leading-relaxed px-4">
 {t('home1.contact.subtitle')}
                 </p>
               </ScrollAnimation>
               
               
               <ScrollAnimation animation="slide-in-left" stagger="scroll-stagger-4">
-                <div className="flex gap-4 justify-center">
+                <div className="flex flex-col sm:flex-row gap-4 justify-center items-center px-4">
                   <a
                     href="/contact"
-                    className="bg-red-500 hover:bg-red-600 text-white px-8 py-4 font-bold text-lg rounded-lg transition-all duration-300 shadow-lg hover:shadow-xl"
+                    className="bg-red-500 hover:bg-red-600 text-white px-6 sm:px-8 py-3 sm:py-4 font-bold text-base sm:text-lg rounded-lg transition-all duration-300 shadow-lg hover:shadow-xl w-full sm:w-auto text-center"
                   >
 {t('home1.contact.bookNow')}
                   </a>
                   <a
-                    href="/services"
-                    className="bg-transparent border-2 border-red-500 text-red-500 hover:bg-red-500 hover:text-white px-8 py-4 font-bold text-lg rounded-lg transition-all duration-300"
+                    href="/services#menu"
+                    className="bg-transparent border-2 border-red-500 text-red-500 hover:bg-red-500 hover:text-white px-6 sm:px-8 py-3 sm:py-4 font-bold text-base sm:text-lg rounded-lg transition-all duration-300 w-full sm:w-auto text-center"
                   >
 {t('home1.contact.viewMenu')}
                   </a>

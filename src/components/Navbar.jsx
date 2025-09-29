@@ -10,12 +10,13 @@ import {
   DropdownMenuTrigger,
 } from './dropdown-menu'
 import { logoutUser } from '../utils/auth'
-import { ChevronDown } from 'lucide-react'
+import { ChevronDown, LogOut } from 'lucide-react'
 
 
 export default function Navbar({ user }) {
   const { t } = useTranslation()
   const [isDark, setIsDark] = useState(false)
+  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false)
 
   useEffect(() => {
     // Check if 'dark' class is present on <html>
@@ -42,7 +43,7 @@ export default function Navbar({ user }) {
     <header
       className={`sticky top-0 z-50 border-b border-black/10 dark:border-white/10 transition-colors ${isDark ? 'bg-gray-900 text-white' : 'bg-white text-black'}`}
     >
-      <nav className="mx-auto max-w-6xl px-4 py-3 flex items-center justify-between">
+      <nav className="w-full px-4 py-3 flex items-center">
         {/* Logo - Fixed Left */}
         <div className="flex-shrink-0">
           <a href="#hero" className="flex items-center gap-3">
@@ -51,7 +52,9 @@ export default function Navbar({ user }) {
           </a>
         </div>
 
-        <ul className="hidden md:flex items-center gap-8">
+        {/* Middle Navigation - Centered */}
+        <div className="flex-1 flex justify-center">
+          <ul className="hidden md:flex items-center gap-8">
           <li>
             <DropdownMenu>
               <DropdownMenuTrigger asChild>
@@ -126,7 +129,9 @@ export default function Navbar({ user }) {
               {t('nav.contact')}
             </button>
           </li>
-        </ul>
+          </ul>
+        </div>
+        
         {/* Right Side - Fixed */}
         <div className="flex items-center gap-4">
           {/* Language Selector - Fixed Right */}
@@ -136,11 +141,21 @@ export default function Navbar({ user }) {
           <ThemeToggle />
           
           {/* Mobile Menu Button */}
-          <button className="md:hidden inline-flex items-center justify-center rounded-md border border-black/10 dark:border-white/10 px-3 py-2 hover:bg-black/5 dark:hover:bg-white/5" aria-label="Menu">
+          <button 
+            onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
+            className="md:hidden inline-flex items-center justify-center rounded-md border border-black/10 dark:border-white/10 px-3 py-2 hover:bg-black/5 dark:hover:bg-white/5" 
+            aria-label="Menu"
+          >
             <svg className="h-5 w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-              <line x1="3" y1="12" x2="21" y2="12"></line>
-              <line x1="3" y1="6" x2="21" y2="6"></line>
-              <line x1="3" y1="18" x2="21" y2="18"></line>
+              {isMobileMenuOpen ? (
+                <path d="M18 6L6 18M6 6l12 12"/>
+              ) : (
+                <>
+                  <line x1="3" y1="12" x2="21" y2="12"></line>
+                  <line x1="3" y1="6" x2="21" y2="6"></line>
+                  <line x1="3" y1="18" x2="21" y2="18"></line>
+                </>
+              )}
             </svg>
           </button>
 
@@ -150,11 +165,86 @@ export default function Navbar({ user }) {
           </div>
           
           {/* Logout Button - Right Corner */}
-          <button onClick={handleLogout} className="hover:text-red-500 dark:hover:text-red-400 transition-colors">
-            {t('nav.logout')}
+          <button onClick={handleLogout} className="inline-flex items-center justify-center hover:text-red-500 dark:hover:text-red-400 transition-colors px-3 py-2 rounded-md hover:bg-black/5 dark:hover:bg-white/5">
+            <LogOut className="h-4 w-4" />
           </button>
         </div>
       </nav>
+
+      {/* Mobile Menu Dropdown */}
+      {isMobileMenuOpen && (
+        <div className="md:hidden border-t border-black/10 dark:border-white/10 bg-white dark:bg-gray-900">
+          <div className="px-4 py-4 space-y-4">
+            {/* Home Dropdown */}
+            <div className="space-y-2">
+              <div className="font-medium text-gray-900 dark:text-white">{t('nav.home')}</div>
+              <div className="ml-4 space-y-2">
+                <button 
+                  onClick={() => { navigate('/home'); setIsMobileMenuOpen(false); }}
+                  className="block w-full text-left text-sm text-gray-600 dark:text-gray-400 hover:text-red-500 dark:hover:text-red-400 transition-colors"
+                >
+                  {t('nav.home1')}
+                </button>
+                <button 
+                  onClick={() => { navigate('/home2'); setIsMobileMenuOpen(false); }}
+                  className="block w-full text-left text-sm text-gray-600 dark:text-gray-400 hover:text-red-500 dark:hover:text-red-400 transition-colors"
+                >
+                  {t('nav.home2')}
+                </button>
+              </div>
+            </div>
+
+            {/* About */}
+            <button 
+              onClick={() => { navigate('/about'); setIsMobileMenuOpen(false); }}
+              className="block w-full text-left text-gray-600 dark:text-gray-400 hover:text-red-500 dark:hover:text-red-400 transition-colors"
+            >
+              {t('nav.about')}
+            </button>
+
+            {/* Services */}
+            <div className="space-y-2">
+              <div className="font-medium text-gray-900 dark:text-white">Services</div>
+              <div className="ml-4 space-y-2">
+                <button 
+                  onClick={() => { navigate('/services'); setIsMobileMenuOpen(false); }}
+                  className="block w-full text-left text-sm font-semibold text-red-600 dark:text-red-400"
+                >
+                  All Services
+                </button>
+                <button 
+                  onClick={() => { navigate('/services/fine-dining'); setIsMobileMenuOpen(false); }}
+                  className="block w-full text-left text-sm text-gray-600 dark:text-gray-400 hover:text-red-500 dark:hover:text-red-400 transition-colors"
+                >
+                  Fine Dining Experience
+                </button>
+                <button 
+                  onClick={() => { navigate('/services/takeaway-delivery'); setIsMobileMenuOpen(false); }}
+                  className="block w-full text-left text-sm text-gray-600 dark:text-gray-400 hover:text-red-500 dark:hover:text-red-400 transition-colors"
+                >
+                  Takeaway & Delivery
+                </button>
+              </div>
+            </div>
+
+            {/* Blog */}
+            <button 
+              onClick={() => { navigate('/blog'); setIsMobileMenuOpen(false); }}
+              className="block w-full text-left text-gray-600 dark:text-gray-400 hover:text-red-500 dark:hover:text-red-400 transition-colors"
+            >
+              {t('nav.blog')}
+            </button>
+
+            {/* Contact */}
+            <button 
+              onClick={() => { navigate('/contact'); setIsMobileMenuOpen(false); }}
+              className="block w-full text-left text-gray-600 dark:text-gray-400 hover:text-red-500 dark:hover:text-red-400 transition-colors"
+            >
+              {t('nav.contact')}
+            </button>
+          </div>
+        </div>
+      )}
     </header>
   )
 }

@@ -26,6 +26,13 @@ export default function About() {
   }, [navigate])
 
   const user = getCurrentUser()
+  
+  const handleExploreClick = () => {
+    const target = document.getElementById('favola-since-1985')
+    if (target) {
+      target.scrollIntoView({ behavior: 'smooth' })
+    }
+  }
 
   const timelineData = [
     {
@@ -104,25 +111,21 @@ export default function About() {
           <div className="text-center px-6 max-w-4xl">
             
             <ScrollAnimation animation="fade-in" stagger="scroll-stagger-2">
-              <h1 className="text-7xl md:text-9xl font-black text-white mb-8 leading-none">
+              <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-6 leading-tight px-4" style={{ fontFamily: 'serif' }}>
                 {t('aboutPage.hero.title')}
               </h1>
             </ScrollAnimation>
             
             <ScrollAnimation animation="fade-in" stagger="scroll-stagger-3">
-              <p className="text-2xl text-white/90 mb-12 max-w-3xl mx-auto font-light whitespace-nowrap">
+              <p className="mt-6 text-base sm:text-lg md:text-xl text-white/90 max-w-3xl mx-auto mb-8 px-4">
                 {t('aboutPage.hero.subtitle')}
               </p>
             </ScrollAnimation>
             
             <ScrollAnimation animation="fade-in" stagger="scroll-stagger-4">
-              <div className="flex flex-col sm:flex-row gap-6 justify-center">
-                <button className="group relative px-10 py-5 bg-red-600 text-white font-bold text-lg rounded-full overflow-hidden transition-all duration-500 hover:scale-105">
-                  <span className="relative z-10">{t('aboutPage.hero.exploreButton')}</span>
-                  <div className="absolute inset-0 bg-red-700 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500 origin-left"></div>
-                </button>
-                <button className="px-10 py-5 border-2 border-white text-white font-bold text-lg rounded-full transition-all duration-300 hover:bg-white hover:text-black hover:scale-105">
-                  {t('aboutPage.hero.viewMenu')}
+              <div className="flex flex-col sm:flex-row gap-4 justify-center px-4">
+                <button type="button" onClick={handleExploreClick} className="bg-red-500 hover:bg-red-600 text-white px-6 sm:px-8 py-3 sm:py-4 font-bold text-base sm:text-lg rounded-lg transition-all duration-300 shadow-lg hover:shadow-xl w-full sm:w-auto text-center">
+                  {t('aboutPage.hero.exploreButton')}
                 </button>
               </div>
             </ScrollAnimation>
@@ -133,25 +136,25 @@ export default function About() {
 
 
       {/* Our Story Section */}
-      <section className={`py-24 ${isDark ? 'bg-gray-800 text-white' : 'bg-white text-black'}`}>
-        <div className="mx-auto max-w-7xl px-4">
+      <section id="favola-since-1985" className={`py-12 sm:py-16 md:py-24 ${isDark ? 'bg-gray-800 text-white' : 'bg-white text-black'}`}>
+        <div className="mx-auto max-w-7xl px-4 sm:px-6">
           {/* Header */}
           <ScrollAnimation animation="fade-in" stagger="scroll-stagger-1">
-            <div className="text-center mb-16">
-              <div className="text-red-600 text-lg font-semibold tracking-wider mb-4">
+            <div className="text-center mb-12 sm:mb-16">
+              <div className="text-red-600 text-base sm:text-lg font-semibold tracking-wider mb-3 sm:mb-4">
                 {t('aboutPage.story.tagline')}
               </div>
-              <h2 className={`text-6xl font-black mb-8 ${isDark ? 'text-white' : 'text-black'}`}>
+              <h2 className={`text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-black mb-6 sm:mb-8 px-4 ${isDark ? 'text-white' : 'text-black'}`}>
                 {t('aboutPage.story.title')}
               </h2>
             </div>
           </ScrollAnimation>
           
           {/* Main Content */}
-          <div className="grid lg:grid-cols-2 gap-16 items-stretch">
+          <div className="grid lg:grid-cols-2 gap-8 sm:gap-12 lg:gap-16 items-stretch">
             {/* Left Column - Image */}
             <ScrollAnimation animation="slide-in-left" stagger="scroll-stagger-2">
-              <div className="relative h-full">
+              <div className="relative h-[300px] sm:h-[400px] lg:h-full">
                 <div className="relative z-10 h-full">
                   <img
                     src="/images/restaurant chefs group portrai.jpg"
@@ -166,27 +169,27 @@ export default function About() {
             
             {/* Right Column - Text Sections */}
             <ScrollAnimation animation="slide-in-right" stagger="scroll-stagger-3">
-              <div className="flex flex-col justify-center h-full space-y-12">
+              <div className="flex flex-col justify-center h-full space-y-8 sm:space-y-12">
                 {/* Our Family Section */}
-                <div className={`border-b pb-8 ${isDark ? 'border-gray-600' : 'border-gray-200'}`}>
-                  <h3 className={`text-3xl font-black mb-4 ${isDark ? 'text-white' : 'text-black'}`}>{t('aboutPage.story.sections.family.title')}</h3>
-                  <p className={`text-lg leading-relaxed ${isDark ? 'text-gray-300' : 'text-gray-600'}`}>
+                <div className={`border-b pb-6 sm:pb-8 ${isDark ? 'border-gray-600' : 'border-gray-200'}`}>
+                  <h3 className={`text-2xl sm:text-3xl font-black mb-3 sm:mb-4 ${isDark ? 'text-white' : 'text-black'}`}>{t('aboutPage.story.sections.family.title')}</h3>
+                  <p className={`text-base sm:text-lg leading-relaxed ${isDark ? 'text-gray-300' : 'text-gray-600'}`}>
                     {t('aboutPage.story.sections.family.description')}
                   </p>
                 </div>
                 
                 {/* Homemade Food Section */}
-                <div className={`border-b pb-8 ${isDark ? 'border-gray-600' : 'border-gray-200'}`}>
-                  <h3 className={`text-3xl font-black mb-4 ${isDark ? 'text-white' : 'text-black'}`}>{t('aboutPage.story.sections.homemade.title')}</h3>
-                  <p className={`text-lg leading-relaxed ${isDark ? 'text-gray-300' : 'text-gray-600'}`}>
+                <div className={`border-b pb-6 sm:pb-8 ${isDark ? 'border-gray-600' : 'border-gray-200'}`}>
+                  <h3 className={`text-2xl sm:text-3xl font-black mb-3 sm:mb-4 ${isDark ? 'text-white' : 'text-black'}`}>{t('aboutPage.story.sections.homemade.title')}</h3>
+                  <p className={`text-base sm:text-lg leading-relaxed ${isDark ? 'text-gray-300' : 'text-gray-600'}`}>
                     {t('aboutPage.story.sections.homemade.description')}
                   </p>
                   </div>
                 
                 {/* Authentic with a Twist Section */}
                 <div>
-                  <h3 className={`text-3xl font-black mb-4 ${isDark ? 'text-white' : 'text-black'}`}>{t('aboutPage.story.sections.authentic.title')}</h3>
-                  <p className={`text-lg leading-relaxed ${isDark ? 'text-gray-300' : 'text-gray-600'}`}>
+                  <h3 className={`text-2xl sm:text-3xl font-black mb-3 sm:mb-4 ${isDark ? 'text-white' : 'text-black'}`}>{t('aboutPage.story.sections.authentic.title')}</h3>
+                  <p className={`text-base sm:text-lg leading-relaxed ${isDark ? 'text-gray-300' : 'text-gray-600'}`}>
                     {t('aboutPage.story.sections.authentic.description')}
                   </p>
                   </div>
@@ -197,19 +200,19 @@ export default function About() {
       </section>
 
       {/* Features Section */}
-      <section className={`py-24 ${isDark ? 'bg-gray-900 text-white' : 'bg-white text-black'}`}>
-        <div className="mx-auto max-w-7xl px-4">
+      <section className={`py-12 sm:py-16 md:py-24 ${isDark ? 'bg-gray-900 text-white' : 'bg-white text-black'}`}>
+        <div className="mx-auto max-w-7xl px-4 sm:px-6">
           <ScrollAnimation animation="fade-in" stagger="scroll-stagger-1">
-            <div className="text-center mb-16">
-              <h2 className={`text-5xl font-black mb-6 ${isDark ? 'text-white' : 'text-black'}`}>{t('aboutPage.features.title')}</h2>
-              <p className={`text-xl max-w-3xl mx-auto font-light ${isDark ? 'text-gray-300' : 'text-gray-600'}`}>
+            <div className="text-center mb-12 sm:mb-16">
+              <h2 className={`text-3xl sm:text-4xl md:text-5xl font-black mb-4 sm:mb-6 px-4 ${isDark ? 'text-white' : 'text-black'}`}>{t('aboutPage.features.title')}</h2>
+              <p className={`text-base sm:text-lg md:text-xl max-w-3xl mx-auto font-light px-4 ${isDark ? 'text-gray-300' : 'text-gray-600'}`}>
                 {t('aboutPage.features.subtitle')}
               </p>
             </div>
           </ScrollAnimation>
           
           <ScrollAnimation animation="fade-in" stagger="scroll-stagger-2">
-            <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+            <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6 sm:gap-8">
               {/* Delicious Pastries */}
               <div className="text-center group">
                 <div className="mb-6 group-hover:scale-110 transition-transform duration-300">
@@ -217,8 +220,8 @@ export default function About() {
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.746 0 3.332.477 4.5 1.253v13C19.832 18.477 18.246 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
                   </svg>
                         </div>
-                <h3 className={`text-xl font-bold mb-4 ${isDark ? 'text-white' : 'text-black'}`}>{t('aboutPage.features.items.pastries.title')}</h3>
-                <p className={`leading-relaxed ${isDark ? 'text-gray-300' : 'text-gray-600'}`}>
+                <h3 className={`text-lg sm:text-xl font-bold mb-3 sm:mb-4 ${isDark ? 'text-white' : 'text-black'}`}>{t('aboutPage.features.items.pastries.title')}</h3>
+                <p className={`text-sm sm:text-base leading-relaxed ${isDark ? 'text-gray-300' : 'text-gray-600'}`}>
                   {t('aboutPage.features.items.pastries.description')}
                 </p>
                     </div>
@@ -230,8 +233,8 @@ export default function About() {
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z" />
                   </svg>
                           </div>
-                <h3 className={`text-xl font-bold mb-4 ${isDark ? 'text-white' : 'text-black'}`}>{t('aboutPage.features.items.juices.title')}</h3>
-                <p className={`leading-relaxed ${isDark ? 'text-gray-300' : 'text-gray-600'}`}>
+                <h3 className={`text-lg sm:text-xl font-bold mb-3 sm:mb-4 ${isDark ? 'text-white' : 'text-black'}`}>{t('aboutPage.features.items.juices.title')}</h3>
+                <p className={`text-sm sm:text-base leading-relaxed ${isDark ? 'text-gray-300' : 'text-gray-600'}`}>
                   {t('aboutPage.features.items.juices.description')}
                 </p>
                         </div>
@@ -243,8 +246,8 @@ export default function About() {
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z" />
                   </svg>
                         </div>
-                <h3 className={`text-xl font-bold mb-4 ${isDark ? 'text-white' : 'text-black'}`}>{t('aboutPage.features.items.natural.title')}</h3>
-                <p className={`leading-relaxed ${isDark ? 'text-gray-300' : 'text-gray-600'}`}>
+                <h3 className={`text-lg sm:text-xl font-bold mb-3 sm:mb-4 ${isDark ? 'text-white' : 'text-black'}`}>{t('aboutPage.features.items.natural.title')}</h3>
+                <p className={`text-sm sm:text-base leading-relaxed ${isDark ? 'text-gray-300' : 'text-gray-600'}`}>
                   {t('aboutPage.features.items.natural.description')}
                 </p>
                     </div>
@@ -256,8 +259,8 @@ export default function About() {
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
                   </svg>
                         </div>
-                <h3 className={`text-xl font-bold mb-4 ${isDark ? 'text-white' : 'text-black'}`}>{t('aboutPage.features.items.breakfasts.title')}</h3>
-                <p className={`leading-relaxed ${isDark ? 'text-gray-300' : 'text-gray-600'}`}>
+                <h3 className={`text-lg sm:text-xl font-bold mb-3 sm:mb-4 ${isDark ? 'text-white' : 'text-black'}`}>{t('aboutPage.features.items.breakfasts.title')}</h3>
+                <p className={`text-sm sm:text-base leading-relaxed ${isDark ? 'text-gray-300' : 'text-gray-600'}`}>
                   {t('aboutPage.features.items.breakfasts.description')}
                 </p>
               </div>
@@ -267,34 +270,34 @@ export default function About() {
       </section>
 
       {/* Testimonials Section */}
-      <section className={`py-24 ${isDark ? 'bg-gray-800 text-white' : 'bg-black text-white'}`}>
-        <div className="mx-auto max-w-7xl px-4">
+      <section className={`py-12 sm:py-16 md:py-24 ${isDark ? 'bg-gray-800 text-white' : 'bg-black text-white'}`}>
+        <div className="mx-auto max-w-7xl px-4 sm:px-6">
           <ScrollAnimation animation="fade-in" stagger="scroll-stagger-1">
-            <div className="text-center mb-20">
-              <h2 className="text-6xl font-black text-white mb-6">{t('aboutPage.testimonials.title')}</h2>
-              <p className="text-2xl text-gray-300 max-w-3xl mx-auto font-light">
+            <div className="text-center mb-12 sm:mb-20">
+              <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-black text-white mb-4 sm:mb-6 px-4">{t('aboutPage.testimonials.title')}</h2>
+              <p className="text-lg sm:text-xl md:text-2xl text-gray-300 max-w-3xl mx-auto font-light px-4">
                 {t('aboutPage.testimonials.subtitle')}
               </p>
             </div>
           </ScrollAnimation>
           
-          <div className="grid md:grid-cols-3 gap-8">
+          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
             {testimonials.map((testimonial, index) => (
               <ScrollAnimation key={index} animation="fade-in" stagger={`scroll-stagger-${index + 2}`}>
-                <div className={`backdrop-blur-sm p-8 rounded-3xl border transition-all duration-500 hover:-translate-y-2 ${isDark ? 'bg-white/5 border-white/10 hover:bg-white/10' : 'bg-white/10 border-white/20 hover:bg-white/20'}`}>
-                  <div className="flex mb-6">
+                <div className={`backdrop-blur-sm p-6 sm:p-8 rounded-3xl border transition-all duration-500 hover:-translate-y-2 ${isDark ? 'bg-white/5 border-white/10 hover:bg-white/10' : 'bg-white/10 border-white/20 hover:bg-white/20'}`}>
+                  <div className="flex mb-4 sm:mb-6">
                     {[...Array(testimonial.rating)].map((_, i) => (
-                      <svg key={i} className="w-6 h-6 text-red-500" fill="currentColor" viewBox="0 0 20 20">
+                      <svg key={i} className="w-5 h-5 sm:w-6 sm:h-6 text-red-500" fill="currentColor" viewBox="0 0 20 20">
                         <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
                       </svg>
                     ))}
                   </div>
-                  <p className="text-gray-300 text-lg leading-relaxed mb-6 italic">
+                  <p className="text-gray-300 text-base sm:text-lg leading-relaxed mb-4 sm:mb-6 italic">
                     "{testimonial.content}"
                   </p>
                   <div>
-                    <div className="text-white font-bold text-lg">{testimonial.name}</div>
-                    <div className="text-red-500 text-sm">{testimonial.role}</div>
+                    <div className="text-white font-bold text-base sm:text-lg">{testimonial.name}</div>
+                    <div className="text-red-500 text-xs sm:text-sm">{testimonial.role}</div>
                   </div>
                 </div>
               </ScrollAnimation>
@@ -304,33 +307,33 @@ export default function About() {
       </section>
 
       {/* Restaurant Excellence Section */}
-      <section className={`py-24 ${isDark ? 'bg-gray-900' : 'bg-white'}`}>
-        <div className="mx-auto max-w-7xl px-4">
+      <section className={`py-12 sm:py-16 md:py-24 ${isDark ? 'bg-gray-900' : 'bg-white'}`}>
+        <div className="mx-auto max-w-7xl px-4 sm:px-6">
           <ScrollAnimation animation="fade-in" stagger="scroll-stagger-1">
-            <div className="text-center mb-16">
-              <div className="text-red-600 text-lg font-semibold tracking-wider mb-4">
+            <div className="text-center mb-12 sm:mb-16">
+              <div className="text-red-600 text-base sm:text-lg font-semibold tracking-wider mb-3 sm:mb-4">
                 {t('aboutPage.excellence.tagline')}
               </div>
-              <h2 className={`text-5xl font-black mb-6 ${isDark ? 'text-white' : 'text-black'}`}>
+              <h2 className={`text-3xl sm:text-4xl md:text-5xl font-black mb-4 sm:mb-6 px-4 ${isDark ? 'text-white' : 'text-black'}`}>
                 {t('aboutPage.excellence.title')}
               </h2>
-              <p className={`text-xl max-w-3xl mx-auto font-light ${isDark ? 'text-gray-300' : 'text-gray-600'}`}>
+              <p className={`text-base sm:text-lg md:text-xl max-w-3xl mx-auto font-light px-4 ${isDark ? 'text-gray-300' : 'text-gray-600'}`}>
                 {t('aboutPage.excellence.subtitle')}
               </p>
             </div>
           </ScrollAnimation>
 
-          <div className="grid lg:grid-cols-3 gap-8 mb-16">
+          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8 mb-12 sm:mb-16">
             {/* Award Recognition */}
             <ScrollAnimation animation="slide-up" stagger="scroll-stagger-2">
-              <div className={`${isDark ? 'bg-gray-800' : 'bg-black'} rounded-2xl p-8 text-center text-white hover:transform hover:scale-105 transition-all duration-300`}>
-                <div className="w-20 h-20 bg-red-600 rounded-full flex items-center justify-center mx-auto mb-6">
-                  <svg className="w-10 h-10 text-white" fill="currentColor" viewBox="0 0 20 20">
+              <div className={`${isDark ? 'bg-gray-800' : 'bg-black'} rounded-2xl p-6 sm:p-8 text-center text-white hover:transform hover:scale-105 transition-all duration-300`}>
+                <div className="w-16 h-16 sm:w-20 sm:h-20 bg-red-600 rounded-full flex items-center justify-center mx-auto mb-4 sm:mb-6">
+                  <svg className="w-8 h-8 sm:w-10 sm:h-10 text-white" fill="currentColor" viewBox="0 0 20 20">
                     <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
                   </svg>
                 </div>
-                <h3 className="text-2xl font-bold mb-4">{t('aboutPage.excellence.cards.award.title')}</h3>
-                <p className="text-gray-300 leading-relaxed">
+                <h3 className="text-lg sm:text-xl md:text-2xl font-bold mb-3 sm:mb-4">{t('aboutPage.excellence.cards.award.title')}</h3>
+                <p className="text-sm sm:text-base text-gray-300 leading-relaxed">
                   {t('aboutPage.excellence.cards.award.description')}
                 </p>
               </div>
@@ -338,14 +341,14 @@ export default function About() {
 
             {/* Fresh Ingredients */}
             <ScrollAnimation animation="slide-up" stagger="scroll-stagger-3">
-              <div className={`${isDark ? 'bg-white' : 'bg-white'} rounded-2xl p-8 text-center ${isDark ? 'text-black' : 'text-black'} border-2 border-red-600 hover:transform hover:scale-105 transition-all duration-300`}>
-                <div className="w-20 h-20 bg-red-600 rounded-full flex items-center justify-center mx-auto mb-6">
-                  <svg className="w-10 h-10 text-white" fill="currentColor" viewBox="0 0 20 20">
+              <div className={`${isDark ? 'bg-white' : 'bg-white'} rounded-2xl p-6 sm:p-8 text-center ${isDark ? 'text-black' : 'text-black'} border-2 border-red-600 hover:transform hover:scale-105 transition-all duration-300`}>
+                <div className="w-16 h-16 sm:w-20 sm:h-20 bg-red-600 rounded-full flex items-center justify-center mx-auto mb-4 sm:mb-6">
+                  <svg className="w-8 h-8 sm:w-10 sm:h-10 text-white" fill="currentColor" viewBox="0 0 20 20">
                     <path fillRule="evenodd" d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z" clipRule="evenodd" />
                   </svg>
                 </div>
-                <h3 className="text-2xl font-bold mb-4">{t('aboutPage.excellence.cards.fresh.title')}</h3>
-                <p className="text-gray-600 leading-relaxed">
+                <h3 className="text-lg sm:text-xl md:text-2xl font-bold mb-3 sm:mb-4">{t('aboutPage.excellence.cards.fresh.title')}</h3>
+                <p className="text-sm sm:text-base text-gray-600 leading-relaxed">
                   {t('aboutPage.excellence.cards.fresh.description')}
                 </p>
               </div>
@@ -353,14 +356,14 @@ export default function About() {
 
             {/* Family Tradition */}
             <ScrollAnimation animation="slide-up" stagger="scroll-stagger-4">
-              <div className={`${isDark ? 'bg-gray-800' : 'bg-black'} rounded-2xl p-8 text-center text-white hover:transform hover:scale-105 transition-all duration-300`}>
-                <div className="w-20 h-20 bg-red-600 rounded-full flex items-center justify-center mx-auto mb-6">
-                  <svg className="w-10 h-10 text-white" fill="currentColor" viewBox="0 0 20 20">
+              <div className={`${isDark ? 'bg-gray-800' : 'bg-black'} rounded-2xl p-6 sm:p-8 text-center text-white hover:transform hover:scale-105 transition-all duration-300`}>
+                <div className="w-16 h-16 sm:w-20 sm:h-20 bg-red-600 rounded-full flex items-center justify-center mx-auto mb-4 sm:mb-6">
+                  <svg className="w-8 h-8 sm:w-10 sm:h-10 text-white" fill="currentColor" viewBox="0 0 20 20">
                     <path d="M13 6a3 3 0 11-6 0 3 3 0 016 0zM18 8a2 2 0 11-4 0 2 2 0 014 0zM14 15a4 4 0 00-8 0v3h8v-3zM6 8a2 2 0 11-4 0 2 2 0 014 0zM16 18v-3a5.972 5.972 0 00-.75-2.906A3.005 3.005 0 0119 15v3h-3zM4.75 12.094A5.973 5.973 0 004 15v3H1v-3a3 3 0 013.75-2.906z" />
                   </svg>
                 </div>
-                <h3 className="text-2xl font-bold mb-4">{t('aboutPage.excellence.cards.family.title')}</h3>
-                <p className="text-gray-300 leading-relaxed">
+                <h3 className="text-lg sm:text-xl md:text-2xl font-bold mb-3 sm:mb-4">{t('aboutPage.excellence.cards.family.title')}</h3>
+                <p className="text-sm sm:text-base text-gray-300 leading-relaxed">
                   {t('aboutPage.excellence.cards.family.description')}
                 </p>
               </div>
@@ -369,23 +372,23 @@ export default function About() {
 
           {/* Statistics Section */}
           <ScrollAnimation animation="fade-in" stagger="scroll-stagger-5">
-            <div className={`${isDark ? 'bg-gray-800' : 'bg-red-600'} rounded-3xl p-12 text-center`}>
-              <div className="grid md:grid-cols-4 gap-8">
+            <div className={`${isDark ? 'bg-gray-800' : 'bg-red-600'} rounded-3xl p-6 sm:p-8 lg:p-12 text-center`}>
+              <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-4 gap-4 sm:gap-6 lg:gap-8">
                 <div className="text-white">
-                  <div className="text-4xl font-black mb-2">38+</div>
-                  <div className="text-lg font-semibold">{t('aboutPage.stats.yearsExcellence')}</div>
+                  <div className="text-2xl sm:text-3xl lg:text-4xl font-black mb-1 sm:mb-2">38+</div>
+                  <div className="text-sm sm:text-base lg:text-lg font-semibold">{t('aboutPage.stats.yearsExcellence')}</div>
                 </div>
                 <div className="text-white">
-                  <div className="text-4xl font-black mb-2">50K+</div>
-                  <div className="text-lg font-semibold">{t('aboutPage.stats.happyCustomers')}</div>
+                  <div className="text-2xl sm:text-3xl lg:text-4xl font-black mb-1 sm:mb-2">50K+</div>
+                  <div className="text-sm sm:text-base lg:text-lg font-semibold">{t('aboutPage.stats.happyCustomers')}</div>
                 </div>
                 <div className="text-white">
-                  <div className="text-4xl font-black mb-2">200+</div>
-                  <div className="text-lg font-semibold">{t('aboutPage.stats.signatureDishes')}</div>
+                  <div className="text-2xl sm:text-3xl lg:text-4xl font-black mb-1 sm:mb-2">200+</div>
+                  <div className="text-sm sm:text-base lg:text-lg font-semibold">{t('aboutPage.stats.signatureDishes')}</div>
                 </div>
                 <div className="text-white">
-                  <div className="text-4xl font-black mb-2">15</div>
-                  <div className="text-lg font-semibold">{t('aboutPage.stats.awardsWon')}</div>
+                  <div className="text-2xl sm:text-3xl lg:text-4xl font-black mb-1 sm:mb-2">15</div>
+                  <div className="text-sm sm:text-base lg:text-lg font-semibold">{t('aboutPage.stats.awardsWon')}</div>
                 </div>
               </div>
             </div>
@@ -394,7 +397,7 @@ export default function About() {
       </section>
 
       {/* CTA Section */}
-      <section className="relative py-24 overflow-hidden">
+      <section className="relative py-12 sm:py-16 md:py-24 overflow-hidden">
         {/* Background Image */}
         <div className="absolute inset-0">
           <img
@@ -405,21 +408,21 @@ export default function About() {
           <div className={`absolute inset-0 ${isDark ? 'bg-black/60' : 'bg-black/40'}`}></div>
         </div>
         
-        <div className="relative z-10 mx-auto max-w-7xl px-4">
+        <div className="relative z-10 mx-auto max-w-7xl px-4 sm:px-6">
           <div className="flex items-center justify-center">
             {/* Centered Content */}
           <ScrollAnimation animation="fade-in" stagger="scroll-stagger-1">
-              <div className="text-center space-y-8 max-w-4xl">
-                <div className="text-red-400 text-lg font-semibold tracking-wider">
+              <div className="text-center space-y-6 sm:space-y-8 max-w-4xl">
+                <div className="text-red-400 text-base sm:text-lg font-semibold tracking-wider">
                   {t('aboutPage.weBelieve.tagline')}
                 </div>
-                <h2 className="text-6xl font-black text-white leading-tight">
+                <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-white leading-tight px-4" style={{ fontFamily: 'serif' }}>
                   {t('aboutPage.weBelieve.title')}
                 </h2>
-                <p className="text-xl text-white/90 leading-relaxed">
+                <p className="text-base sm:text-lg md:text-xl text-white/90 leading-relaxed px-4">
                   {t('aboutPage.weBelieve.description')}
                 </p>
-                <button className="px-8 py-4 bg-red-500 text-white font-bold text-lg rounded-lg transition-all duration-300 hover:bg-red-400 hover:scale-105 shadow-lg mx-auto">
+                <button type="button" onClick={() => navigate('/contact')} className="px-6 sm:px-8 py-3 sm:py-4 bg-red-500 text-white font-bold text-base sm:text-lg rounded-lg transition-all duration-300 hover:bg-red-600 shadow-lg mx-auto">
                   {t('aboutPage.weBelieve.button')}
               </button>
             </div>

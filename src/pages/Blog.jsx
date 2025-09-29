@@ -146,32 +146,32 @@ export default function Blog() {
         <div className="absolute inset-0 bg-black/60"></div>
 
         {/* Content */}
-        <div className="relative z-10 px-6 max-w-4xl">
+        <div className="relative z-10 px-4 sm:px-6 max-w-4xl">
           <ScrollAnimation animation="fade-in" stagger="scroll-stagger-1">
-            <p className="text-sm tracking-widest text-red-400 font-medium uppercase">
+            <p className="text-xs sm:text-sm tracking-widest text-red-400 font-medium uppercase px-4">
               {t('blog.hero.tagline')}
             </p>
           </ScrollAnimation>
           
           <ScrollAnimation animation="fade-in" stagger="scroll-stagger-2">
-            <h1 className="mt-4 text-5xl md:text-6xl font-extrabold leading-tight text-white">
+            <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold leading-tight text-white mb-6 px-4" style={{ fontFamily: 'serif' }}>
               {t('blog.hero.title')}
             </h1>
           </ScrollAnimation>
           
           <ScrollAnimation animation="fade-in" stagger="scroll-stagger-3">
-            <p className="mt-6 text-xl text-white/90 max-w-3xl mx-auto">
+            <p className="mt-6 text-base sm:text-lg md:text-xl text-white/90 max-w-3xl mx-auto mb-8 px-4">
               {t('blog.hero.subtitle')}
             </p>
           </ScrollAnimation>
           
           <ScrollAnimation animation="fade-in" stagger="scroll-stagger-4">
-            <div className="mt-8 flex gap-4 justify-center">
+            <div className="mt-6 sm:mt-8 flex justify-center px-4">
               <a
-                href="/services"
-                className="bg-red-600 hover:bg-red-700 text-white px-8 py-4 font-bold text-lg transition-all duration-300 rounded-lg shadow-lg hover:shadow-xl"
+                href="/contact"
+                className="bg-red-500 hover:bg-red-600 text-white px-6 sm:px-8 py-3 sm:py-4 font-bold text-base sm:text-lg transition-all duration-300 rounded-lg shadow-lg hover:shadow-xl w-full sm:w-auto"
               >
-                {t('blog.hero.exploreMenuButton')}
+                Connect
               </a>
             </div>
           </ScrollAnimation>
@@ -179,17 +179,17 @@ export default function Blog() {
       </section>
 
       {/* Culinary Categories Section */}
-      <section className={`py-20 ${isDark ? 'bg-gray-800' : 'bg-white'}`}>
-        <div className="mx-auto max-w-6xl px-6">
+      <section className={`py-12 sm:py-16 md:py-20 ${isDark ? 'bg-gray-800' : 'bg-white'}`}>
+        <div className="mx-auto max-w-6xl px-4 sm:px-6">
           {/* Section Header */}
-          <div className="text-center mb-12">
+          <div className="text-center mb-8 sm:mb-12">
             <ScrollAnimation animation="fade-in" stagger="scroll-stagger-1">
-              <h2 className={`text-4xl font-bold ${isDark ? 'text-white' : 'text-gray-900'}`}>{t('blog.categories.title')}</h2>
+              <h2 className={`text-3xl sm:text-4xl font-bold px-4 ${isDark ? 'text-white' : 'text-gray-900'}`} style={{ fontFamily: 'serif' }}>{t('blog.categories.title')}</h2>
             </ScrollAnimation>
           </div>
           
           {/* Category Cards */}
-          <div className="grid md:grid-cols-3 gap-8">
+          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
             {[
               {
                 title: t('blog.categories.italianCuisine.title'),
@@ -216,7 +216,7 @@ export default function Blog() {
               return (
                 <ScrollAnimation key={index} animation="fade-in" stagger={staggerClass}>
                   <div 
-                    className="group relative h-96 rounded-xl overflow-hidden cursor-pointer shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2"
+                    className="group relative h-[250px] sm:h-[300px] lg:h-96 rounded-xl overflow-hidden cursor-pointer shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2"
                     onClick={() => navigate(category.link)}
                   >
                     {/* Background Image */}
@@ -232,20 +232,20 @@ export default function Blog() {
                     <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent"></div>
                     
                     {/* Navigation Icon */}
-                    <div className="absolute top-4 right-4 z-10">
-                      <div className="w-12 h-12 bg-white/90 backdrop-blur-sm rounded-full flex items-center justify-center group-hover:bg-white group-hover:shadow-lg transition-all duration-300 border-2 border-white/50 group-hover:border-red-500">
-                        <svg className="w-6 h-6 text-gray-700 group-hover:text-red-600 transform rotate-45 group-hover:scale-110 transition-all duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2.5}>
+                    <div className="absolute top-3 sm:top-4 right-3 sm:right-4 z-10">
+                      <div className="w-8 h-8 sm:w-10 sm:h-10 lg:w-12 lg:h-12 bg-white/90 backdrop-blur-sm rounded-full flex items-center justify-center group-hover:bg-white group-hover:shadow-lg transition-all duration-300 border-2 border-white/50 group-hover:border-red-500">
+                        <svg className="w-4 h-4 sm:w-5 sm:h-5 lg:w-6 lg:h-6 text-gray-700 group-hover:text-red-600 transform rotate-45 group-hover:scale-110 transition-all duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2.5}>
                           <path strokeLinecap="round" strokeLinejoin="round" d="M7 17L17 7M17 7H7M17 7V17" />
                         </svg>
                       </div>
                     </div>
                     
                     {/* Content */}
-                    <div className="absolute bottom-0 left-0 right-0 p-6 text-white">
-                      <h3 className="text-2xl font-bold mb-3 group-hover:text-red-300 transition-colors duration-300">
+                    <div className="absolute bottom-0 left-0 right-0 p-4 sm:p-6 text-white">
+                      <h3 className="text-lg sm:text-xl lg:text-2xl font-bold mb-2 sm:mb-3 group-hover:text-red-300 transition-colors duration-300">
                         {category.title}
                       </h3>
-                      <p className="text-white/90 text-sm leading-relaxed line-clamp-4">
+                      <p className="text-white/90 text-xs sm:text-sm leading-relaxed line-clamp-3 sm:line-clamp-4">
                         {category.description}
                       </p>
                     </div>
@@ -258,57 +258,61 @@ export default function Blog() {
       </section>
 
       {/* Why Choose Us */}
-      <section className={`py-20 ${isDark ? 'bg-gradient-to-br from-black via-gray-900 to-black' : 'bg-gradient-to-br from-gray-800 via-gray-700 to-gray-800'} text-white relative overflow-hidden`}>
+      <section className={`py-12 sm:py-16 md:py-20 ${isDark ? 'bg-gradient-to-br from-black via-gray-900 to-black' : 'bg-gradient-to-br from-gray-800 via-gray-700 to-gray-800'} text-white relative overflow-hidden`}>
         {/* Decorative Background Elements */}
         <div className="absolute inset-0 opacity-10">
-          <div className="absolute top-20 left-10 w-32 h-32 border border-red-500 rounded-full"></div>
-          <div className="absolute bottom-20 right-10 w-24 h-24 border border-red-500 rounded-full"></div>
-          <div className="absolute top-1/2 left-1/4 w-16 h-16 border border-red-500 rounded-full"></div>
+          <div className="absolute top-10 sm:top-20 left-5 sm:left-10 w-16 sm:w-32 h-16 sm:h-32 border border-red-500 rounded-full"></div>
+          <div className="absolute bottom-10 sm:bottom-20 right-5 sm:right-10 w-12 sm:w-24 h-12 sm:h-24 border border-red-500 rounded-full"></div>
+          <div className="absolute top-1/2 left-1/4 w-8 sm:w-16 h-8 sm:h-16 border border-red-500 rounded-full"></div>
         </div>
 
-        <div className="mx-auto max-w-7xl px-6 relative z-10">
-          <div className="grid lg:grid-cols-2 gap-12 items-center">
+        <div className="mx-auto max-w-7xl px-4 sm:px-6 relative z-10">
+          <div className="grid lg:grid-cols-2 gap-8 sm:gap-12 items-center">
             {/* Left Content */}
-            <div className="space-y-8">
+            <div className="space-y-6 sm:space-y-8">
               <ScrollAnimation animation="slide-in-left" stagger="scroll-stagger-1">
-                <div className="space-y-4">
-                  <h3 className="text-red-500 text-lg font-medium tracking-widest uppercase">
+                <div className="space-y-3 sm:space-y-4">
+                  <h3 className="text-red-500 text-sm sm:text-lg font-medium tracking-widest uppercase">
                     {t('blog.whyChooseUs.tagline')}
                   </h3>
-                  <h2 className="text-5xl font-bold text-white leading-tight">
+                  <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-white leading-tight px-4 sm:px-0" style={{ fontFamily: 'serif' }}>
                     {t('blog.whyChooseUs.title')}
                   </h2>
                 </div>
               </ScrollAnimation>
 
               <ScrollAnimation animation="slide-in-left" stagger="scroll-stagger-2">
-                <p className="text-gray-200 text-lg leading-relaxed">
+                <p className="text-gray-200 text-base sm:text-lg leading-relaxed px-4 sm:px-0">
                   {t('blog.whyChooseUs.description1')}
                 </p>
               </ScrollAnimation>
 
               <ScrollAnimation animation="slide-in-left" stagger="scroll-stagger-3">
-                <p className="text-gray-300 text-base leading-relaxed">
+                <p className="text-gray-300 text-sm sm:text-base leading-relaxed px-4 sm:px-0">
                   {t('blog.whyChooseUs.description2')}
                 </p>
               </ScrollAnimation>
 
               <ScrollAnimation animation="slide-in-left" stagger="scroll-stagger-4">
-                <button className="border-2 border-red-500 text-red-500 hover:bg-red-500 hover:text-white px-8 py-4 font-bold text-lg transition-all duration-300 rounded-lg transform hover:scale-105">
-                  {t('blog.whyChooseUs.bookTableButton')}
-                </button>
+                <div className="px-4 sm:px-0">
+                  <button className="border-2 border-red-500 text-red-500 hover:bg-red-500 hover:text-white px-6 sm:px-8 py-3 sm:py-4 font-bold text-base sm:text-lg transition-all duration-300 rounded-lg transform hover:scale-105 w-full sm:w-auto">
+                    {t('blog.whyChooseUs.bookTableButton')}
+                  </button>
+                </div>
               </ScrollAnimation>
 
               {/* Small Restaurant Image */}
               <ScrollAnimation animation="slide-in-left" stagger="scroll-stagger-5">
-                <div className="relative w-64 h-48 rounded-lg overflow-hidden border-2 border-red-500">
-                  <img
-                    src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80"
-                    alt="Restaurant interior"
-                    className="w-full h-full object-cover"
-                  />
-                  {/* Curved decorative line */}
-                  <div className="absolute -top-2 -left-2 w-8 h-8 border-t-2 border-l-2 border-red-500 rounded-tl-lg"></div>
+                <div className="px-4 sm:px-0">
+                  <div className="relative w-48 sm:w-56 lg:w-64 h-36 sm:h-40 lg:h-48 rounded-lg overflow-hidden border-2 border-red-500">
+                    <img
+                      src="/images/TEAshop.jpg"
+                      alt="Tea shop interior"
+                      className="w-full h-full object-cover"
+                    />
+                    {/* Curved decorative line */}
+                    <div className="absolute -top-1 sm:-top-2 -left-1 sm:-left-2 w-6 h-6 sm:w-8 sm:h-8 border-t-2 border-l-2 border-red-500 rounded-tl-lg"></div>
+                  </div>
                 </div>
               </ScrollAnimation>
             </div>
@@ -316,18 +320,18 @@ export default function Blog() {
             {/* Right Content - Main Restaurant Image */}
             <div className="relative">
               <ScrollAnimation animation="slide-in-right" stagger="scroll-stagger-1">
-                <div className="relative">
+                <div className="relative px-4 sm:px-0">
                   {/* Main Restaurant Image */}
-                  <div className="relative w-full h-[600px] rounded-2xl overflow-hidden">
+                  <div className="relative w-full h-[300px] sm:h-[400px] lg:h-[600px] rounded-2xl overflow-hidden">
                     <img
-                      src="https://images.unsplash.com/photo-1555396273-367ea4eb4db5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80"
+                      src="/images/spacious rustic coffee shop with high ceiling.jpg"
                       alt="Elegant restaurant dining"
                       className="w-full h-full object-cover"
                     />
                     
                     {/* Red curved decorative elements */}
-                    <div className="absolute top-8 right-8 w-16 h-16 border-t-2 border-r-2 border-red-500 rounded-tr-lg"></div>
-                    <div className="absolute bottom-8 left-8 w-12 h-12 border-b-2 border-l-2 border-red-500 rounded-bl-lg"></div>
+                    <div className="absolute top-4 sm:top-8 right-4 sm:right-8 w-8 sm:w-12 lg:w-16 h-8 sm:h-12 lg:h-16 border-t-2 border-r-2 border-red-500 rounded-tr-lg"></div>
+                    <div className="absolute bottom-4 sm:bottom-8 left-4 sm:left-8 w-6 sm:w-8 lg:w-12 h-6 sm:h-8 lg:h-12 border-b-2 border-l-2 border-red-500 rounded-bl-lg"></div>
                   </div>
 
                 </div>
@@ -339,7 +343,7 @@ export default function Blog() {
       </section>
 
       {/* Restaurant Statistics */}
-      <section className="py-20 relative" style={{
+      <section className="py-12 sm:py-16 md:py-20 relative" style={{
         backgroundImage: 'url(/images/RB4.jpg)',
         backgroundAttachment: 'fixed',
         backgroundSize: 'cover',
@@ -348,22 +352,22 @@ export default function Blog() {
       }}>
         {/* Dynamic overlay for better text readability */}
         <div className={`absolute inset-0 ${isDark ? 'bg-black/60' : 'bg-black/50'}`}></div>
-        <div className="mx-auto max-w-6xl px-6 relative z-10">
-          <div className="text-center mb-16">
+        <div className="mx-auto max-w-6xl px-4 sm:px-6 relative z-10">
+          <div className="text-center mb-8 sm:mb-16">
             <ScrollAnimation animation="fade-in" stagger="scroll-stagger-1">
-              <h2 className="text-4xl font-extrabold mb-4 text-white">
+              <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-3 sm:mb-4 text-white px-4" style={{ fontFamily: 'serif' }}>
                 {t('blog.achievements.title')}
               </h2>
             </ScrollAnimation>
             <ScrollAnimation animation="fade-in" stagger="scroll-stagger-2">
-              <p className="text-gray-200 max-w-2xl mx-auto text-lg">
+              <p className="text-gray-200 max-w-2xl mx-auto text-base sm:text-lg px-4">
                 {t('blog.achievements.subtitle')}
               </p>
             </ScrollAnimation>
           </div>
 
           <ScrollAnimation animation="fade-in" stagger="scroll-stagger-1">
-            <div className="grid md:grid-cols-4 sm:grid-cols-2 gap-8">
+            <div className="grid grid-cols-2 lg:grid-cols-4 sm:grid-cols-2 gap-4 sm:gap-8">
               {[
                 { number: "7+", label: t('blog.achievements.yearsExcellence'), icon: "⭐" },
                 { number: "500+", label: t('blog.achievements.menuItems'), icon: "🍽️" },
@@ -375,10 +379,10 @@ export default function Blog() {
                 
                 return (
                   <ScrollAnimation key={index} animation="fade-in" stagger={staggerClass}>
-                    <div className={`text-center p-6 ${isDark ? 'bg-gray-800/90' : 'bg-white/90'} backdrop-blur-sm rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 border ${isDark ? 'border-gray-600/30 hover:border-red-500' : 'border-white/30 hover:border-red-500'} transform hover:scale-105`}>
-                      <div className="text-4xl mb-3">{stat.icon}</div>
-                      <div className="text-3xl font-bold text-red-500 mb-2">{stat.number}</div>
-                      <div className={`font-medium ${isDark ? 'text-gray-300' : 'text-gray-700'}`}>{stat.label}</div>
+                    <div className={`text-center p-4 sm:p-6 ${isDark ? 'bg-gray-800/90' : 'bg-white/90'} backdrop-blur-sm rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 border ${isDark ? 'border-gray-600/30 hover:border-red-500' : 'border-white/30 hover:border-red-500'} hover:scale-105`}>
+                      <div className="text-2xl sm:text-3xl lg:text-4xl mb-2 sm:mb-3">{stat.icon}</div>
+                      <div className="text-xl sm:text-2xl lg:text-3xl font-bold text-red-500 mb-1 sm:mb-2">{stat.number}</div>
+                      <div className={`text-xs sm:text-sm lg:text-base font-medium ${isDark ? 'text-gray-300' : 'text-gray-700'}`}>{stat.label}</div>
                     </div>
                   </ScrollAnimation>
                 );
@@ -389,46 +393,46 @@ export default function Blog() {
       </section>
 
       {/* Testimonials */}
-      <section className={`py-20 ${isDark ? 'bg-gray-800' : 'bg-white'}`}>
-        <div className="mx-auto max-w-6xl px-6">
-          <div className="text-center mb-16">
+      <section className={`py-12 sm:py-16 md:py-20 ${isDark ? 'bg-gray-800' : 'bg-white'}`}>
+        <div className="mx-auto max-w-6xl px-4 sm:px-6">
+          <div className="text-center mb-8 sm:mb-16">
             <ScrollAnimation animation="fade-in" stagger="scroll-stagger-1">
-              <h3 className={`text-sm font-medium tracking-widest uppercase mb-4 ${isDark ? 'text-gray-400' : 'text-gray-600'}`}>
+              <h3 className={`text-xs sm:text-sm font-medium tracking-widest uppercase mb-3 sm:mb-4 ${isDark ? 'text-gray-400' : 'text-gray-600'}`}>
                 {t('blog.testimonials.tagline')}
               </h3>
             </ScrollAnimation>
             <ScrollAnimation animation="fade-in" stagger="scroll-stagger-2">
-              <h2 className={`text-4xl md:text-5xl font-bold mb-4 ${isDark ? 'text-white' : 'text-gray-900'}`}>
+              <h2 className={`text-3xl sm:text-4xl md:text-5xl font-bold mb-3 sm:mb-4 px-4 ${isDark ? 'text-white' : 'text-gray-900'}`}>
                 {t('blog.testimonials.title')}
               </h2>
             </ScrollAnimation>
           </div>
 
           <ScrollAnimation animation="fade-in" stagger="scroll-stagger-3">
-            <div className={`rounded-2xl p-8 md:p-12 relative overflow-hidden ${isDark ? 'bg-gray-900' : 'bg-gray-100'}`}>
+            <div className={`rounded-2xl p-6 sm:p-8 md:p-12 relative overflow-hidden ${isDark ? 'bg-gray-900' : 'bg-gray-100'}`}>
               {/* Red vertical line */}
-              <div className="absolute left-8 top-8 bottom-8 w-1 bg-red-500 rounded-full"></div>
+              <div className="absolute left-4 sm:left-8 top-8 bottom-8 w-1 bg-red-500 rounded-full"></div>
               
               
-              <div className="grid md:grid-cols-2 gap-8 items-center">
+              <div className="grid md:grid-cols-2 gap-6 sm:gap-8 items-center">
                 {/* Left Content */}
-                <div className="relative pl-8">
+                <div className="relative pl-6 sm:pl-8">
                   {/* Opening quote */}
-                  <div className="absolute -top-4 -left-2 text-red-300 text-6xl font-bold">❝</div>
+                  <div className="absolute -top-2 sm:-top-4 -left-1 sm:-left-2 text-red-300 text-3xl sm:text-4xl lg:text-6xl font-bold">❝</div>
                   
-                  <blockquote className={`italic text-lg leading-relaxed mb-6 relative ${isDark ? 'text-gray-300' : 'text-gray-700'}`}>
+                  <blockquote className={`italic text-base sm:text-lg leading-relaxed mb-4 sm:mb-6 relative ${isDark ? 'text-gray-300' : 'text-gray-700'}`}>
                     "{testimonials[currentTestimonial].quote}"
                     
                     {/* Closing quote */}
-                    <span className="absolute -bottom-2 text-red-300 text-4xl font-bold">❞</span>
+                    <span className="absolute -bottom-1 sm:-bottom-2 text-red-300 text-2xl sm:text-3xl lg:text-4xl font-bold">❞</span>
                   </blockquote>
                   
-                  <div className="space-y-2">
-                    <h4 className={`font-bold text-lg uppercase ${isDark ? 'text-white' : 'text-gray-900'}`}>{testimonials[currentTestimonial].author}</h4>
-                    <p className={`text-sm uppercase ${isDark ? 'text-gray-400' : 'text-gray-600'}`}>{testimonials[currentTestimonial].title}</p>
+                  <div className="space-y-1 sm:space-y-2">
+                    <h4 className={`font-bold text-base sm:text-lg uppercase ${isDark ? 'text-white' : 'text-gray-900'}`}>{testimonials[currentTestimonial].author}</h4>
+                    <p className={`text-xs sm:text-sm uppercase ${isDark ? 'text-gray-400' : 'text-gray-600'}`}>{testimonials[currentTestimonial].title}</p>
                     <div className="flex space-x-1">
                       {[...Array(testimonials[currentTestimonial].rating)].map((_, i) => (
-                        <span key={i} className="text-yellow-400 text-lg">⭐</span>
+                        <span key={i} className="text-yellow-400 text-sm sm:text-lg">⭐</span>
                       ))}
                     </div>
                   </div>
@@ -440,7 +444,7 @@ export default function Blog() {
                     <img
                       src={testimonials[currentTestimonial].image}
                       alt={testimonials[currentTestimonial].author}
-                      className="w-48 h-48 rounded-full object-cover border-4 border-white shadow-xl"
+                      className="w-32 h-32 sm:w-40 sm:h-40 lg:w-48 lg:h-48 rounded-full object-cover border-2 sm:border-4 border-white shadow-xl"
                     />
                   </div>
                 </div>
@@ -450,12 +454,12 @@ export default function Blog() {
 
           {/* Pagination Dots */}
           <ScrollAnimation animation="fade-in" stagger="scroll-stagger-4">
-            <div className="flex justify-center mt-8 space-x-3">
+            <div className="flex justify-center mt-6 sm:mt-8 space-x-2 sm:space-x-3">
               {testimonials.map((_, index) => (
                 <button
                   key={index}
                   onClick={() => goToTestimonial(index)}
-                  className={`w-3 h-3 rounded-full transition-all duration-300 ${
+                  className={`w-2 h-2 sm:w-3 sm:h-3 rounded-full transition-all duration-300 ${
                     index === currentTestimonial ? 'bg-red-500' : isDark ? 'bg-gray-600 hover:bg-gray-500' : 'bg-gray-300 hover:bg-gray-400'
                   }`}
                 />
@@ -466,7 +470,7 @@ export default function Blog() {
       </section>
 
       {/* Call to Action */}
-      <section className="relative py-24 text-white overflow-hidden" style={{
+      <section className="relative py-12 sm:py-16 md:py-24 text-white overflow-hidden" style={{
         backgroundImage: 'url(/images/RCTAB.jpg)',
         backgroundAttachment: 'fixed',
         backgroundSize: 'cover',
@@ -477,32 +481,26 @@ export default function Blog() {
         <div className={`absolute inset-0 ${isDark ? 'bg-black/70' : 'bg-black/60'}`}></div>
         <div className="absolute inset-0 opacity-10 bg-[url('/pattern.svg')] bg-cover"></div>
 
-        <div className="relative mx-auto max-w-4xl px-6 text-center z-10">
+        <div className="relative mx-auto max-w-4xl px-4 sm:px-6 text-center z-10">
           <ScrollAnimation animation="fade-in" stagger="scroll-stagger-1">
-            <h2 className="text-4xl md:text-5xl font-extrabold mb-6">
+            <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-4 sm:mb-6 px-4" style={{ fontFamily: 'serif' }}>
               {t('blog.cta.title')}
             </h2>
           </ScrollAnimation>
           
           <ScrollAnimation animation="fade-in" stagger="scroll-stagger-2">
-            <p className="text-lg md:text-xl text-gray-300 mb-10">
+            <p className="text-base sm:text-lg md:text-xl text-gray-300 mb-8 sm:mb-10 px-4">
               {t('blog.cta.subtitle')}
             </p>
           </ScrollAnimation>
 
           <ScrollAnimation animation="fade-in" stagger="scroll-stagger-3">
-            <div className="flex flex-col sm:flex-row gap-5 justify-center">
+            <div className="flex flex-col sm:flex-row gap-4 sm:gap-5 justify-center px-4">
               <a
                 href="/contact"
-                className="bg-red-600 hover:bg-red-700 text-white px-8 py-4 font-bold text-lg transition-all duration-300 rounded-lg shadow-lg hover:shadow-xl"
+                className="bg-red-500 hover:bg-red-600 text-white px-6 sm:px-8 py-3 sm:py-4 font-bold text-base sm:text-lg transition-all duration-300 rounded-lg shadow-lg hover:shadow-xl w-full sm:w-auto"
               >
                 {t('blog.cta.makeReservationButton')}
-              </a>
-              <a
-                href="/about"
-                className="bg-white text-red-600 border-2 border-red-600 hover:bg-red-600 hover:text-white px-8 py-4 font-bold text-lg transition-all duration-300 rounded-lg shadow-lg hover:shadow-xl"
-              >
-                {t('blog.cta.viewMenuButton')}
               </a>
             </div>
           </ScrollAnimation>

@@ -79,11 +79,11 @@ export default function Home2() {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.2 }}
             >
-              <h1 className="text-5xl lg:text-7xl font-light leading-tight text-white">
+              <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-7xl font-light leading-tight text-white px-4">
                 {t('home2.hero.title')}
               </h1>
               
-              <p className="text-lg leading-relaxed max-w-3xl mx-auto text-white">
+              <p className="text-base sm:text-lg leading-relaxed max-w-3xl mx-auto text-white px-4">
                 {t('home2.hero.subtitle')}
               </p>
             </motion.div>
@@ -94,7 +94,7 @@ export default function Home2() {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.4 }}
             >
-              <a href="/contact" className="group relative px-8 py-4 bg-red-500 text-white font-semibold transition-all duration-300 hover:bg-red-600 transform hover:scale-105 inline-block text-center">
+              <a href="/contact" className="group relative px-6 sm:px-8 py-3 sm:py-4 bg-red-500 text-white font-semibold transition-all duration-300 hover:bg-red-600 transform hover:scale-105 inline-block text-center text-base sm:text-lg">
                 <span className="relative z-10">{t('home2.hero.reservationButton')}</span>
                 <div className="absolute inset-0 bg-red-600 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
               </a>
@@ -105,8 +105,8 @@ export default function Home2() {
       </section>
 
       {/* Modern Menu Showcase */}
-      <section className={`py-24 transition-colors duration-300 ${isDark ? 'bg-gray-800' : 'bg-gray-50'}`}>
-        <div className="max-w-7xl mx-auto px-6">
+      <section className={`py-12 sm:py-16 md:py-24 transition-colors duration-300 ${isDark ? 'bg-gray-800' : 'bg-gray-50'}`}>
+        <div className="max-w-7xl mx-auto px-4 sm:px-6">
           {/* Header */}
           <motion.div 
             className="text-center mb-16"
@@ -126,7 +126,7 @@ export default function Home2() {
             </motion.div>
             
             <motion.h2 
-              className={`text-4xl lg:text-5xl font-light mb-6 ${isDark ? 'text-white' : 'text-gray-900'}`}
+              className={`text-3xl sm:text-4xl lg:text-5xl font-light mb-6 px-4 ${isDark ? 'text-white' : 'text-gray-900'}`}
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.2 }}
@@ -136,7 +136,7 @@ export default function Home2() {
             </motion.h2>
             
             <motion.p 
-              className={`text-lg max-w-2xl mx-auto ${isDark ? 'text-gray-300' : 'text-gray-600'}`}
+              className={`text-base sm:text-lg max-w-2xl mx-auto px-4 ${isDark ? 'text-gray-300' : 'text-gray-600'}`}
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.3 }}
@@ -148,7 +148,7 @@ export default function Home2() {
 
           {/* Category Filter */}
           <motion.div 
-            className="flex flex-wrap justify-center gap-4 mb-12"
+            className="flex flex-wrap justify-center gap-2 sm:gap-4 mb-8 sm:mb-12 px-4"
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6 }}
@@ -158,7 +158,7 @@ export default function Home2() {
               <motion.button
                 key={category}
                 onClick={() => setSelectedCategory(categoryMap[category])}
-                className={`px-6 py-3 rounded-full font-medium transition-all duration-300 ${
+                className={`px-4 sm:px-6 py-2 sm:py-3 rounded-full font-medium transition-all duration-300 text-sm sm:text-base ${
                   selectedCategory === categoryMap[category]
                     ? 'bg-red-500 text-white shadow-lg'
                     : isDark
@@ -175,12 +175,12 @@ export default function Home2() {
 
           {/* Modern Menu Cards */}
           <AnimatePresence mode="wait">
-            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
               {[
               { 
                 title: t('home2.menu.cards.dishes.tandooriDelights.title'), 
                 price: '$24', 
-                image: '/images/RB1.jpg',
+                image: '/images/Tandoori Delights.jpg',
                 description: t('home2.menu.cards.dishes.tandooriDelights.description'),
                 category: t('home2.menu.cards.dishes.tandooriDelights.category'),
                 featured: true
@@ -204,7 +204,7 @@ export default function Home2() {
               { 
                 title: t('home2.menu.cards.dishes.masalaChai.title'), 
                 price: '$8', 
-                image: '/images/RB3.jpg',
+                image: '/images/Masala Chai.jpg',
                 description: t('home2.menu.cards.dishes.masalaChai.description'),
                 category: t('home2.menu.cards.dishes.masalaChai.category'),
                 featured: false
@@ -357,45 +357,45 @@ export default function Home2() {
 
           {/* Call to Action */}
           <motion.div 
-            className="text-center mt-16"
+            className="text-center mt-12 sm:mt-16"
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.6 }}
             viewport={{ once: true }}
           >
-            <button className="px-8 py-4 bg-red-500 text-white font-semibold rounded-lg hover:bg-red-600 transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl">
+            <a href="/services#menu" className="px-6 sm:px-8 py-3 sm:py-4 bg-red-500 text-white font-semibold rounded-lg hover:bg-red-600 transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl text-base sm:text-lg inline-block">
               {t('home2.cta.viewMenu')}
-            </button>
+            </a>
           </motion.div>
         </div>
       </section>
 
       {/* Why Choose Yummy Section */}
-      <section className={`py-24 transition-colors duration-300 ${isDark ? 'bg-gray-900' : 'bg-gray-100'}`}>
-        <div className="max-w-7xl mx-auto px-6">
-          <div className="grid lg:grid-cols-4 gap-8">
+      <section className={`py-12 sm:py-16 md:py-24 transition-colors duration-300 ${isDark ? 'bg-gray-900' : 'bg-gray-100'}`}>
+        <div className="max-w-7xl mx-auto px-4 sm:px-6">
+          <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6 sm:gap-8">
             {/* Left Column - Red Background */}
             <motion.div
-              className="bg-red-500 p-8 text-white text-left"
+              className="bg-red-500 p-6 sm:p-8 text-white text-left"
               initial={{ opacity: 0, x: -50 }}
               whileInView={{ opacity: 1, x: 0 }}
               transition={{ duration: 0.8 }}
               viewport={{ once: true }}
             >
-              <h2 className="text-3xl lg:text-4xl font-bold mb-6 leading-tight text-left">
+              <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold mb-4 sm:mb-6 leading-tight text-left">
                 {t('home2.whyChoose.title')}
               </h2>
-              <p className="text-lg leading-relaxed mb-8 opacity-90 text-left">
+              <p className="text-base sm:text-lg leading-relaxed mb-6 sm:mb-8 opacity-90 text-left">
                 {t('home2.whyChoose.description')}
               </p>
-              <button className="bg-red-600 hover:bg-red-700 text-white px-6 py-3 rounded-lg font-semibold transition-all duration-300 transform hover:scale-105 flex items-center gap-2">
-                {t('home2.whyChoose.learnMore')} <span className="text-lg">→</span>
+              <button onClick={() => navigate('/about')} className="bg-red-600 hover:bg-red-700 text-white px-4 sm:px-6 py-2 sm:py-3 rounded-lg font-semibold transition-all duration-300 transform hover:scale-105 flex items-center gap-2 text-sm sm:text-base">
+                Know More <span className="text-base sm:text-lg">→</span>
               </button>
             </motion.div>
 
             {/* Right Columns - White Background */}
             <motion.div
-              className={`bg-white p-8 shadow-lg ${isDark ? 'bg-gray-800' : 'bg-white'}`}
+              className={`bg-white p-6 sm:p-8 shadow-lg ${isDark ? 'bg-gray-800' : 'bg-white'}`}
               initial={{ opacity: 0, y: 50 }}
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.1 }}
@@ -412,17 +412,17 @@ export default function Home2() {
                     </g>
                   </svg>
                 </div>
-                <h3 className={`text-xl font-semibold mb-4 leading-tight ${isDark ? 'text-white' : 'text-gray-900'}`}>
+                <h3 className={`text-lg sm:text-xl font-semibold mb-3 sm:mb-4 leading-tight ${isDark ? 'text-white' : 'text-gray-900'}`}>
                   {t('home2.whyChoose.qualityYouCanTaste')}
                 </h3>
-                <p className={`text-sm leading-relaxed text-center ${isDark ? 'text-gray-300' : 'text-gray-600'}`}>
+                <p className={`text-xs sm:text-sm leading-relaxed text-center ${isDark ? 'text-gray-300' : 'text-gray-600'}`}>
                   {t('home2.whyChoose.qualityDescription')}
                 </p>
               </div>
             </motion.div>
 
             <motion.div
-              className={`bg-white p-8 shadow-lg ${isDark ? 'bg-gray-800' : 'bg-white'}`}
+              className={`bg-white p-6 sm:p-8 shadow-lg ${isDark ? 'bg-gray-800' : 'bg-white'}`}
               initial={{ opacity: 0, y: 50 }}
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.2 }}
@@ -457,7 +457,7 @@ export default function Home2() {
             </motion.div>
 
             <motion.div
-              className={`bg-white p-8 shadow-lg ${isDark ? 'bg-gray-800' : 'bg-white'}`}
+              className={`bg-white p-6 sm:p-8 shadow-lg ${isDark ? 'bg-gray-800' : 'bg-white'}`}
               initial={{ opacity: 0, y: 50 }}
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.3 }}
@@ -499,27 +499,27 @@ export default function Home2() {
       </section>
 
       {/* Meet Our Chef - New Template */}
-      <section className={`py-24 transition-colors duration-300 ${isDark ? 'bg-gray-900' : 'bg-white'}`}>
-        <div className="max-w-7xl mx-auto px-6">
+      <section className={`py-12 sm:py-16 md:py-24 transition-colors duration-300 ${isDark ? 'bg-gray-900' : 'bg-white'}`}>
+        <div className="max-w-7xl mx-auto px-4 sm:px-6">
           {/* Header */}
           <motion.div 
-            className="text-center mb-16"
+            className="text-center mb-12 sm:mb-16"
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
             viewport={{ once: true }}
           >
             <span className="text-red-500 font-medium tracking-wider uppercase text-sm">{t('home2.chef.title')}</span>
-            <h2 className={`text-4xl lg:text-5xl font-light mt-4 ${isDark ? 'text-white' : 'text-gray-900'}`}>
+            <h2 className={`text-3xl sm:text-4xl lg:text-5xl font-light mt-4 px-4 ${isDark ? 'text-white' : 'text-gray-900'}`}>
               {t('home2.chef.subtitle')}
             </h2>
-            <p className={`text-lg max-w-2xl mx-auto mt-6 ${isDark ? 'text-gray-300' : 'text-gray-600'}`}>
+            <p className={`text-base sm:text-lg max-w-2xl mx-auto mt-6 px-4 ${isDark ? 'text-gray-300' : 'text-gray-600'}`}>
               {t('home2.chef.description')}
             </p>
           </motion.div>
 
           {/* Chef Cards Grid */}
-          <div className="grid lg:grid-cols-2 gap-8 items-stretch">
+          <div className="grid lg:grid-cols-2 gap-6 sm:gap-8 items-stretch">
             {/* Main Chef Card */}
             <motion.div
               className="flex"
@@ -547,9 +547,9 @@ export default function Home2() {
                     </div>
                   </div>
                 </div>
-                <div className="p-8 flex-1 flex flex-col justify-between">
+                <div className="p-6 sm:p-8 flex-1 flex flex-col justify-between">
                   <div>
-                    <p className={`text-lg leading-relaxed mb-6 ${isDark ? 'text-gray-300' : 'text-gray-600'}`}>
+                    <p className={`text-base sm:text-lg leading-relaxed mb-4 sm:mb-6 ${isDark ? 'text-gray-300' : 'text-gray-600'}`}>
                       {t('home2.chef.chefBio')}
                     </p>
                     <div className="flex flex-wrap gap-4">
@@ -609,24 +609,13 @@ export default function Home2() {
             </motion.div>
           </div>
 
-          {/* Call to Action */}
-          <motion.div 
-            className="text-center mt-16"
-            initial={{ opacity: 0, y: 30 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8, delay: 0.4 }}
-            viewport={{ once: true }}
-          >
-            <button className="px-8 py-4 bg-red-500 text-white font-semibold rounded-lg hover:bg-red-600 transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl">
-              {t('home2.cta.meetChef')}
-            </button>
-          </motion.div>
+          {/* Call to Action removed as requested */}
         </div>
       </section>
 
       {/* Testimonials Section */}
-      <section className={`py-24 transition-colors duration-300 ${isDark ? 'bg-gray-800' : 'bg-gray-50'}`}>
-        <div className="max-w-7xl mx-auto px-6">
+      <section className={`py-12 sm:py-16 md:py-24 transition-colors duration-300 ${isDark ? 'bg-gray-800' : 'bg-gray-50'}`}>
+        <div className="max-w-7xl mx-auto px-4 sm:px-6">
           {/* Header */}
           <motion.div 
             className="text-center mb-16"
@@ -636,19 +625,19 @@ export default function Home2() {
             viewport={{ once: true }}
           >
             <span className="text-red-500 font-medium tracking-wider uppercase text-sm">{t('home2.testimonials.title')}</span>
-            <h2 className={`text-4xl lg:text-5xl font-light mt-4 ${isDark ? 'text-white' : 'text-gray-900'}`}>
+            <h2 className={`text-3xl sm:text-4xl lg:text-5xl font-light mt-4 px-4 ${isDark ? 'text-white' : 'text-gray-900'}`}>
               {t('home2.testimonials.subtitle')}
             </h2>
-            <p className={`text-lg max-w-2xl mx-auto mt-6 ${isDark ? 'text-gray-300' : 'text-gray-600'}`}>
+            <p className={`text-base sm:text-lg max-w-2xl mx-auto mt-6 px-4 ${isDark ? 'text-gray-300' : 'text-gray-600'}`}>
               {t('home2.testimonials.description')}
             </p>
           </motion.div>
 
           {/* Testimonials Grid */}
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
             {/* Testimonial 1 */}
             <motion.div
-              className={`p-8 shadow-lg ${isDark ? 'bg-gray-900' : 'bg-white'}`}
+              className={`p-6 sm:p-8 shadow-lg ${isDark ? 'bg-gray-900' : 'bg-white'}`}
               initial={{ opacity: 0, y: 50 }}
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8 }}
@@ -683,7 +672,7 @@ export default function Home2() {
 
             {/* Testimonial 2 */}
               <motion.div
-              className={`p-8 shadow-lg ${isDark ? 'bg-gray-900' : 'bg-white'}`}
+              className={`p-6 sm:p-8 shadow-lg ${isDark ? 'bg-gray-900' : 'bg-white'}`}
               initial={{ opacity: 0, y: 50 }}
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.1 }}
@@ -718,7 +707,7 @@ export default function Home2() {
 
             {/* Testimonial 3 */}
             <motion.div
-              className={`p-8 shadow-lg ${isDark ? 'bg-gray-900' : 'bg-white'}`}
+              className={`p-6 sm:p-8 shadow-lg ${isDark ? 'bg-gray-900' : 'bg-white'}`}
               initial={{ opacity: 0, y: 50 }}
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.2 }}
@@ -756,7 +745,7 @@ export default function Home2() {
       </section>
 
       {/* Modern Reservation Section */}
-      <section className="relative py-24 overflow-hidden">
+      <section className="relative py-12 sm:py-16 md:py-24 overflow-hidden">
         {/* Background Image */}
         <div className="absolute inset-0">
           <img
@@ -767,7 +756,7 @@ export default function Home2() {
           <div className="absolute inset-0 bg-black/60"></div>
         </div>
         
-        <div className="relative max-w-7xl mx-auto px-6">
+        <div className="relative max-w-7xl mx-auto px-4 sm:px-6">
           <div className="text-center">
             {/* Content */}
             <motion.div
@@ -777,15 +766,15 @@ export default function Home2() {
               transition={{ duration: 0.8 }}
               viewport={{ once: true }}
             >
-              <div>
+              <div className="px-4">
                 <span className="text-red-500 font-medium tracking-wider uppercase text-sm">{t('home2.contact.title')}</span>
-                <h2 className="text-4xl lg:text-5xl font-light mt-4 text-white">
+                <h2 className="text-3xl sm:text-4xl lg:text-5xl font-light mt-4 text-white">
                   {t('home2.contact.subtitle')}
                 </h2>
               </div>
 
               <div className="space-y-6">
-                <p className="text-lg leading-relaxed text-gray-200 max-w-2xl mx-auto">
+                <p className="text-base sm:text-lg leading-relaxed text-gray-200 max-w-2xl mx-auto px-4">
                   {t('home2.contact.description')}
                 </p>
                 
@@ -809,18 +798,12 @@ export default function Home2() {
                 </div>
               </div>
 
-              <div className="flex flex-col sm:flex-row gap-4 justify-center">
+              <div className="flex flex-col sm:flex-row gap-4 justify-center px-4">
                 <button 
                   onClick={() => navigate('/contact')}
-                  className="px-8 py-4 bg-red-500 text-white font-semibold rounded-lg hover:bg-red-600 transition-all duration-300 transform hover:scale-105"
+                  className="px-6 sm:px-8 py-3 sm:py-4 bg-red-500 text-white font-semibold rounded-lg hover:bg-red-600 transition-all duration-300 transform hover:scale-105 text-base sm:text-lg w-full sm:w-auto"
                 >
 {t('home2.contact.bookOnline')}
-                </button>
-                <button 
-                  onClick={() => navigate('/contact')}
-                  className="px-8 py-4 border-2 border-white text-white font-semibold transition-all duration-300 hover:border-red-500 hover:text-red-500 rounded-lg"
-                >
-{t('home2.contact.callNow')}
                 </button>
               </div>
             </motion.div>
