@@ -1,8 +1,27 @@
 @import "tailwindcss";
 
 @layer base {
-  body {
+  html, body {
     @apply transition-colors;
+    overflow-x: hidden;
+    height: 100%;
+    -ms-overflow-style: none;  /* Internet Explorer 10+ */
+    scrollbar-width: none;  /* Firefox */
+  }
+  
+  html::-webkit-scrollbar, body::-webkit-scrollbar {
+    display: none;  /* Safari and Chrome */
+  }
+  
+  #root {
+    height: 100%;
+    overflow-x: hidden;
+    -ms-overflow-style: none;  /* Internet Explorer 10+ */
+    scrollbar-width: none;  /* Firefox */
+  }
+  
+  #root::-webkit-scrollbar {
+    display: none;  /* Safari and Chrome */
   }
   
   /* Font support for Arabic and Hebrew (LTR layout) */
@@ -246,4 +265,24 @@
   .scroll-stagger-4 { transition-delay: 0.4s; }
   .scroll-stagger-5 { transition-delay: 0.5s; }
   .scroll-stagger-6 { transition-delay: 0.6s; }
+  
+  /* Hide scrollbar utility */
+  .scrollbar-hide {
+    -ms-overflow-style: none;  /* Internet Explorer 10+ */
+    scrollbar-width: none;  /* Firefox */
+  }
+  
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;  /* Safari and Chrome */
+  }
+  
+  /* Hide all scrollbars globally */
+  * {
+    -ms-overflow-style: none;  /* Internet Explorer 10+ */
+    scrollbar-width: none;  /* Firefox */
+  }
+  
+  *::-webkit-scrollbar {
+    display: none;  /* Safari and Chrome */
+  }
 }

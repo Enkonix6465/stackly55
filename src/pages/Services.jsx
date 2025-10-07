@@ -117,13 +117,13 @@ export default function Services() {
                       window.location.hash = 'services'
                     }
                   }}
-                  className="bg-red-500 hover:bg-red-600 text-white px-6 sm:px-8 py-3 sm:py-4 font-bold text-base sm:text-lg rounded-lg transition-all duration-300 shadow-lg hover:shadow-xl w-full sm:w-auto text-center"
+                  className="px-6 sm:px-8 py-3 sm:py-4 bg-red-500 hover:bg-red-600 text-white font-bold text-base sm:text-lg rounded-lg transition-all duration-300 shadow-lg w-full sm:w-auto inline-flex items-center justify-center"
                 >
                   {t('servicesPage.hero.ctaExplore')}
                 </a>
                 <a
                   href="/contact"
-                  className="bg-transparent border-2 border-red-500 text-red-500 hover:bg-red-500 hover:text-white px-6 sm:px-8 py-3 sm:py-4 font-bold text-base sm:text-lg rounded-lg transition-all duration-300 w-full sm:w-auto text-center"
+                  className="px-6 sm:px-8 py-3 sm:py-4 bg-red-500 hover:bg-red-600 text-white font-bold text-base sm:text-lg rounded-lg transition-all duration-300 shadow-lg w-full sm:w-auto inline-flex items-center justify-center"
                 >
                   {t('servicesPage.hero.ctaBook')}
                 </a>
@@ -143,7 +143,7 @@ export default function Services() {
         <div className="container mx-auto px-4 sm:px-6">
           <div className="text-center mb-12 sm:mb-20">
             <span className="text-red-500 text-sm font-semibold tracking-wider uppercase">{t('servicesPage.masonry.badge')}</span>
-            <h2 className={`text-3xl sm:text-4xl md:text-5xl font-bold mt-4 mb-4 sm:mb-6 px-4 ${isDark ? 'text-white' : 'text-black'}`} style={{ fontFamily: 'serif' }}>
+            <h2 className={`text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold mt-4 mb-4 sm:mb-6 px-4 ${isDark ? 'text-white' : 'text-black'}`} style={{ fontFamily: 'serif' }}>
               {t('servicesPage.masonry.title')}
             </h2>
             <p className={`text-base sm:text-lg md:text-xl max-w-3xl mx-auto px-4 ${isDark ? 'text-gray-300' : 'text-gray-600'}`}>
@@ -220,7 +220,7 @@ export default function Services() {
                                     ? '/services/reservations'
                                     : '/contact'
                       }
-                      className="bg-red-500 hover:bg-red-600 text-white px-6 py-3 rounded-lg transition-colors duration-300 font-semibold inline-block shadow-lg hover:shadow-xl text-center"
+                      className="px-6 sm:px-8 py-3 sm:py-4 bg-red-500 hover:bg-red-600 text-white font-bold text-base sm:text-lg rounded-lg transition-all duration-300 shadow-lg w-full sm:w-auto inline-flex items-center justify-center"
                     >
                       View
                     </a>
@@ -236,7 +236,7 @@ export default function Services() {
         <div className="container mx-auto px-4 sm:px-6">
           <div className="text-center mb-12 sm:mb-20">
             <span className="text-red-500 text-sm font-semibold tracking-wider uppercase">{t('servicesPage.testimonials.badge')}</span>
-            <h2 className={`text-3xl sm:text-4xl md:text-5xl font-bold mt-4 mb-4 sm:mb-6 px-4 ${isDark ? 'text-white' : 'text-black'}`} style={{ fontFamily: 'serif' }}>
+            <h2 className={`text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold mt-4 mb-4 sm:mb-6 px-4 ${isDark ? 'text-white' : 'text-black'}`} style={{ fontFamily: 'serif' }}>
               {t('servicesPage.testimonials.title')}
             </h2>
             <p className={`text-base sm:text-lg md:text-xl max-w-3xl mx-auto px-4 ${isDark ? 'text-gray-300' : 'text-gray-600'}`}>
@@ -293,7 +293,7 @@ export default function Services() {
         <div className="container mx-auto px-4 sm:px-6">
           <div className="text-center mb-8 sm:mb-16">
             <span className="text-red-500 text-sm font-semibold tracking-wider uppercase">{t('servicesPage.gallery.badge')}</span>
-            <h2 className={`text-3xl sm:text-4xl md:text-5xl font-bold mt-4 mb-4 sm:mb-6 px-4 ${isDark ? 'text-white' : 'text-black'}`} style={{ fontFamily: 'serif' }}>{t('servicesPage.gallery.title')}</h2>
+            <h2 className={`text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold mt-4 mb-4 sm:mb-6 px-4 ${isDark ? 'text-white' : 'text-black'}`} style={{ fontFamily: 'serif' }}>{t('servicesPage.gallery.title')}</h2>
             <p className={`text-base sm:text-lg md:text-xl max-w-3xl mx-auto px-4 ${isDark ? 'text-gray-300' : 'text-gray-600'}`}>
               {t('servicesPage.gallery.subtitle')}
             </p>
@@ -329,7 +329,7 @@ export default function Services() {
         <div className="container mx-auto px-4 sm:px-6">
           <div className="text-center mb-12 sm:mb-20">
             <span className="text-red-500 text-sm font-semibold tracking-wider uppercase">{t('servicesPage.menu.badge')}</span>
-            <h2 className={`text-3xl sm:text-4xl md:text-5xl font-bold mt-4 mb-4 sm:mb-6 px-4 ${isDark ? 'text-white' : 'text-black'}`} style={{ fontFamily: 'serif' }}>
+            <h2 className={`text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold mt-4 mb-4 sm:mb-6 px-4 ${isDark ? 'text-white' : 'text-black'}`} style={{ fontFamily: 'serif' }}>
               {t('servicesPage.menu.title')}
             </h2>
             <p className={`text-base sm:text-lg md:text-xl max-w-3xl mx-auto px-4 ${isDark ? 'text-gray-300' : 'text-gray-600'}`}>
@@ -389,7 +389,7 @@ export default function Services() {
           <div className="text-center mt-8 sm:mt-16">
                 <a
                   href="/contact"
-                  className="bg-red-500 hover:bg-red-600 text-white px-6 sm:px-8 py-3 sm:py-4 font-bold text-base sm:text-lg rounded-lg transition-all duration-300 shadow-lg hover:shadow-xl"
+                  className="px-6 sm:px-8 py-3 sm:py-4 bg-red-500 hover:bg-red-600 text-white font-bold text-base sm:text-lg rounded-lg transition-all duration-300 shadow-lg w-full sm:w-auto inline-flex items-center justify-center"
                 >
               {t('servicesPage.menu.viewFull')}
             </a>
@@ -408,7 +408,7 @@ export default function Services() {
         <div className="relative z-10 container mx-auto px-4 sm:px-6">
           <div className="text-center mb-12 sm:mb-20">
             <span className="text-red-500 text-sm font-semibold tracking-wider uppercase">{t('servicesPage.location.badge')}</span>
-            <h2 className={`text-3xl sm:text-4xl md:text-5xl font-bold mt-4 mb-4 sm:mb-6 px-4 text-white`} style={{ fontFamily: 'serif' }}>
+            <h2 className={`text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold mt-4 mb-4 sm:mb-6 px-4 text-white`} style={{ fontFamily: 'serif' }}>
               {t('servicesPage.location.title')}
             </h2>
             <p className={`text-base sm:text-lg md:text-xl max-w-3xl mx-auto px-4 text-white`}>
@@ -442,7 +442,7 @@ export default function Services() {
             <a
               href="/contact"
               onClick={(e) => { e.preventDefault(); navigate('/contact') }}
-              className="bg-red-500 hover:bg-red-600 text-white px-6 sm:px-8 py-3 sm:py-4 font-bold text-base sm:text-lg rounded-lg transition-all duration-300 shadow-lg hover:shadow-xl"
+              className="px-6 sm:px-8 py-3 sm:py-4 bg-red-500 hover:bg-red-600 text-white font-bold text-base sm:text-lg rounded-lg transition-all duration-300 shadow-lg w-full sm:w-auto inline-flex items-center justify-center"
             >
               {t('servicesPage.location.ctaReserve')}
             </a>

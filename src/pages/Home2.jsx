@@ -79,7 +79,7 @@ export default function Home2() {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.2 }}
             >
-              <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-7xl font-light leading-tight text-white px-4">
+              <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-7xl font-bold leading-tight text-white px-4" style={{ fontFamily: 'serif' }}>
                 {t('home2.hero.title')}
               </h1>
               
@@ -94,9 +94,8 @@ export default function Home2() {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.4 }}
             >
-              <a href="/contact" className="group relative px-6 sm:px-8 py-3 sm:py-4 bg-red-500 text-white font-semibold transition-all duration-300 hover:bg-red-600 transform hover:scale-105 inline-block text-center text-base sm:text-lg">
-                <span className="relative z-10">{t('home2.hero.reservationButton')}</span>
-                <div className="absolute inset-0 bg-red-600 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+              <a href="/contact" className="px-6 sm:px-8 py-3 sm:py-4 bg-red-500 hover:bg-red-600 text-white font-bold text-base sm:text-lg rounded-lg transition-all duration-300 shadow-lg w-full sm:w-auto inline-flex items-center justify-center">
+                {t('home2.hero.reservationButton')}
               </a>
             </motion.div>
 
@@ -126,7 +125,7 @@ export default function Home2() {
             </motion.div>
             
             <motion.h2 
-              className={`text-3xl sm:text-4xl lg:text-5xl font-light mb-6 px-4 ${isDark ? 'text-white' : 'text-gray-900'}`}
+              className={`text-3xl sm:text-4xl lg:text-5xl font-bold mb-6 px-4 ${isDark ? 'text-white' : 'text-gray-900'}`} style={{ fontFamily: 'serif' }}
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.2 }}
@@ -158,9 +157,9 @@ export default function Home2() {
               <motion.button
                 key={category}
                 onClick={() => setSelectedCategory(categoryMap[category])}
-                className={`px-4 sm:px-6 py-2 sm:py-3 rounded-full font-medium transition-all duration-300 text-sm sm:text-base ${
+                className={`px-4 sm:px-6 py-2 sm:py-3 rounded-lg font-bold transition-all duration-300 text-sm sm:text-base shadow-lg ${
                   selectedCategory === categoryMap[category]
-                    ? 'bg-red-500 text-white shadow-lg'
+                    ? 'bg-red-500 text-white'
                     : isDark
                     ? 'bg-gray-700 text-gray-300 hover:bg-gray-600'
                     : 'bg-white text-gray-700 hover:bg-gray-100'
@@ -340,10 +339,10 @@ export default function Home2() {
                     {/* Action Button */}
                     <button 
                       onClick={() => navigate('/contact')}
-                      className={`w-full py-3 font-medium rounded-lg transition-all duration-300 group-hover:bg-red-500 group-hover:text-white ${
+                      className={`w-full py-3 font-bold rounded-lg transition-all duration-300 shadow-lg ${
                         isDark 
-                          ? 'bg-gray-600 text-gray-200 hover:bg-red-500 hover:text-white' 
-                          : 'bg-gray-100 text-gray-700 hover:bg-red-500 hover:text-white'
+                          ? 'bg-red-500 hover:bg-red-600 text-white' 
+                          : 'bg-red-500 hover:bg-red-600 text-white'
                       }`}
                     >
                       {t('home2.menu.cards.addToOrder')}
@@ -363,7 +362,7 @@ export default function Home2() {
             transition={{ duration: 0.8, delay: 0.6 }}
             viewport={{ once: true }}
           >
-            <a href="/services#menu" className="px-6 sm:px-8 py-3 sm:py-4 bg-red-500 text-white font-semibold rounded-lg hover:bg-red-600 transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl text-base sm:text-lg inline-block">
+            <a href="/services#menu" className="px-6 sm:px-8 py-3 sm:py-4 bg-red-500 hover:bg-red-600 text-white font-bold text-base sm:text-lg rounded-lg transition-all duration-300 shadow-lg w-full sm:w-auto inline-flex items-center justify-center">
               {t('home2.cta.viewMenu')}
             </a>
           </motion.div>
@@ -382,13 +381,13 @@ export default function Home2() {
               transition={{ duration: 0.8 }}
               viewport={{ once: true }}
             >
-              <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold mb-4 sm:mb-6 leading-tight text-left">
+              <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold mb-4 sm:mb-6 leading-tight text-left" style={{ fontFamily: 'serif' }}>
                 {t('home2.whyChoose.title')}
               </h2>
               <p className="text-base sm:text-lg leading-relaxed mb-6 sm:mb-8 opacity-90 text-left">
                 {t('home2.whyChoose.description')}
               </p>
-              <button onClick={() => navigate('/about')} className="bg-red-600 hover:bg-red-700 text-white px-4 sm:px-6 py-2 sm:py-3 rounded-lg font-semibold transition-all duration-300 transform hover:scale-105 flex items-center gap-2 text-sm sm:text-base">
+              <button onClick={() => navigate('/about')} className="bg-red-600 hover:bg-red-700 text-white px-4 sm:px-6 py-2 sm:py-3 rounded-lg font-bold transition-all duration-300 shadow-lg flex items-center gap-2 text-sm sm:text-base">
                 Know More <span className="text-base sm:text-lg">→</span>
               </button>
             </motion.div>
@@ -510,7 +509,7 @@ export default function Home2() {
             viewport={{ once: true }}
           >
             <span className="text-red-500 font-medium tracking-wider uppercase text-sm">{t('home2.chef.title')}</span>
-            <h2 className={`text-3xl sm:text-4xl lg:text-5xl font-light mt-4 px-4 ${isDark ? 'text-white' : 'text-gray-900'}`}>
+            <h2 className={`text-3xl sm:text-4xl lg:text-5xl font-bold mt-4 px-4 ${isDark ? 'text-white' : 'text-gray-900'}`} style={{ fontFamily: 'serif' }}>
               {t('home2.chef.subtitle')}
             </h2>
             <p className={`text-base sm:text-lg max-w-2xl mx-auto mt-6 px-4 ${isDark ? 'text-gray-300' : 'text-gray-600'}`}>
@@ -625,7 +624,7 @@ export default function Home2() {
             viewport={{ once: true }}
           >
             <span className="text-red-500 font-medium tracking-wider uppercase text-sm">{t('home2.testimonials.title')}</span>
-            <h2 className={`text-3xl sm:text-4xl lg:text-5xl font-light mt-4 px-4 ${isDark ? 'text-white' : 'text-gray-900'}`}>
+            <h2 className={`text-3xl sm:text-4xl lg:text-5xl font-bold mt-4 px-4 ${isDark ? 'text-white' : 'text-gray-900'}`} style={{ fontFamily: 'serif' }}>
               {t('home2.testimonials.subtitle')}
             </h2>
             <p className={`text-base sm:text-lg max-w-2xl mx-auto mt-6 px-4 ${isDark ? 'text-gray-300' : 'text-gray-600'}`}>
@@ -768,7 +767,7 @@ export default function Home2() {
             >
               <div className="px-4">
                 <span className="text-red-500 font-medium tracking-wider uppercase text-sm">{t('home2.contact.title')}</span>
-                <h2 className="text-3xl sm:text-4xl lg:text-5xl font-light mt-4 text-white">
+                <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold mt-4 text-white" style={{ fontFamily: 'serif' }}>
                   {t('home2.contact.subtitle')}
                 </h2>
               </div>
@@ -801,7 +800,7 @@ export default function Home2() {
               <div className="flex flex-col sm:flex-row gap-4 justify-center px-4">
                 <button 
                   onClick={() => navigate('/contact')}
-                  className="px-6 sm:px-8 py-3 sm:py-4 bg-red-500 text-white font-semibold rounded-lg hover:bg-red-600 transition-all duration-300 transform hover:scale-105 text-base sm:text-lg w-full sm:w-auto"
+                  className="px-6 sm:px-8 py-3 sm:py-4 bg-red-500 hover:bg-red-600 text-white font-bold text-base sm:text-lg rounded-lg transition-all duration-300 shadow-lg w-full sm:w-auto inline-flex items-center justify-center"
                 >
 {t('home2.contact.bookOnline')}
                 </button>

@@ -124,7 +124,7 @@ export default function About() {
             
             <ScrollAnimation animation="fade-in" stagger="scroll-stagger-4">
               <div className="flex flex-col sm:flex-row gap-4 justify-center px-4">
-                <button type="button" onClick={handleExploreClick} className="bg-red-500 hover:bg-red-600 text-white px-6 sm:px-8 py-3 sm:py-4 font-bold text-base sm:text-lg rounded-lg transition-all duration-300 shadow-lg hover:shadow-xl w-full sm:w-auto text-center">
+                <button type="button" onClick={handleExploreClick} className="px-6 sm:px-8 py-3 sm:py-4 bg-red-500 hover:bg-red-600 text-white font-bold text-base sm:text-lg rounded-lg transition-all duration-300 shadow-lg w-full sm:w-auto inline-flex items-center justify-center">
                   {t('aboutPage.hero.exploreButton')}
                 </button>
               </div>
@@ -144,7 +144,7 @@ export default function About() {
               <div className="text-red-600 text-base sm:text-lg font-semibold tracking-wider mb-3 sm:mb-4">
                 {t('aboutPage.story.tagline')}
               </div>
-              <h2 className={`text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-black mb-6 sm:mb-8 px-4 ${isDark ? 'text-white' : 'text-black'}`}>
+              <h2 className={`text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold mb-6 sm:mb-8 px-4 ${isDark ? 'text-white' : 'text-black'}`} style={{ fontFamily: 'serif' }}>
                 {t('aboutPage.story.title')}
               </h2>
             </div>
@@ -204,7 +204,7 @@ export default function About() {
         <div className="mx-auto max-w-7xl px-4 sm:px-6">
           <ScrollAnimation animation="fade-in" stagger="scroll-stagger-1">
             <div className="text-center mb-12 sm:mb-16">
-              <h2 className={`text-3xl sm:text-4xl md:text-5xl font-black mb-4 sm:mb-6 px-4 ${isDark ? 'text-white' : 'text-black'}`}>{t('aboutPage.features.title')}</h2>
+              <h2 className={`text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold mb-4 sm:mb-6 px-4 ${isDark ? 'text-white' : 'text-black'}`} style={{ fontFamily: 'serif' }}>{t('aboutPage.features.title')}</h2>
               <p className={`text-base sm:text-lg md:text-xl max-w-3xl mx-auto font-light px-4 ${isDark ? 'text-gray-300' : 'text-gray-600'}`}>
                 {t('aboutPage.features.subtitle')}
               </p>
@@ -274,7 +274,7 @@ export default function About() {
         <div className="mx-auto max-w-7xl px-4 sm:px-6">
           <ScrollAnimation animation="fade-in" stagger="scroll-stagger-1">
             <div className="text-center mb-12 sm:mb-20">
-              <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-black text-white mb-4 sm:mb-6 px-4">{t('aboutPage.testimonials.title')}</h2>
+              <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-4 sm:mb-6 px-4" style={{ fontFamily: 'serif' }}>{t('aboutPage.testimonials.title')}</h2>
               <p className="text-lg sm:text-xl md:text-2xl text-gray-300 max-w-3xl mx-auto font-light px-4">
                 {t('aboutPage.testimonials.subtitle')}
               </p>
@@ -314,7 +314,7 @@ export default function About() {
               <div className="text-red-600 text-base sm:text-lg font-semibold tracking-wider mb-3 sm:mb-4">
                 {t('aboutPage.excellence.tagline')}
               </div>
-              <h2 className={`text-3xl sm:text-4xl md:text-5xl font-black mb-4 sm:mb-6 px-4 ${isDark ? 'text-white' : 'text-black'}`}>
+              <h2 className={`text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold mb-4 sm:mb-6 px-4 ${isDark ? 'text-white' : 'text-black'}`} style={{ fontFamily: 'serif' }}>
                 {t('aboutPage.excellence.title')}
               </h2>
               <p className={`text-base sm:text-lg md:text-xl max-w-3xl mx-auto font-light px-4 ${isDark ? 'text-gray-300' : 'text-gray-600'}`}>
@@ -416,13 +416,13 @@ export default function About() {
                 <div className="text-red-400 text-base sm:text-lg font-semibold tracking-wider">
                   {t('aboutPage.weBelieve.tagline')}
                 </div>
-                <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-white leading-tight px-4" style={{ fontFamily: 'serif' }}>
+                <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-white leading-tight px-4" style={{ fontFamily: 'serif' }}>
                   {t('aboutPage.weBelieve.title')}
                 </h2>
                 <p className="text-base sm:text-lg md:text-xl text-white/90 leading-relaxed px-4">
                   {t('aboutPage.weBelieve.description')}
                 </p>
-                <button type="button" onClick={() => navigate('/contact')} className="px-6 sm:px-8 py-3 sm:py-4 bg-red-500 text-white font-bold text-base sm:text-lg rounded-lg transition-all duration-300 hover:bg-red-600 shadow-lg mx-auto">
+                <button type="button" onClick={() => navigate('/contact')} className="px-6 sm:px-8 py-3 sm:py-4 bg-red-500 hover:bg-red-600 text-white font-bold text-base sm:text-lg rounded-lg transition-all duration-300 shadow-lg w-full sm:w-auto inline-flex items-center justify-center">
                   {t('aboutPage.weBelieve.button')}
               </button>
             </div>

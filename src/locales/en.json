@@ -811,12 +811,12 @@
     },
     "reserveTable": {
       "title": "Reserve Your Table",
-      "description": "Experience fine dining at Bella Vista Restaurant. Book your table for an unforgettable culinary journey.",
+      "description": "Book your table for an unforgettable culinary journey.",
       "button": "Make a Reservation"
     },
     "reservationForm": {
       "title": "Table Reservation",
-      "subtitle": "Book your table at Bella Vista Restaurant. We'll confirm your reservation within 2 hours.",
+      "subtitle": "We'll confirm your reservation within 2 hours.",
       "successMessage": "Reservation submitted successfully! We'll contact you soon to confirm.",
       "fullName": "Full Name *",
       "fullNamePlaceholder": "Enter your full name",
@@ -886,7 +886,7 @@
     },
     "map": {
       "title": "Find Us",
-      "subtitle": "Located in the heart of downtown with easy access via public transportation and valet parking available."
+      "subtitle": "Located in the heart of downtown with easy access via public transportation."
     },
     "contactInfo": {
       "title": "Contact Information",
@@ -2181,7 +2181,8 @@
       "view": "View",
       "edit": "Edit",
       "delete": "Delete",
-      "export": "Export Data"
+      "export": "Export Data",
+      "exploreData": "Explore Data"
     },
     "deleteConfirm": {
       "title": "Delete User",
@@ -2197,6 +2198,21 @@
       "active": "Active",
       "inactive": "Inactive",
       "search": "Search users..."
+    },
+    "exploreData": {
+      "title": "Data Analytics Dashboard",
+      "subtitle": "Explore user data with interactive charts and insights",
+      "overview": "Overview",
+      "trends": "Trends",
+      "activity": "Activity",
+      "userDistribution": "User Distribution",
+      "registrationTrends": "Registration Trends (Last 7 Days)",
+      "last24Hours": "Last 24 Hours",
+      "lastWeek": "Last Week",
+      "totalActive": "Total Active",
+      "exportCSV": "Export CSV",
+      "exportJSON": "Export JSON",
+      "close": "Close"
     }
   }
   ,

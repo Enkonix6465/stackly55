@@ -169,7 +169,7 @@ export default function Blog() {
             <div className="mt-6 sm:mt-8 flex justify-center px-4">
               <a
                 href="/contact"
-                className="bg-red-500 hover:bg-red-600 text-white px-6 sm:px-8 py-3 sm:py-4 font-bold text-base sm:text-lg transition-all duration-300 rounded-lg shadow-lg hover:shadow-xl w-full sm:w-auto"
+                className="px-6 sm:px-8 py-3 sm:py-4 bg-red-500 hover:bg-red-600 text-white font-bold text-base sm:text-lg rounded-lg transition-all duration-300 shadow-lg w-full sm:w-auto inline-flex items-center justify-center"
               >
                 Connect
               </a>
@@ -184,7 +184,7 @@ export default function Blog() {
           {/* Section Header */}
           <div className="text-center mb-8 sm:mb-12">
             <ScrollAnimation animation="fade-in" stagger="scroll-stagger-1">
-              <h2 className={`text-3xl sm:text-4xl font-bold px-4 ${isDark ? 'text-white' : 'text-gray-900'}`} style={{ fontFamily: 'serif' }}>{t('blog.categories.title')}</h2>
+              <h2 className={`text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold mb-3 sm:mb-4 px-4 ${isDark ? 'text-white' : 'text-gray-900'}`} style={{ fontFamily: 'serif' }}>{t('blog.categories.title')}</h2>
             </ScrollAnimation>
           </div>
           
@@ -295,7 +295,7 @@ export default function Blog() {
 
               <ScrollAnimation animation="slide-in-left" stagger="scroll-stagger-4">
                 <div className="px-4 sm:px-0">
-                  <button className="border-2 border-red-500 text-red-500 hover:bg-red-500 hover:text-white px-6 sm:px-8 py-3 sm:py-4 font-bold text-base sm:text-lg transition-all duration-300 rounded-lg transform hover:scale-105 w-full sm:w-auto">
+                  <button className="px-6 sm:px-8 py-3 sm:py-4 bg-red-500 hover:bg-red-600 text-white font-bold text-base sm:text-lg rounded-lg transition-all duration-300 shadow-lg w-full sm:w-auto inline-flex items-center justify-center">
                     {t('blog.whyChooseUs.bookTableButton')}
                   </button>
                 </div>
@@ -402,7 +402,7 @@ export default function Blog() {
               </h3>
             </ScrollAnimation>
             <ScrollAnimation animation="fade-in" stagger="scroll-stagger-2">
-              <h2 className={`text-3xl sm:text-4xl md:text-5xl font-bold mb-3 sm:mb-4 px-4 ${isDark ? 'text-white' : 'text-gray-900'}`}>
+              <h2 className={`text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold mb-3 sm:mb-4 px-4 ${isDark ? 'text-white' : 'text-gray-900'}`} style={{ fontFamily: 'serif' }}>
                 {t('blog.testimonials.title')}
               </h2>
             </ScrollAnimation>
@@ -498,7 +498,7 @@ export default function Blog() {
             <div className="flex flex-col sm:flex-row gap-4 sm:gap-5 justify-center px-4">
               <a
                 href="/contact"
-                className="bg-red-500 hover:bg-red-600 text-white px-6 sm:px-8 py-3 sm:py-4 font-bold text-base sm:text-lg transition-all duration-300 rounded-lg shadow-lg hover:shadow-xl w-full sm:w-auto"
+                className="px-6 sm:px-8 py-3 sm:py-4 bg-red-500 hover:bg-red-600 text-white font-bold text-base sm:text-lg rounded-lg transition-all duration-300 shadow-lg w-full sm:w-auto inline-flex items-center justify-center"
               >
                 {t('blog.cta.makeReservationButton')}
               </a>

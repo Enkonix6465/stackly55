@@ -132,10 +132,10 @@ export default function Contact() {
         <div className="mx-auto max-w-4xl px-4 sm:px-6">
           <ScrollAnimation animation="slide-up" stagger="scroll-stagger-1">
             <div className="text-center mb-8 sm:mb-16">
-              <h2 className={`text-3xl sm:text-4xl font-bold mb-3 sm:mb-4 px-4 ${isDark ? 'text-white' : 'text-black'}`} style={{ fontFamily: 'serif' }}>
+              <h2 className={`text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold mb-3 sm:mb-4 px-4 ${isDark ? 'text-white' : 'text-black'}`} style={{ fontFamily: 'serif' }}>
                 {t('contact.reservationForm.title')}
               </h2>
-              <p className={`text-base sm:text-lg max-w-2xl mx-auto px-4 ${isDark ? 'text-gray-300' : 'text-gray-600'}`}>
+              <p className={`text-base sm:text-lg md:text-xl max-w-2xl mx-auto px-4 ${isDark ? 'text-gray-300' : 'text-gray-600'}`}>
                 {t('contact.reservationForm.subtitle')}
               </p>
             </div>
@@ -334,10 +334,10 @@ export default function Contact() {
         <div className="mx-auto max-w-7xl px-4 sm:px-6">
           <ScrollAnimation animation="slide-up" stagger="scroll-stagger-1">
             <div className="text-center mb-8 sm:mb-16">
-              <h2 className="text-3xl sm:text-4xl font-bold mb-3 sm:mb-4 text-white px-4" style={{ fontFamily: 'serif' }}>
+              <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold mb-3 sm:mb-4 text-white px-4" style={{ fontFamily: 'serif' }}>
                 {t('contact.restaurantInfo.title')}
               </h2>
-              <p className="text-base sm:text-lg max-w-2xl mx-auto text-gray-300 px-4">
+              <p className="text-base sm:text-lg md:text-xl max-w-2xl mx-auto text-gray-300 px-4">
                 {t('contact.restaurantInfo.subtitle')}
               </p>
             </div>
@@ -409,10 +409,10 @@ export default function Contact() {
         <div className="mx-auto max-w-7xl px-4 sm:px-6">
           <ScrollAnimation animation="slide-up" stagger="scroll-stagger-1">
             <div className="text-center mb-8 sm:mb-16">
-              <h2 className={`text-3xl sm:text-4xl font-bold mb-3 sm:mb-4 px-4 ${isDark ? 'text-white' : 'text-black'}`} style={{ fontFamily: 'serif' }}>
+              <h2 className={`text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold mb-3 sm:mb-4 px-4 ${isDark ? 'text-white' : 'text-black'}`} style={{ fontFamily: 'serif' }}>
                 {t('contact.map.title')}
               </h2>
-              <p className={`text-base sm:text-lg max-w-2xl mx-auto px-4 ${isDark ? 'text-gray-300' : 'text-gray-600'}`}>
+              <p className={`text-base sm:text-lg md:text-xl max-w-2xl mx-auto px-4 ${isDark ? 'text-gray-300' : 'text-gray-600'}`}>
                 {t('contact.map.subtitle')}
               </p>
             </div>
@@ -450,7 +450,7 @@ export default function Contact() {
         
         <div className="relative z-10 mx-auto max-w-4xl px-4 sm:px-6 text-center">
           <ScrollAnimation animation="slide-up" stagger="scroll-stagger-1">
-            <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-4 sm:mb-6 text-white px-4" style={{ fontFamily: 'serif' }}>
+            <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold mb-4 sm:mb-6 text-white px-4" style={{ fontFamily: 'serif' }}>
               {t('contact.cta.title')}
             </h2>
           </ScrollAnimation>

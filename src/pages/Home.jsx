@@ -186,7 +186,7 @@ export default function Home() {
             <div className="space-y-6 sm:space-y-6 md:space-y-8">
               <ScrollAnimation animation="slide-in-left" stagger="scroll-stagger-1">
                 <div className="space-y-4">
-                  <h2 className={`text-2xl sm:text-3xl md:text-4xl font-bold uppercase ${isDark ? 'text-white' : 'text-black'}`}>
+                <h2 className={`text-2xl sm:text-3xl md:text-4xl font-bold uppercase ${isDark ? 'text-white' : 'text-black'}`} style={{ fontFamily: 'serif' }}>
 {t('home1.welcome.title')}
                   </h2>
                   <h3 className="text-lg sm:text-xl md:text-2xl text-red-600 font-semibold">
@@ -234,7 +234,7 @@ export default function Home() {
           {/* Header */}
           <div className="text-center mb-12 sm:mb-16">
               <ScrollAnimation animation="fade-in" stagger="scroll-stagger-1">
-                <h2 className={`text-3xl sm:text-4xl md:text-5xl font-bold mb-4 ${isDark ? 'text-white' : 'text-black'}`}>
+                <h2 className={`text-3xl sm:text-4xl md:text-5xl font-bold mb-4 ${isDark ? 'text-white' : 'text-black'}`} style={{ fontFamily: 'serif' }}>
 {t('home1.signatureDishes.title')}
                 </h2>
               </ScrollAnimation>
@@ -315,7 +315,7 @@ export default function Home() {
                         <div className="text-3xl font-bold text-red-400 mb-4">${dish.price}</div>
                         <a
                           href="/contact"
-                          className="bg-red-500 hover:bg-red-600 text-white px-6 py-3 rounded-lg transition-colors duration-300 font-semibold inline-block"
+                          className="px-6 py-3 bg-red-500 hover:bg-red-600 text-white font-bold text-base rounded-lg transition-all duration-300 shadow-lg inline-flex items-center justify-center"
                         >
 {t('home1.signatureDishes.orderNow')}
                         </a>
@@ -338,7 +338,7 @@ export default function Home() {
             <div className="flex flex-col justify-center space-y-6 sm:space-y-8 h-auto sm:h-[500px]">
               <ScrollAnimation animation="slide-in-left" stagger="scroll-stagger-1">
                 <div className="space-y-4">
-                  <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-white">
+                  <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-white" style={{ fontFamily: 'serif' }}>
 {t('home1.culinaryJourney.title')}
                   </h2>
                 </div>
@@ -387,7 +387,7 @@ export default function Home() {
           {/* Header */}
           <div className="text-center mb-12 sm:mb-16">
           <ScrollAnimation animation="fade-in" stagger="scroll-stagger-1">
-                <h2 className={`text-3xl sm:text-4xl md:text-5xl font-bold mb-4 ${isDark ? 'text-white' : 'text-black'}`}>
+                <h2 className={`text-3xl sm:text-4xl md:text-5xl font-bold mb-4 ${isDark ? 'text-white' : 'text-black'}`} style={{ fontFamily: 'serif' }}>
 {t('home1.testimonials.title')}
                 </h2>
               </ScrollAnimation>
@@ -456,7 +456,7 @@ export default function Home() {
             <div className="space-y-6 sm:space-y-8">
               <ScrollAnimation animation="slide-in-left" stagger="scroll-stagger-1">
                 <div className="space-y-4">
-                  <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-white px-4">
+                  <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-white px-4" style={{ fontFamily: 'serif' }}>
 {t('home1.contact.title')}
                   </h2>
                 </div>
