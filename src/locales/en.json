@@ -55,6 +55,7 @@
     "passwordPlaceholder": "Enter your password",
     "signIn": "Sign in",
     "forgotPassword": "Forgot your password?",
+    "reset": "Reset",
     "noAccount": "Don't have an account?",
     "register": "Register",
     "errorEmailPassword": "Please enter email and password"

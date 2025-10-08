@@ -55,6 +55,7 @@
     "passwordPlaceholder": "הזן את הסיסמה שלך",
     "signIn": "התחבר",
     "forgotPassword": "שכחת את הסיסמה?",
+    "reset": "איפוס",
     "noAccount": "אין לך חשבון?",
     "register": "הירשם",
     "errorEmailPassword": "אנא הזן אימייל וסיסמה"

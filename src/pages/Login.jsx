@@ -150,9 +150,12 @@ export default function Login() {
             </form>
 
             <div className="mt-4 text-center">
-              <Link to="/forgot-password" className={`text-sm underline ${isDark ? 'text-red-300 hover:text-red-200' : 'text-red-600 hover:text-red-500'}`}>
-                {t('login.forgotPassword')}
-              </Link>
+              <span className={`text-sm ${isDark ? 'text-white/80' : 'text-black/80'}`}>
+                {t('login.forgotPassword')}{' '}
+                <Link to="/forgot-password" className={`underline ${isDark ? 'text-red-300 hover:text-red-200' : 'text-red-600 hover:text-red-500'}`}>
+                  {t('login.reset')}
+                </Link>
+              </span>
             </div>
 
             <p className={`mt-6 text-center text-sm ${isDark ? 'text-white/80' : 'text-black/80'}`}>

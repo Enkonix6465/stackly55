@@ -55,6 +55,7 @@
     "passwordPlaceholder": "أدخل كلمة المرور",
     "signIn": "تسجيل الدخول",
     "forgotPassword": "نسيت كلمة المرور؟",
+    "reset": "إعادة تعيين",
     "noAccount": "ليس لديك حساب؟",
     "register": "تسجيل",
     "errorEmailPassword": "يرجى إدخال البريد الإلكتروني وكلمة المرور"
