@@ -93,7 +93,7 @@ export default function About() {
       <Navbar user={user} />
       
       {/* Hero Parallax Section */}
-      <section className="relative h-screen overflow-hidden">
+      <section className="relative min-h-screen overflow-hidden flex items-center justify-center text-center">
         <div className="absolute inset-0">
           <video
             autoPlay
@@ -136,7 +136,7 @@ export default function About() {
 
 
       {/* Our Story Section */}
-      <section id="favola-since-1985" className={`py-12 sm:py-16 md:py-24 ${isDark ? 'bg-gray-800 text-white' : 'bg-white text-black'}`}>
+      <section id="favola-since-1985" className={`py-10 sm:py-16 md:py-24 ${isDark ? 'bg-gray-800 text-white' : 'bg-white text-black'}`}>
         <div className="mx-auto max-w-7xl px-4 sm:px-6">
           {/* Header */}
           <ScrollAnimation animation="fade-in" stagger="scroll-stagger-1">
@@ -200,7 +200,7 @@ export default function About() {
       </section>
 
       {/* Features Section */}
-      <section className={`py-12 sm:py-16 md:py-24 ${isDark ? 'bg-gray-900 text-white' : 'bg-white text-black'}`}>
+      <section className={`py-10 sm:py-16 md:py-24 ${isDark ? 'bg-gray-900 text-white' : 'bg-white text-black'}`}>
         <div className="mx-auto max-w-7xl px-4 sm:px-6">
           <ScrollAnimation animation="fade-in" stagger="scroll-stagger-1">
             <div className="text-center mb-12 sm:mb-16">
@@ -270,7 +270,7 @@ export default function About() {
       </section>
 
       {/* Testimonials Section */}
-      <section className={`py-12 sm:py-16 md:py-24 ${isDark ? 'bg-gray-800 text-white' : 'bg-black text-white'}`}>
+      <section className={`py-10 sm:py-16 md:py-24 ${isDark ? 'bg-gray-800 text-white' : 'bg-black text-white'}`}>
         <div className="mx-auto max-w-7xl px-4 sm:px-6">
           <ScrollAnimation animation="fade-in" stagger="scroll-stagger-1">
             <div className="text-center mb-12 sm:mb-20">
@@ -307,7 +307,7 @@ export default function About() {
       </section>
 
       {/* Restaurant Excellence Section */}
-      <section className={`py-12 sm:py-16 md:py-24 ${isDark ? 'bg-gray-900' : 'bg-white'}`}>
+      <section className={`py-10 sm:py-16 md:py-24 ${isDark ? 'bg-gray-900' : 'bg-white'}`}>
         <div className="mx-auto max-w-7xl px-4 sm:px-6">
           <ScrollAnimation animation="fade-in" stagger="scroll-stagger-1">
             <div className="text-center mb-12 sm:mb-16">
@@ -397,7 +397,7 @@ export default function About() {
       </section>
 
       {/* CTA Section */}
-      <section className="relative py-12 sm:py-16 md:py-24 overflow-hidden">
+      <section className="relative py-10 sm:py-16 md:py-24 overflow-hidden">
         {/* Background Image */}
         <div className="absolute inset-0">
           <img

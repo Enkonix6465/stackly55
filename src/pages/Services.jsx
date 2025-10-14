@@ -92,7 +92,7 @@ export default function Services() {
         <div className="absolute inset-0 bg-gradient-to-r from-black/70 via-black/50 to-black/70"></div>
 
         {/* Content */}
-        <div className="relative z-10 min-h-screen flex items-center">
+        <div className="relative z-10 min-h-screen flex items-center justify-center text-center">
           <div className="container mx-auto px-4 sm:px-6">
             <div className="max-w-4xl">
               <div className="mb-6 sm:mb-8">
@@ -138,7 +138,7 @@ export default function Services() {
 <section
       ref={servicesSectionRef}
       id="services"
-      className={isDark ? 'py-12 sm:py-16 md:py-24 bg-gray-900' : 'py-12 sm:py-16 md:py-24 bg-white'}
+      className={isDark ? 'py-10 sm:py-16 md:py-24 bg-gray-900' : 'py-10 sm:py-16 md:py-24 bg-white'}
     >        
         <div className="container mx-auto px-4 sm:px-6">
           <div className="text-center mb-12 sm:mb-20">
@@ -232,7 +232,7 @@ export default function Services() {
       </section>
 
       {/* Customer Testimonials */}
-      <section className={isDark ? 'py-12 sm:py-16 md:py-24 bg-gray-900' : 'py-12 sm:py-16 md:py-24 bg-gray-50'}>
+      <section className={isDark ? 'py-10 sm:py-16 md:py-24 bg-gray-900' : 'py-10 sm:py-16 md:py-24 bg-gray-50'}>
         <div className="container mx-auto px-4 sm:px-6">
           <div className="text-center mb-12 sm:mb-20">
             <span className="text-red-500 text-sm font-semibold tracking-wider uppercase">{t('servicesPage.testimonials.badge')}</span>
@@ -289,7 +289,7 @@ export default function Services() {
       </section>
 
       {/* Gallery */}
-      <section className={isDark ? 'py-12 sm:py-16 md:py-24 bg-gray-900' : 'py-12 sm:py-16 md:py-24 bg-white'}>
+      <section className={isDark ? 'py-10 sm:py-16 md:py-24 bg-gray-900' : 'py-10 sm:py-16 md:py-24 bg-white'}>
         <div className="container mx-auto px-4 sm:px-6">
           <div className="text-center mb-8 sm:mb-16">
             <span className="text-red-500 text-sm font-semibold tracking-wider uppercase">{t('servicesPage.gallery.badge')}</span>
@@ -325,7 +325,7 @@ export default function Services() {
       </section>
 
       {/* Menu Preview */}
-      <section id="menu" className={isDark ? 'py-12 sm:py-16 md:py-24 bg-gray-900' : 'py-12 sm:py-16 md:py-24 bg-white'}>
+      <section id="menu" className={isDark ? 'py-10 sm:py-16 md:py-24 bg-gray-900' : 'py-10 sm:py-16 md:py-24 bg-white'}>
         <div className="container mx-auto px-4 sm:px-6">
           <div className="text-center mb-12 sm:mb-20">
             <span className="text-red-500 text-sm font-semibold tracking-wider uppercase">{t('servicesPage.menu.badge')}</span>
@@ -401,7 +401,7 @@ export default function Services() {
 
       {/* Location & Hours (CTA with background) */}
       <section
-        className="relative py-12 sm:py-16 md:py-24 bg-center bg-cover bg-fixed"
+        className="relative py-10 sm:py-16 md:py-24 bg-center bg-cover bg-fixed"
         style={{ backgroundImage: 'url("/images/RECEP.jpg")' }}
       >
         <div className="absolute inset-0 bg-black/60" />

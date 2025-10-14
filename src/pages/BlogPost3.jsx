@@ -38,7 +38,7 @@ export default function BlogPost3() {
 
       {/* Hero Section */}
       <section 
-        className="relative text-white"
+        className="relative text-white min-h-[60vh] flex items-center justify-center text-center"
         style={{
           backgroundImage: "url('/images/Chocolate Lava Cak.jpg')",
           backgroundSize: "cover",
@@ -47,7 +47,7 @@ export default function BlogPost3() {
       >
         <div className={`absolute inset-0 ${isDark ? 'bg-black/70' : 'bg-black/60'}`}></div>
 
-        <div className="relative mx-auto max-w-6xl px-4 sm:px-6 py-12 sm:py-16">
+        <div className="relative mx-auto max-w-6xl px-4 sm:px-6 py-12 sm:py-16 w-full">
           <div className="max-w-4xl">
             <div className="flex flex-wrap items-center gap-2 mb-4 px-4 sm:px-0">
               <span className="px-2 sm:px-3 py-1 bg-white/20 rounded-full text-xs sm:text-sm">{t('blogPost3.hero.category')}</span>
@@ -73,7 +73,7 @@ export default function BlogPost3() {
       </section>
 
       {/* Main Content */}
-      <section className="py-12 sm:py-16">
+      <section className="py-10 sm:py-16">
         <div className="mx-auto max-w-6xl px-4 sm:px-6">
           <div className="grid lg:grid-cols-3 gap-8 sm:gap-12">
             {/* Main Content */}

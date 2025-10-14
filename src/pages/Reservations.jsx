@@ -194,7 +194,7 @@ export default function Reservations() {
           <div className="absolute inset-0 bg-black/50"></div>
         </div>
         
-        <div className="relative z-10 text-center max-w-4xl mx-auto px-4 sm:px-6">
+        <div className="relative z-10 text-center max-w-4xl mx-auto px-4 sm:px-6 w-full">
           <ScrollAnimation animation="fade-in" stagger="scroll-stagger-1">
             <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-4 sm:mb-6 text-white px-4">
               {t('reservations.title')}
@@ -216,7 +216,7 @@ export default function Reservations() {
       </section>
 
       {/* Dining Options Section */}
-      <section className={`py-12 sm:py-16 md:py-20 ${isDark ? 'bg-gray-800' : 'bg-gray-50'}`}>
+      <section className={`py-10 sm:py-16 md:py-20 ${isDark ? 'bg-gray-800' : 'bg-gray-50'}`}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6">
           <div className="text-center mb-8 sm:mb-16">
             <ScrollAnimation animation="fade-in" stagger="scroll-stagger-1">
@@ -302,7 +302,7 @@ export default function Reservations() {
       </section>
 
       {/* Time Slots Section */}
-      <section className={`py-12 sm:py-16 md:py-20 ${isDark ? 'bg-gray-900' : 'bg-white'}`}>
+      <section className={`py-10 sm:py-16 md:py-20 ${isDark ? 'bg-gray-900' : 'bg-white'}`}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6">
           <div className="text-center mb-8 sm:mb-16">
             <ScrollAnimation animation="fade-in" stagger="scroll-stagger-1">
@@ -349,7 +349,7 @@ export default function Reservations() {
       </section>
 
       {/* Special Packages Section */}
-      <section className={`py-12 sm:py-16 md:py-20 ${isDark ? 'bg-gray-800' : 'bg-gray-50'}`}>
+      <section className={`py-10 sm:py-16 md:py-20 ${isDark ? 'bg-gray-800' : 'bg-gray-50'}`}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6">
           <div className="text-center mb-8 sm:mb-16">
             <ScrollAnimation animation="fade-in" stagger="scroll-stagger-1">
@@ -406,7 +406,7 @@ export default function Reservations() {
       </section>
 
       {/* Testimonials Section */}
-      <section className={`py-20 ${isDark ? 'bg-gray-900' : 'bg-white'}`}>
+      <section className={`py-10 sm:py-16 md:py-20 ${isDark ? 'bg-gray-900' : 'bg-white'}`}>
         <div className="max-w-4xl mx-auto px-4 sm:px-6 text-center">
           <ScrollAnimation animation="fade-in" stagger="scroll-stagger-1">
             <span className="text-red-500 text-xs sm:text-sm font-semibold tracking-wider uppercase px-4">{t('reservations.testimonials.title')}</span>
@@ -463,7 +463,7 @@ export default function Reservations() {
       </section>
 
       {/* Reservation Form Section */}
-      <section className={`py-12 sm:py-16 md:py-20 ${isDark ? 'bg-gray-800' : 'bg-gray-50'}`}>
+      <section className={`py-10 sm:py-16 md:py-20 ${isDark ? 'bg-gray-800' : 'bg-gray-50'}`}>
         <div className="max-w-4xl mx-auto px-4 sm:px-6 text-center">
           <ScrollAnimation animation="fade-in" stagger="scroll-stagger-1">
             <span className="text-red-500 text-xs sm:text-sm font-semibold tracking-wider uppercase px-4">{t('reservations.reservationForm.title')}</span>

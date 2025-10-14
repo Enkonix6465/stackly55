@@ -129,7 +129,7 @@ export default function Blog() {
       <Navbar user={user} />
 
       {/* Hero Section */}
-      <section className="relative overflow-hidden h-screen flex items-center justify-center text-center">
+      <section className="relative overflow-hidden min-h-screen flex items-center justify-center text-center">
         {/* Background Video */}
         <video
           autoPlay
@@ -146,7 +146,7 @@ export default function Blog() {
         <div className="absolute inset-0 bg-black/60"></div>
 
         {/* Content */}
-        <div className="relative z-10 px-4 sm:px-6 max-w-4xl">
+        <div className="relative z-10 px-4 sm:px-6 max-w-4xl w-full">
           <ScrollAnimation animation="fade-in" stagger="scroll-stagger-1">
             <p className="text-xs sm:text-sm tracking-widest text-red-400 font-medium uppercase px-4">
               {t('blog.hero.tagline')}
@@ -179,7 +179,7 @@ export default function Blog() {
       </section>
 
       {/* Culinary Categories Section */}
-      <section className={`py-12 sm:py-16 md:py-20 ${isDark ? 'bg-gray-800' : 'bg-white'}`}>
+      <section className={`py-10 sm:py-16 md:py-20 ${isDark ? 'bg-gray-800' : 'bg-white'}`}>
         <div className="mx-auto max-w-6xl px-4 sm:px-6">
           {/* Section Header */}
           <div className="text-center mb-8 sm:mb-12">
@@ -258,7 +258,7 @@ export default function Blog() {
       </section>
 
       {/* Why Choose Us */}
-      <section className={`py-12 sm:py-16 md:py-20 ${isDark ? 'bg-gradient-to-br from-black via-gray-900 to-black' : 'bg-gradient-to-br from-gray-800 via-gray-700 to-gray-800'} text-white relative overflow-hidden`}>
+      <section className={`py-10 sm:py-16 md:py-20 ${isDark ? 'bg-gradient-to-br from-black via-gray-900 to-black' : 'bg-gradient-to-br from-gray-800 via-gray-700 to-gray-800'} text-white relative overflow-hidden`}>
         {/* Decorative Background Elements */}
         <div className="absolute inset-0 opacity-10">
           <div className="absolute top-10 sm:top-20 left-5 sm:left-10 w-16 sm:w-32 h-16 sm:h-32 border border-red-500 rounded-full"></div>
@@ -343,7 +343,7 @@ export default function Blog() {
       </section>
 
       {/* Restaurant Statistics */}
-      <section className="py-12 sm:py-16 md:py-20 relative" style={{
+      <section className="py-10 sm:py-16 md:py-20 relative" style={{
         backgroundImage: 'url(/images/RB4.jpg)',
         backgroundAttachment: 'fixed',
         backgroundSize: 'cover',
@@ -393,7 +393,7 @@ export default function Blog() {
       </section>
 
       {/* Testimonials */}
-      <section className={`py-12 sm:py-16 md:py-20 ${isDark ? 'bg-gray-800' : 'bg-white'}`}>
+      <section className={`py-10 sm:py-16 md:py-20 ${isDark ? 'bg-gray-800' : 'bg-white'}`}>
         <div className="mx-auto max-w-6xl px-4 sm:px-6">
           <div className="text-center mb-8 sm:mb-16">
             <ScrollAnimation animation="fade-in" stagger="scroll-stagger-1">
@@ -470,7 +470,7 @@ export default function Blog() {
       </section>
 
       {/* Call to Action */}
-      <section className="relative py-12 sm:py-16 md:py-24 text-white overflow-hidden" style={{
+      <section className="relative py-10 sm:py-16 md:py-24 text-white overflow-hidden" style={{
         backgroundImage: 'url(/images/RCTAB.jpg)',
         backgroundAttachment: 'fixed',
         backgroundSize: 'cover',

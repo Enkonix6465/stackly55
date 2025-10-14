@@ -85,7 +85,7 @@ export default function Contact() {
       <Navbar user={user} />
 
       {/* Hero Section */}
-      <section className="relative h-screen flex items-center justify-center overflow-hidden">
+      <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
         {/* Background Video */}
         <video 
           className="absolute inset-0 w-full h-full object-cover"
@@ -101,7 +101,7 @@ export default function Contact() {
         <div className={`absolute inset-0 ${isDark ? 'bg-black/70' : 'bg-black/50'}`}></div>
         
         {/* Content */}
-        <div className="relative z-10 text-center px-4 sm:px-6 max-w-4xl">
+        <div className="relative z-10 text-center px-4 sm:px-6 max-w-4xl w-full">
           <ScrollAnimation animation="slide-up" stagger="scroll-stagger-1">
             <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold mb-6 text-white leading-tight px-4" style={{ fontFamily: 'serif' }}>
               {t('contact.reserveTable.title')}
@@ -128,7 +128,7 @@ export default function Contact() {
       </section>
 
       {/* Reservation Form Section */}
-      <section id="reservation" className={`py-12 sm:py-16 md:py-20 ${isDark ? 'bg-gray-800 text-white' : 'bg-white text-black'}`}>
+      <section id="reservation" className={`py-10 sm:py-16 md:py-20 ${isDark ? 'bg-gray-800 text-white' : 'bg-white text-black'}`}>
         <div className="mx-auto max-w-4xl px-4 sm:px-6">
           <ScrollAnimation animation="slide-up" stagger="scroll-stagger-1">
             <div className="text-center mb-8 sm:mb-16">
@@ -330,7 +330,7 @@ export default function Contact() {
       </section>
 
       {/* Restaurant Information Section */}
-      <section className={`py-12 sm:py-16 md:py-20 ${isDark ? 'bg-gray-900 text-white' : 'bg-black text-white'}`}>
+      <section className={`py-10 sm:py-16 md:py-20 ${isDark ? 'bg-gray-900 text-white' : 'bg-black text-white'}`}>
         <div className="mx-auto max-w-7xl px-4 sm:px-6">
           <ScrollAnimation animation="slide-up" stagger="scroll-stagger-1">
             <div className="text-center mb-8 sm:mb-16">
@@ -405,7 +405,7 @@ export default function Contact() {
       </section>
 
       {/* Map Section */}
-      <section className={`py-12 sm:py-16 md:py-20 ${isDark ? 'bg-gray-800' : 'bg-gray-100'}`}>
+      <section className={`py-10 sm:py-16 md:py-20 ${isDark ? 'bg-gray-800' : 'bg-gray-100'}`}>
         <div className="mx-auto max-w-7xl px-4 sm:px-6">
           <ScrollAnimation animation="slide-up" stagger="scroll-stagger-1">
             <div className="text-center mb-8 sm:mb-16">
@@ -438,7 +438,7 @@ export default function Contact() {
       </section>
 
       {/* Call to Action Section */}
-      <section className="relative py-12 sm:py-16 md:py-20 overflow-hidden">
+      <section className="relative py-10 sm:py-16 md:py-20 overflow-hidden">
         {/* Fixed Background Image */}
         <div 
           className="absolute inset-0 bg-cover bg-center bg-no-repeat bg-fixed"

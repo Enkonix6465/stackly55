@@ -135,7 +135,7 @@ export default function Home() {
       <Navbar user={user} />
 
       {/* Hero Section */}
-      <section className="relative overflow-hidden h-screen flex items-center justify-center text-center bg-black">
+      <section className="relative overflow-hidden min-h-screen flex items-center justify-center text-center bg-black">
         {/* Background Video */}
         <video
           autoPlay
@@ -152,7 +152,7 @@ export default function Home() {
         <div className={`absolute inset-0 ${isDark ? 'bg-black/70' : 'bg-black/60'}`}></div>
 
         {/* Content */}
-        <div className="relative z-10 px-6 max-w-4xl">
+        <div className="relative z-10 px-4 sm:px-6 max-w-4xl w-full">
           <ScrollAnimation animation="fade-in" stagger="scroll-stagger-1">
             <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold leading-tight text-white mb-6" style={{ fontFamily: 'serif' }}>
               {t('home1.hero.title')}
@@ -166,7 +166,7 @@ export default function Home() {
           </ScrollAnimation>
           
           <ScrollAnimation animation="fade-in" stagger="scroll-stagger-3">
-            <div className="mt-8 flex gap-6 justify-center items-center flex-wrap">
+            <div className="mt-8 flex gap-4 sm:gap-6 justify-center items-center flex-wrap">
               <a
                 href="/contact"
                 className="bg-red-600 hover:bg-red-700 text-white px-8 py-4 font-bold text-lg rounded-lg transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-1"
@@ -179,7 +179,7 @@ export default function Home() {
       </section>
 
       {/* Welcome Section */}
-      <section className={`py-12 sm:py-16 md:py-20 ${isDark ? 'bg-gray-800 text-white' : 'bg-white text-black'}`}>
+      <section className={`py-10 sm:py-16 md:py-20 ${isDark ? 'bg-gray-800 text-white' : 'bg-white text-black'}`}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6">
           <div className="grid lg:grid-cols-2 gap-8 sm:gap-12 items-center">
             {/* Left Side - Content */}
@@ -218,7 +218,7 @@ export default function Home() {
                   <img
                     src="/images/RWELCOME.jpg"
                     alt="Welcome to our restaurant"
-                    className="w-full h-96 object-cover hover:scale-105 transition-transform duration-500"
+                    className="w-full h-64 sm:h-96 object-cover hover:scale-105 transition-transform duration-500"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/20 via-transparent to-transparent"></div>
                 </div>
@@ -229,7 +229,7 @@ export default function Home() {
       </section>
 
       {/* Featured Dishes Section */}
-      <section id="menu" className={`py-12 sm:py-16 md:py-20 ${isDark ? 'bg-gray-900 text-white' : 'bg-white text-black'}`}>
+      <section id="menu" className={`py-10 sm:py-16 md:py-20 ${isDark ? 'bg-gray-900 text-white' : 'bg-white text-black'}`}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6">
           {/* Header */}
           <div className="text-center mb-12 sm:mb-16">
@@ -246,7 +246,7 @@ export default function Home() {
           </div>
 
           {/* Dishes Grid */}
-          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
+          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-5 sm:gap-8">
             {featuredDishes.map((dish, index) => (
               <ScrollAnimation key={dish.id} animation="fade-in" stagger={`scroll-stagger-${(index % 6) + 1}`}>
                 <div className={`rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 overflow-hidden border hover:border-red-200 group ${isDark ? 'bg-gray-800 border-gray-700' : 'bg-white border-gray-100'}`}>
@@ -254,7 +254,7 @@ export default function Home() {
                     <img
                       src={dish.image}
                       alt={dish.name}
-                      className="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-300"
+                      className="w-full h-52 sm:h-64 object-cover group-hover:scale-105 transition-transform duration-300"
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent"></div>
                     
@@ -331,7 +331,7 @@ export default function Home() {
       </section>
 
       {/* About Us Section */}
-      <section className={`py-12 sm:py-16 md:py-20 ${isDark ? 'bg-gray-900 text-white' : 'bg-black text-white'}`}>
+      <section className={`py-10 sm:py-16 md:py-20 ${isDark ? 'bg-gray-900 text-white' : 'bg-black text-white'}`}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6">
           <div className="grid lg:grid-cols-2 gap-8 sm:gap-12 items-stretch">
             {/* Left Side - Content */}
@@ -351,7 +351,7 @@ export default function Home() {
               </ScrollAnimation>
               
               <ScrollAnimation animation="slide-in-left" stagger="scroll-stagger-3">
-                <div className="grid grid-cols-2 gap-3 sm:gap-6">
+                <div className="grid grid-cols-2 gap-2 sm:gap-6">
           {restaurantStats.map((stat, index) => (
                     <div key={index} className={`text-center p-4 sm:p-6 rounded-xl border ${isDark ? 'bg-white/5 border-white/10' : 'bg-white/5 border-white/10'}`}>
                       <div className="text-xl sm:text-2xl md:text-3xl font-bold text-red-500 mb-2">{stat.number}</div>
@@ -382,7 +382,7 @@ export default function Home() {
 
 
       {/* Testimonials Section */}
-      <section className={`py-12 sm:py-16 md:py-20 ${isDark ? 'bg-gray-800 text-white' : 'bg-white text-black'}`}>
+      <section className={`py-10 sm:py-16 md:py-20 ${isDark ? 'bg-gray-800 text-white' : 'bg-white text-black'}`}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6">
           {/* Header */}
           <div className="text-center mb-12 sm:mb-16">
@@ -439,7 +439,7 @@ export default function Home() {
 
 
       {/* Contact Section */}
-      <section className="relative py-12 sm:py-16 md:py-20 overflow-hidden">
+      <section className="relative py-10 sm:py-16 md:py-20 overflow-hidden">
         {/* Background Image */}
         <div 
           className="absolute inset-0 bg-cover bg-center bg-no-repeat bg-fixed"

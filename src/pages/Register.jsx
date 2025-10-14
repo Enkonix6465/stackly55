@@ -70,7 +70,7 @@ export default function Register() {
   }
 
   return (
-    <div className="h-screen w-full relative overflow-hidden">
+    <div className="min-h-screen w-full relative overflow-x-hidden">
       {/* Background Image */}
       <div 
         className="absolute inset-0 bg-cover bg-center bg-no-repeat"
@@ -85,13 +85,13 @@ export default function Register() {
       <div className="absolute inset-0 bg-gradient-to-br from-transparent via-transparent to-black/20" />
       <div className="relative z-20 w-full animate-fade-in">
         <header className={`${isDark ? 'bg-black/70 border-white/30' : 'bg-white/70 border-black/20'} backdrop-blur-md border-b shadow-lg transition-colors`}>
-          <div className="mx-auto max-w-6xl px-4 py-3 flex items-center justify-between">
+          <div className="mx-auto max-w-6xl px-4 py-3 flex items-center justify-center sm:justify-between relative">
             <div className="flex-shrink-0">
               <Link to="/" className="flex items-center gap-3 hover:opacity-80 transition-opacity">
                 <img src="/Logo.jpg" alt="Logo" className="h-8 w-auto" />
               </Link>
             </div>
-            <div className="flex items-center gap-2">
+            <div className="flex items-center gap-2 absolute right-4 top-1/2 -translate-y-1/2 transform sm:static sm:translate-y-0 sm:transform-none">
               <LanguageSelector
                 variant="login"
                 className={`${isDark ? 'text-white/80 hover:text-white hover:bg-white/20 border-white/30' : 'text-black/80 hover:text-black hover:bg-black/10 border-black/20'} border rounded-md h-9 w-9`}
@@ -101,8 +101,8 @@ export default function Register() {
           </div>
         </header>
       </div>
-      <div className="relative z-10 flex h-screen items-center justify-center p-6">
-        <div className="w-full max-w-2xl animate-fade-in">
+      <div className="relative z-10 flex min-h-screen items-start sm:items-center justify-center p-4 sm:p-6 overflow-y-auto">
+        <div className="w-full max-w-2xl animate-fade-in mb-6 sm:mb-0">
           <div className={`backdrop-blur-xl rounded-2xl shadow-2xl p-8 lg:p-10 animate-slide-up transition-colors ${isDark ? 'bg-white/15 border border-white/30 text-white' : 'bg-white/90 border border-white/20 text-black'} hover:shadow-3xl transition-shadow duration-300`}>
             <div className="mb-6 text-center">
               <h2 className="text-3xl lg:text-4xl font-bold tracking-tight">Create your account</h2>

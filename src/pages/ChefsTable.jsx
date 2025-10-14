@@ -185,7 +185,7 @@ export default function ChefsTable() {
           <div className="absolute inset-0 bg-black/50"></div>
         </div>
         
-        <div className="relative z-10 text-center max-w-xl mx-auto px-4 sm:px-6">
+        <div className="relative z-10 text-center max-w-xl mx-auto px-4 sm:px-6 w-full">
           <ScrollAnimation animation="fade-in" stagger="scroll-stagger-1">
             <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold mb-6 text-white leading-tight px-4" style={{ fontFamily: 'serif' }}>
               {t('chefsTablePage.hero.title')} {t('chefsTablePage.hero.subtitle')}
@@ -207,7 +207,7 @@ export default function ChefsTable() {
       </section>
 
       {/* Exclusive Menu Section */}
-      <section className={`py-12 sm:py-16 md:py-20 ${isDark ? 'bg-gray-800' : 'bg-gray-50'}`}>
+      <section className={`py-10 sm:py-16 md:py-20 ${isDark ? 'bg-gray-800' : 'bg-gray-50'}`}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6">
           <div className="text-center mb-8 sm:mb-16">
             <ScrollAnimation animation="fade-in" stagger="scroll-stagger-1">
@@ -281,7 +281,7 @@ export default function ChefsTable() {
       </section>
 
       {/* Premium Wine Pairing Section */}
-      <section className={`py-12 sm:py-16 md:py-20 ${isDark ? 'bg-gray-900' : 'bg-white'}`}>
+      <section className={`py-10 sm:py-16 md:py-20 ${isDark ? 'bg-gray-900' : 'bg-white'}`}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6">
           <div className="text-center mb-8 sm:mb-16">
             <ScrollAnimation animation="fade-in" stagger="scroll-stagger-1">
@@ -318,7 +318,7 @@ export default function ChefsTable() {
       </section>
 
       {/* Chef's Table Experiences Section */}
-      <section className={`py-12 sm:py-16 md:py-20 ${isDark ? 'bg-gray-800' : 'bg-gray-50'}`}>
+      <section className={`py-10 sm:py-16 md:py-20 ${isDark ? 'bg-gray-800' : 'bg-gray-50'}`}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6">
           <div className="text-center mb-8 sm:mb-16">
             <ScrollAnimation animation="fade-in" stagger="scroll-stagger-1">
@@ -372,7 +372,7 @@ export default function ChefsTable() {
       </section>
 
       {/* Testimonials Section */}
-      <section className={`py-12 sm:py-16 md:py-20 ${isDark ? 'bg-gray-900' : 'bg-white'}`}>
+      <section className={`py-10 sm:py-16 md:py-20 ${isDark ? 'bg-gray-900' : 'bg-white'}`}>
         <div className="max-w-4xl mx-auto px-4 sm:px-6 text-center">
           <ScrollAnimation animation="fade-in" stagger="scroll-stagger-1">
             <span className="text-red-500 text-xs sm:text-sm font-semibold tracking-wider uppercase px-4">{t('chefsTablePage.testimonials.badge')}</span>
@@ -429,7 +429,7 @@ export default function ChefsTable() {
       </section>
 
       {/* Reservation Section */}
-      <section className={`relative py-12 sm:py-16 md:py-20`}>
+      <section className={`relative py-10 sm:py-16 md:py-20`}>
         <div className="absolute inset-0 z-0 bg-center bg-cover bg-fixed" style={{ backgroundImage: 'url(/images/RECEPCTA.jpg)' }}>
           <div className="absolute inset-0 bg-black/60"></div>
         </div>

@@ -48,7 +48,7 @@ export default function Home2() {
       <Navbar user={user} />
 
       {/* Modern Hero Section */}
-      <section className="relative min-h-screen flex items-center">
+      <section className="relative min-h-screen flex items-center justify-center text-center">
         {/* Background Video */}
         <video
           autoPlay
@@ -65,7 +65,7 @@ export default function Home2() {
         <div className="absolute inset-0 bg-black/40"></div>
 
         {/* Content */}
-        <div className="relative z-10 max-w-7xl mx-auto px-6">
+        <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 w-full">
           {/* Centered Content */}
           <motion.div
             className="space-y-8 text-center"
