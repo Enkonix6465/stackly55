@@ -479,7 +479,6 @@ export default function Blog() {
       }}>
         {/* Dynamic overlay for better text readability */}
         <div className={`absolute inset-0 ${isDark ? 'bg-black/70' : 'bg-black/60'}`}></div>
-        <div className="absolute inset-0 opacity-10 bg-[url('/pattern.svg')] bg-cover"></div>
 
         <div className="relative mx-auto max-w-4xl px-4 sm:px-6 text-center z-10">
           <ScrollAnimation animation="fade-in" stagger="scroll-stagger-1">

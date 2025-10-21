@@ -12,8 +12,14 @@ export default defineConfig({
   build: {
     rollupOptions: {
       output: {
-        manualChunks: undefined
+        manualChunks: {
+          // Split vendor chunks for better caching
+          'react-vendor': ['react', 'react-dom', 'react-router-dom'],
+          'i18n-vendor': ['i18next', 'react-i18next'],
+          'ui-vendor': ['lucide-react', 'framer-motion']
+        }
       }
-    }
+    },
+    chunkSizeWarningLimit: 1000, // Increase warning limit to 1000 kB
   }
 })

@@ -5,23 +5,45 @@
     @apply transition-colors;
     overflow-x: hidden;
     height: 100%;
-    -ms-overflow-style: none;  /* Internet Explorer 10+ */
-    scrollbar-width: none;  /* Firefox */
   }
   
+  /* Custom styled scrollbar for webkit browsers (Chrome, Safari, Edge) */
   html::-webkit-scrollbar, body::-webkit-scrollbar {
-    display: none;  /* Safari and Chrome */
+    width: 12px;
+  }
+  
+  html::-webkit-scrollbar-track, body::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+  html::-webkit-scrollbar-thumb, body::-webkit-scrollbar-thumb {
+    background: linear-gradient(180deg, #dc2626, #b91c1c);
+    border-radius: 6px;
+    transition: background 0.3s ease;
+  }
+  
+  html::-webkit-scrollbar-thumb:hover, body::-webkit-scrollbar-thumb:hover {
+    background: linear-gradient(180deg, #b91c1c, #991b1b);
+  }
+  
+  /* Dark mode scrollbar */
+  .dark html::-webkit-scrollbar-track, .dark body::-webkit-scrollbar-track {
+    background: #1f2937;
+  }
+  
+  /* Firefox scrollbar styling */
+  html, body {
+    scrollbar-width: thin;
+    scrollbar-color: #dc2626 #f1f1f1;
+  }
+  
+  .dark html, .dark body {
+    scrollbar-color: #dc2626 #1f2937;
   }
   
   #root {
     height: 100%;
     overflow-x: hidden;
-    -ms-overflow-style: none;  /* Internet Explorer 10+ */
-    scrollbar-width: none;  /* Firefox */
-  }
-  
-  #root::-webkit-scrollbar {
-    display: none;  /* Safari and Chrome */
   }
   
   /* Font support for Arabic and Hebrew (LTR layout) */
@@ -266,23 +288,13 @@
   .scroll-stagger-5 { transition-delay: 0.5s; }
   .scroll-stagger-6 { transition-delay: 0.6s; }
   
-  /* Hide scrollbar utility */
+  /* Hide scrollbar utility (can be used on specific elements) */
   .scrollbar-hide {
     -ms-overflow-style: none;  /* Internet Explorer 10+ */
     scrollbar-width: none;  /* Firefox */
   }
   
   .scrollbar-hide::-webkit-scrollbar {
-    display: none;  /* Safari and Chrome */
-  }
-  
-  /* Hide all scrollbars globally */
-  * {
-    -ms-overflow-style: none;  /* Internet Explorer 10+ */
-    scrollbar-width: none;  /* Firefox */
-  }
-  
-  *::-webkit-scrollbar {
     display: none;  /* Safari and Chrome */
   }
 }
